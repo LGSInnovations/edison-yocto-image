@@ -23,8 +23,6 @@ Below is a directory tree of files added(\*\*) or changed(\*) with a short descr
 	|	|	+-- if-pre-up.d/**
 	|	|	|	+-- change-mac** :: When the lo interace is loading on boot, change the MAC of eth0 based on /factory/mac
 	|	|	+-- interfaces** :: Added 'auto eth0' and 'iface eth0 inet dhcp' to support the Ethernet block
-	|	+-- ...
-	|	+-- fstab* :: Added the /factory (/dev/mmcblk0p5) partition to be mounted on boot
 	+-- ...
 	+-- home/
 	|	+-- root/
@@ -33,6 +31,6 @@ Below is a directory tree of files added(\*\*) or changed(\*) with a short descr
 	+-- sbin/
 	|	+-- agetty
 	|	+-- ...
-	|	+-- post-install.sh* :: Added MAC address file, permission fixes, dependency installations.
+	|	+-- post-install.sh* :: permission fixes, bash update
 
 ```

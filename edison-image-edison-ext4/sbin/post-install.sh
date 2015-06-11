@@ -81,16 +81,6 @@ factory_partition () {
         echo "00:11:22:33:55:66" > /factory/bluetooth_address
         echo "VSPPYWWDXXXXXNNN" > /factory/serial_number
     fi
-
-    echo "__MAC_ADDRESS__" > /factory/mac
-}
-
-# Install some dependencies that were put into /var/cache/apt/archives
-install_deps () {
-    apt-get autoremove -y
-    apt-get install -y macchanger sudo
-    # save some space
-    apt-get clean
 }
 
 # Set some permissions/chown some files
@@ -202,9 +192,6 @@ factory_partition
 
 # chown files
 perm_fixes
-
-# install some dependencies
-install_deps
 
 # ssh
 sshd_init

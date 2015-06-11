@@ -19,8 +19,8 @@ Below is a directory tree of files added(\*\*) or changed(\*) with a short descr
 	+-- etc/
 	|	+-- alternatives/
 	|	+-- ...
-	|	+-- network/** :: didn't already exist in filesystem
-	|	|	+-- if-pre-up.d/
+	|	+-- network/**
+	|	|	+-- if-pre-up.d/**
 	|	|	|	+-- change-mac** :: When the lo interace is loading on boot, change the MAC of eth0 based on /factory/mac
 	|	|	+-- interfaces** :: Added 'auto eth0' and 'iface eth0 inet dhcp' to support the Ethernet block
 	|	+-- ...
@@ -47,6 +47,6 @@ Below is a directory tree of files added(\*\*) or changed(\*) with a short descr
 	|	|	|	|	+-- partial/
 	|	|	|	|	+-- ...
 	|	|	|	|	+-- macchanger_1.5.0-9_i386.deb** :: utility to change MAC address
-	|	|	|	|	+-- sudo_1.8.5p2-1+nmu2_i386.deb** :: sudo isn't installed automatically
+	|	|	|	|	+-- sudo_1.8.5p2-1+nmu2_i386.deb** :: sudo isnt installed automatically
 
 ```

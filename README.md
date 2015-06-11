@@ -34,19 +34,5 @@ Below is a directory tree of files added(\*\*) or changed(\*) with a short descr
 	|	+-- agetty
 	|	+-- ...
 	|	+-- post-install.sh* :: Added MAC address file, permission fixes, dependency installations.
-	+-- usr/
-	|	+-- bin/
-	|	|	+-- [
-	|	|	+-- ...
-	|	|	+-- changemac** :: Tool to help user change MAC address and save to /factory/mac file
-	+-- var/
-	|	+-- backups/
-	|	+-- cache/
-	|	|	+-- apt/
-	|	|	|	+-- archives/
-	|	|	|	|	+-- partial/
-	|	|	|	|	+-- ...
-	|	|	|	|	+-- macchanger_1.5.0-9_i386.deb** :: utility to change MAC address
-	|	|	|	|	+-- sudo_1.8.5p2-1+nmu2_i386.deb** :: sudo isnt installed automatically
 
 ```

@@ -1,0 +1,8 @@
+{
+  "name": "/ndg/echo/server",
+  "type": {
+  "name": "zmqreqrep"
+  },
+  "properties": {"replymsg": "hi"},
+  "port": 8333
+}

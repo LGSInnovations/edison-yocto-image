@@ -1,0 +1,11 @@
+Package: ap-mode-toggle
+Version: 0.1-r6
+Description: ap-mode-toggle version 0.1-r6
+ WiFi AP mode toggle in Edison
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: ap-mode-toggle
+Source: file://ap-mode-toggle file://ap-mode-toggle.service

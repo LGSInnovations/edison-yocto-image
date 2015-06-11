@@ -1,0 +1,15 @@
+Package: liblzo2-dev
+Version: 2.06-r1
+Description: Lossless data compression library - Development files
+ Lossless data compression library.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: lzo
+Homepage: http://www.oberhumer.com/opensource/lzo/
+Depends: liblzo2-2 (= 2.06-r1)
+Recommends: libc6-dev
+Source: http://www.oberhumer.com/opensource/lzo/download/lzo-2.06.tar.gz file://acinclude.m4

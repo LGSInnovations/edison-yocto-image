@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-grovewater
+Description: upm lib grovewater
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-grovewater
+Cflags: -I${includedir}/upm

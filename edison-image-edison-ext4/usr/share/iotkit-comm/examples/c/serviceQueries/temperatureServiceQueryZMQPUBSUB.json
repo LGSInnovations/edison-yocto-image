@@ -1,0 +1,8 @@
+{
+    "name" : ".*temperature.*",
+    "type" : {
+        "name": "zmqpubsub",
+        "protocol" : "tcp"
+    },
+    "type_params": {"mustsecure": true}
+}

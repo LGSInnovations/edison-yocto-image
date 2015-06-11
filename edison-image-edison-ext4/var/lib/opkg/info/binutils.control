@@ -1,0 +1,20 @@
+Package: binutils
+Version: 2.24-r0
+Description: GNU binary utilities
+ The GNU Binutils are a collection of binary tools. The main ones are ld
+ (GNU Linker), and as (GNU Assembler). This package also includes addition
+ tools such as addr2line (Converts addresses into filenames and line
+ numbers), ar (utility for creating, modifying and extracting archives),
+ nm (list symbols in object files), objcopy (copy and translate object
+ files), objdump (Display object information), and other tools and related
+ libraries.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: core2-32
+OE: binutils
+Homepage: http://www.gnu.org/software/binutils/
+Depends: update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: binutils-symlinks
+Source: ftp://ftp.gnu.org/gnu/binutils/binutils-2.24.tar.bz2 file://binutils-uclibc-100-uclibc-conf.patch file://binutils-uclibc-300-001_ld_makefile_patch.patch file://binutils-uclibc-300-006_better_file_error.patch file://binutils-uclibc-300-012_check_ldrunpath_length.patch file://binutils-uclibc-gas-needs-libm.patch file://libtool-2.4-update.patch file://libiberty_path_fix.patch file://binutils-poison.patch file://libtool-rpath-fix.patch file://binutils-armv5e.patch file://mips64-default-ld-emulation.patch file://binutils-xlp-support.patch file://fix-pr15815.patch file://fix-pr2404.patch file://fix-pr16476.patch file://fix-pr16428a.patch file://fix-pr16428b.patch file://replace_macros_with_static_inline.patch file://0001-Fix-MMIX-build-breakage-from-bfd_set_section_vma-cha.patch

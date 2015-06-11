@@ -1,0 +1,14 @@
+Package: wpa-supplicant
+Version: android-4.4.4_r2.0.1-r1
+Description: Client for Wi-Fi Protected Access (WPA)
+ Client for Wi-Fi Protected Access (WPA).
+Section: network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: wpa-supplicant
+Homepage: http://hostap.epitest.fi/wpa_supplicant/
+Depends: libssl1.0.0 (>= 1.0.1m), libdbus-1-3 (>= 1.6.18), libcrypto1.0.0 (>= 1.0.1m), libnl-3-200 (>= 3.2.22), libnl-3-genl (>= 3.2.22), libc6 (>= 2.19)
+Recommends: wpa-supplicant-cli, wpa-supplicant-passphrase
+Source: file://defconfig-gnutls file://wpa_supplicant.conf-sane file://p2p_supplicant.conf-sane file://99_wpa_supplicant file://fi.w1.wpa_supplicant1.service file://udhcpd-p2p.conf file://wpa_supplicant.service file://wpa_supplicant_wlan0_event.service file://wpa_supplicant_p2p_event.service file://wpa-supplicant.sh file://wpa-supplicant-android-4.4.4_r2.0.1.patch file://wpa_cli-actions.sh git://android.googlesource.com/platform/external/wpa_supplicant_8;protocol=https;tag=android-4.4.4_r2.0.1

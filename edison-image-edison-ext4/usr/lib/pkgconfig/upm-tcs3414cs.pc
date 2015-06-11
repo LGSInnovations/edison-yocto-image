@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-tcs3414cs
+Description: upm lib tcs3414cs
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-tcs3414cs
+Cflags: -I${includedir}/upm

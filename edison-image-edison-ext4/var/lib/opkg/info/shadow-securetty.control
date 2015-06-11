@@ -1,0 +1,11 @@
+Package: shadow-securetty
+Version: 4.1.4.3-r3
+Description: Provider of the machine specific securetty file
+ Provider of the machine specific securetty file.
+Section: base utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: edison
+OE: shadow-securetty
+Source: file://securetty

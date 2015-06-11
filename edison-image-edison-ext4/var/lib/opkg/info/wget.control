@@ -1,0 +1,12 @@
+Package: wget
+Version: 1.14-r16.0
+Description: Console URL download utility supporting HTTP, FTP, etc
+ Console URL download utility supporting HTTP, FTP, etc.
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: core2-32
+OE: wget
+Depends: libssl1.0.0 (>= 1.0.1m), libz1 (>= 1.2.8), libpcre1 (>= 8.34), libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19), update-alternatives-opkg
+Source: ftp://ftp.gnu.org/gnu/wget/wget-1.14.tar.gz file://fix_makefile.patch file://fix_doc.patch

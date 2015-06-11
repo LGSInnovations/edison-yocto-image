@@ -1,0 +1,12 @@
+Package: alsa-states
+Version: 0.2.0-r4
+Description: Alsa scenario files to enable alsa state restoration
+ Alsa Scenario Files - an init script and state files to restore sound
+ state at system boot and save it at system shut down.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: alsa-state
+Source: file://asound.conf file://asound.state file://alsa-state-init

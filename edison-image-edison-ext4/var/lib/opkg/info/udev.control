@@ -1,0 +1,15 @@
+Package: udev
+Version: 1:213+git0+c9679c652b-r0
+Description: System and service manager for Linux, replacing SysVinit
+ System and service manager for Linux, replacing SysVinit.
+Section: base/shell
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1 & MIT
+Architecture: core2-32
+OE: systemd
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Depends: libgcc1 (>= 4.8.2), libkmod2 (>= 16+git0+36c4bb928a), libacl1 (>= 2.2.52), libc6 (>= 2.19), libblkid1 (>= 2.24.1)
+Recommends: udev-hwdb
+Provides: hotplug
+Source: git://anongit.freedesktop.org/systemd/systemd;branch=master;protocol=git file://binfmt-install.patch file://systemd-pam-configure-check-uclibc.patch file://systemd-pam-fix-execvpe.patch file://systemd-pam-fix-fallocate.patch file://systemd-pam-fix-mkostemp.patch file://optional_secure_getenv.patch file://0001-uClibc-doesn-t-implement-pwritev-preadv.patch file://uclibc-sysinfo_h.patch file://uclibc-get-physmem.patch file://touchscreen.rules file://00-create-volatile.conf file://init file://run-ptest file://systemd-older-kernel.patch file://journald.conf file://timesyncd.conf file://system.conf file://systemd-reboot-service.patch file://hsu-pm-runtime.service file://usb0.network file://edison-machine-id.service

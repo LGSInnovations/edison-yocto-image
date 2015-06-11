@@ -1,0 +1,38 @@
+{
+  "name": "node-inspector",
+  "version": "0.8.0",
+  "description": "Web Inspector based nodeJS debugger",
+  "homepage": "http://github.com/node-inspector/node-inspector",
+  "author": "Danny Coates <dannycoates@gmail.com>",
+  "keywords": [
+    "debug",
+    "debugger",
+    "inspector",
+    "profiler"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/node-inspector/node-inspector.git"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "bin": {
+  },
+  "dependencies": {
+    "async": "~0.8",
+    "glob": "~3.2.1",
+    "rc": "~0.3.0",
+    "strong-data-uri": "~0.1.0",
+    "debug": "~1.0",
+    "ws": "~0.4.31",
+    "opener": "~1.3.0",
+    "yargs": "~1.2.1",
+    "which": "~1.0.5"
+  },
+  "devDependencies": {
+  },
+  "preferGlobal": true,
+  "scripts": {
+  }
+}

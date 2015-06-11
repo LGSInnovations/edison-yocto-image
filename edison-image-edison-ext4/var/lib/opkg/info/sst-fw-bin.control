@@ -1,0 +1,12 @@
+Package: sst-fw-bin
+Version: 0.1-r0
+Description: sst-fw-bin version 0.1-r0
+ This is edison sst fw binary.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: CLOSED
+Architecture: core2-32
+OE: sst-fw-bin
+Homepage: http://www.intel.com
+Source: file://fw_sst_119a.bin

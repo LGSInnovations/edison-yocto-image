@@ -1,0 +1,4891 @@
+Package: shadow-securetty
+Version: 4.1.4.3-r3
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: libarchive-bin
+Version: 3.1.2-r0
+Depends: libattr1 (>= 2.4.47), libz1 (>= 1.2.8), libbz2-0 (>= 1.0.6), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: libbz2-0
+Version: 1.0.6-r5
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: perl-module-file-glob
+Version: 5.14.3-r1
+Depends: perl-module-text-parsewords, perl-module-feature, perl, perl-module-exporter, libc6 (>= 2.19), perl-module-strict, perl-module-xsloader
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-xt-dscp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libarchive-dev
+Version: 3.1.2-r0
+Depends: libarchive13 (= 3.1.2-r0)
+Recommends: libc6-dev, libz-dev, libattr-dev, attr-dev, libbz2-dev, bzip2-dev, libxml2-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: kernel-module-xt-connlimit
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-arp-tables
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-proto-sctp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: openssh-sftp-server
+Version: 6.5p1-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791330
+
+Package: libical
+Version: 0.48-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-irc
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: sshpass-dev
+Version: 1.05-r0.0
+Depends: sshpass (= 1.05-r0.0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: blink-led
+Version: 0.1-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: kernel-module-iptable-raw
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-ip-tables
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-attributes
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-exporter, perl, perl-module-warnings, libc6 (>= 2.19), perl-module-strict, perl-module-xsloader
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-3.10.17-yocto-standard
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-image-3.10.17-yocto-standard
+Provides: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: kernel-module-arptable-filter
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-arp-tables
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-netmap
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libwrap0
+Version: 7.6-r10
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: perl-module-tie-hash
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-warnings-register, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-shell
+Version: 2.7.3-r0.3
+Depends: python-core, python-re
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-role-cork
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: libbeecrypt7
+Version: 4.2.1-r3
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: pwr-button-handler
+Version: 0.1-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libc6
+Version: 2.19-r0
+Provides: rtld(GNU_HASH), glibc
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base
+Version: 1.2.3-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: opkg
+Version: 1:0.2.1-r0
+Depends: opkg-config-base, update-alternatives-opkg, libopkg1 (>= 0.2.1), run-postinsts, libc6 (>= 2.19)
+Replaces: opkg-nogpg
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: kernel-module-nf-conntrack-h323
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-readline
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libreadline6 (>= 6.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: python-netclient
+Version: 2.7.3-r0.3
+Depends: python-mime, python-datetime, python-core, python-io, python-logging, python-crypt, python-lang
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: iperf
+Version: 2.0.4-r0
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: libiotkit-dev
+Version: 1.4.8-r0
+Depends: libiotkit1 (= 1.4.8-r0)
+Recommends: gcov-dev, libgcc-s-dev, libcurl-dev, libpython2-dev, curl-dev, libstdc++-dev, libc6-dev, cmake-dev, python-dev, python-core-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: libcares2
+Version: 1.10.0-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: pulseaudio-module-switch-on-port-available
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: wget
+Version: 1.14-r16.0
+Depends: libssl1.0.0 (>= 1.0.1m), libz1 (>= 1.2.8), libpcre1 (>= 8.34), libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19), update-alternatives-opkg
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: pulseaudio-module-intended-roles
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: python-datetime
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), python-codecs, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-device-restore
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), pulseaudio-lib-protocol-native (>= 5.0), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: kernel-module-nfnetlink-queue
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libcom-err2
+Version: 1.42.9-r1
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: mdns-dev
+Version: 544-r1
+Depends: mdns (= 544-r1)
+Recommends: libc6-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: u-boot-fw-utils
+Version: 2014.04-1-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: edison
+Installed-Time: 1433791325
+
+Package: python-codecs
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), python-lang, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-gspca-main
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: alsa-lib
+Version: 1.0.27.2-r0
+Depends: libasound2 (>= 1.0.27.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791331
+
+Package: kernel-module-nf-conntrack
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-proto-udplite
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-file-spec
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-file-spec-unix, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: busybox
+Version: 1.22.1-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Recommends: update-rc.d, busybox-syslog, busybox-udhcpc
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: kernel-module-xt-comment
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: eglibc-mtrace
+Version: 2.19-r0
+Depends: perl
+Provides: libc-mtrace
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: pulseaudio-lib-protocol-native
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: pulseaudio-module-native-protocol-unix
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), pulseaudio-lib-protocol-native (>= 5.0), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: lsof
+Version: 4.87-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: pulseaudio-module-detect
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: kernel-module-xt-u32
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libssl1.0.0
+Version: 1.0.1m-r0
+Depends: libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: packagegroup-core-ssh-openssh
+Version: 1.0-r1
+Depends: openssh
+Provides: task-core-ssh-openssh
+Replaces: task-core-ssh-openssh
+Conflicts: task-core-ssh-openssh
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791325
+
+Package: kernel-module-ipt-reject
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-videoscale
+Version: 1.2.3-r0
+Depends: libgstvideo-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libffi6 (>= 3.0.13), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: opkg-config-base
+Version: 1.0-r1
+Status: install ok installed
+Architecture: edison
+Conffiles:
+ /etc/opkg/arch.conf ae03a27b23dd70bc8f00f7d6d430553d
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: update-alternatives-opkg
+Version: 0.1.8+git0+c33b217016-r0
+Provides: update-alternatives-cworth, update-alternatives
+Replaces: update-alternatives-cworth
+Conflicts: update-alternatives-cworth
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: packagegroup-core-tools-debug
+Version: 1.0-r2
+Depends: strace, gdbserver, gdb, libc-mtrace
+Provides: task-core-tools-debug
+Replaces: task-core-tools-debug
+Conflicts: task-core-tools-debug
+Status: install user installed
+Architecture: edison
+Installed-Time: 1433791327
+
+Package: liborc-test-0.4-0
+Version: 0.4.18-r2.0
+Depends: liborc-0.4-0 (>= 0.4.18), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: perl-module-encode-config
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-warnings, perl
+Provides: perl-module-i586-poky-linux-encode-config
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-xt-quota
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-xmlrpc
+Version: 2.7.3-r0.3
+Depends: python-xml, python-core, python-lang, python-netserver
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: libpulse-simple0
+Version: 5.0-r0
+Depends: libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libcap2 (>= 2.22), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: libpulsecore
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libsamplerate0 (>= 0.1.8), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libpulse0 (>= 5.0), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libcap2 (>= 2.22), libltdl7 (>= 2.4.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: python-json
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19), python-math, python-re
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791331
+
+Package: binutils
+Version: 2.24-r0
+Depends: update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: binutils-symlinks
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: sst-fw-bin
+Version: 0.1-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: kernel-module-xt-multiport
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-mac
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: busybox-udhcpc
+Version: 1.22.1-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: libnl-3-200
+Version: 1:3.2.22-r0
+Depends: libc6 (>= 2.19)
+Replaces: libnl2
+Conflicts: libnl2
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: perl-module-pod-parser
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-vars, perl, perl-module-exporter, perl-module-symbol, perl-module-pod-inputobjects, perl-module-strict
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libbz2-dev
+Version: 1.0.6-r5
+Depends: libbz2-0 (= 1.0.6-r5)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: python-lang
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: libgcrypt11
+Version: 1.5.3-r0
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.12), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: automake
+Version: 1.14-r0
+Depends: perl-module-data-dumper, perl-module-threads, perl-module-vars, perl-module-text-parsewords, perl, autoconf, perl-module-bytes, perl-module-strict, perl-module-thread-queue
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: eglibc-extra-nss
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Provides: glibc-extra-nss
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-typefindfunctions
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstvideo-1.0-0 (>= 1.2.3), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libgstpbutils-1.0-0 (>= 1.2.3), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: openssh-ssh
+Version: 6.5p1-r0
+Depends: libcrypto1.0.0 (>= 1.0.1m), update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: ssh
+Status: install ok installed
+Architecture: core2-32
+Conffiles:
+ /etc/ssh/ssh_config 9fe60f33aaf449c355194b367234230c
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: resize-rootfs
+Version: 1.0-r0
+Depends: e2fsprogs-resize2fs, systemd
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791319
+
+Package: bash
+Version: 4.3-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19), libtinfo5 (>= 5.9), base-files
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: openssh
+Version: 6.5p1-r0
+Depends: openssh-scp, openssh-ssh, openssh-keygen, openssh-sshd
+Recommends: update-rc.d
+Conflicts: dropbear
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: watchdog-sample
+Version: 1.0-r0
+Depends: systemd, libsystemd0 (>= 213+git0+c9679c652b), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: m4
+Version: 1.4.17-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: alsa-states
+Version: 0.2.0-r4
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libffi6
+Version: 3.0.13-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: strace
+Version: 4.8-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: openssl
+Version: 1.0.1m-r0
+Depends: libssl1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libcrypto1.0.0 (>= 1.0.1m)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: paho-mqtt-dev
+Version: 3.1-r1
+Depends: paho-mqtt (= 3.1-r1)
+Recommends: libssl-dev, openssl-dev, libcrypto-dev, libc6-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: dbus-1
+Version: 1.6.18-r0
+Depends: libdbus-1-3 (>= 1.6.18), libc6 (>= 2.19), base-files, shadow, libexpat1 (>= 2.1.0), base-passwd
+Recommends: update-rc.d
+Provides: dbus-x11
+Replaces: dbus-x11
+Status: install ok installed
+Architecture: core2-32
+Conffiles:
+ /etc/dbus-1/system.conf d8c960a70a693e4036fe518ebbedcced
+ /etc/dbus-1/session.conf 3ec4497bcff6f8e1445db64b23bda595
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: perl-module-pod-simple
+Version: 5.14.3-r1
+Depends: perl-module-integer, perl-module-carp, perl-module-pod-simple-tiedoutfh, perl-module-vars, perl, perl-module-pod-simple-linksection, perl-module-symbol, perl-module-strict, perl-module-pod-escapes, perl-module-pod-simple-blackbox
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libgstaudio-1.0-0
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kernel-module-test-nx
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-service
+Version: 1.0-r0
+Depends: shadow, base-passwd, base-files
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: pulseaudio-module-alsa-source
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), pulseaudio-lib-alsa-util (>= 5.0), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libudev1 (>= 213+git0+c9679c652b), libsndfile1 (>= 1.0.25), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libasound2 (>= 1.0.27.2), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: paho-mqtt
+Version: 3.1-r1
+Depends: libssl1.0.0 (>= 1.0.1m), libc6 (>= 2.19), openssl, libcrypto1.0.0 (>= 1.0.1m)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: perl-module-file-basename
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-re, perl-module-exporter, perl, perl-module-warnings, perl-module-strict
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-sip
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack-sip, kernel-module-nf-nat, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: autoconf
+Version: 2.69-r11
+Depends: gnu-config, perl-module-carp, perl-module-errno, perl-module-file-path, perl-module-file-copy, perl-module-io-file, perl, perl-module-file-basename, m4, perl-module-exporter, perl-module-file-stat, perl-module-posix, perl-module-constant, perl-module-file-glob, perl-module-file-compare, perl-module-getopt-long
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-feature
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: pulseaudio-server
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libltdl7 (>= 2.4.2), pulseaudio-module-alsa-card, pulseaudio-module-loopback, pulseaudio-module-rescue-streams, pulseaudio-module-detect, libdbus-1-3 (>= 1.6.18), pulseaudio-module-null-sink, pulseaudio-module-switch-on-port-available, libpulsecore (>= 5.0), base-files, json-c (>= 0.11), pulseaudio-module-bluetooth-policy, pulseaudio-module-device-restore, pulseaudio-module-augment-properties, pulseaudio-module-always-sink, pulseaudio-module-udev-detect, pulseaudio-module-stream-restore, pulseaudio-module-role-cork, pulseaudio-module-intended-roles, pulseaudio-module-native-protocol-unix, pulseaudio-module-bluez5-device, libsamplerate0 (>= 0.1.8), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libcap2 (>= 2.22), pulseaudio-module-filter-heuristics, pulseaudio-module-alsa-sink, libc6 (>= 2.19), shadow, pulseaudio-module-bluez5-discover, libpulse0 (>= 5.0), pulseaudio-module-filter-apply, pulseaudio-module-alsa-source, pulseaudio-module-position-event-sounds, pulseaudio-module-suspend-on-idle, pulseaudio-module-card-restore, base-passwd, pulseaudio-module-default-device-restore
+Replaces: libpulse-bin, libpulse-conf
+Status: install user installed
+Architecture: core2-32
+Conffiles:
+ /etc/pulse/default.pa d8ab5eac09e1c56c86977345b0d3073f
+ /etc/pulse/daemon.conf 49df914cce904e8db51ca83218a8cb1d
+ /etc/pulse/client.conf bdea965cdb68b445c04a1fa62193c096
+Installed-Time: 1433791333
+
+Package: python-difflib
+Version: 2.7.3-r0.3
+Depends: python-re, python-lang
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: perl-module-pod-simple-blackbox
+Version: 5.14.3-r1
+Depends: perl-module-integer, perl-module-carp, perl-module-pod-simple-transcode, perl-module-pod-simple, perl-module-vars, perl-module-strict, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good-flac
+Version: 1.2.3-r0
+Depends: libogg0 (>= 1.3.1), libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libflac8 (>= 1.3.0), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: initscripts-functions
+Version: 1.0-r155
+Depends: update-alternatives-opkg
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: bluez5-dev
+Version: 5.24-r0
+Depends: bluez5 (= 5.24-r0)
+Recommends: python-pygobject-dev, eglibc-gconv-utf-16-dev, libusb-dev, python-dev, udev-dev, dbus-lib-dev, libglib-2.0-dev, libdbus-glib-1-dev, libreadline-dev, libc6-dev, python-dbus-dev, libcheck-dev, libical-dev, libudev-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791318
+
+Package: libticw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: net-tools
+Version: 1.60-25-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: libstdc++-dev
+Version: 4.8.2-r0
+Depends: libstdc++6
+Recommends: libc6-dev, libgcc-s-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: kernel-modules
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-module-nf-conntrack-sane, kernel-module-uvcvideo, kernel-module-nf-conntrack-proto-gre, kernel-module-usb-f-acm, kernel-module-nf-conntrack-proto-udplite, kernel-module-nf-nat, kernel-module-xt-sctp, kernel-module-nf-conntrack, kernel-module-xt-helper, kernel-module-nf-nat-irc, kernel-module-nf-conntrack-sip, kernel-module-g-multi, kernel-module-nfnetlink, kernel-module-bcm-bt-lpm, kernel-module-nf-conntrack-broadcast, kernel-module-nf-nat-tftp, kernel-module-videobuf2-memops, kernel-module-cp210x, kernel-module-xt-netmap, kernel-module-xt-socket, kernel-module-nf-conntrack-netbios-ns, kernel-module-xt-dccp, kernel-module-xt-realm, kernel-module-xt-connlimit, kernel-module-xt-connbytes, kernel-module-mac80211, kernel-module-nf-nat-pptp, kernel-module-xt-nat, kernel-module-nf-defrag-ipv4, kernel-module-nf-defrag-ipv6, kernel-module-xt-ecn, kernel-module-ipt-clusterip, kernel-module-videobuf2-vmalloc, kernel-module-arp-tables, kernel-module-ipt-ah, kernel-module-nfnetlink-log, kernel-module-xt-policy, kernel-module-test-nx, kernel-module-xt-dscp, kernel-module-xt-statistic, kernel-module-xt-limit, kernel-module-xt-mac, kernel-module-arptable-filter, kernel-module-xt-hashlimit, kernel-module-nf-nat-proto-udplite, kernel-module-xt-u32, kernel-module-nf-tproxy-core, kernel-module-xt-conntrack, kernel-module-xt-state, kernel-module-aufs, kernel-module-u-serial, kernel-module-nf-nat-ftp, kernel-module-iio-trig-sysfs, kernel-module-ipt-ecn, kernel-module-xt-classify, kernel-module-xt-multiport, kernel-module-ts-fsm, kernel-module-xt-quota, kernel-module-smsc95xx, kernel-module-videobuf2-core, kernel-module-xt-cluster, kernel-module-nf-conntrack-netlink, kernel-module-nf-conntrack-irc, kernel-module-ts-kmp, kernel-module-xt-esp, kernel-module-libcomposite, kernel-module-xt-string, kernel-module-nf-conntrack-amanda, kernel-module-nf-conntrack-ftp, kernel-module-ip-tables, kernel-module-iptable-raw, kernel-module-nf-nat-proto-gre, kernel-module-nfnetlink-queue, kernel-module-nf-conntrack-proto-sctp, kernel-module-xt-nflog, kernel-module-nf-conntrack-ipv4, kernel-module-iptable-mangle, kernel-module-ipt-reject, kernel-module-ts-bm, kernel-module-nf-nat-sip, kernel-module-nf-conntrack-h323, kernel-module-nf-nat-amanda, kernel-module-xt-comment, kernel-module-xt-trace, kernel-module-xt-tcpmss, kernel-module-xt-pkttype, kernel-module-nf-nat-proto-sctp, kernel-module-nf-nat-h323, kernel-module-xt-connmark, kernel-module-xt-length, kernel-module-nf-conntrack-tftp, kernel-module-iptable-filter, kernel-module-xt-redirect, kernel-module-gspca-main, kernel-module-nf-conntrack-pptp, kernel-module-xt-ct, kernel-module-iptable-nat, kernel-module-ipt-masquerade, kernel-module-nf-nat-ipv4, kernel-module-xt-nfqueue, kernel-module-ipt-ulog, kernel-module-arpt-mangle
+Status: install user installed
+Architecture: edison
+Installed-Time: 1433791320
+
+Package: python-imaging
+Version: 1.1.7-r5
+Depends: libz1 (>= 1.2.8), libfreetype6 (>= 2.5.2), python-core, libc6 (>= 2.19), python-lang, libjpeg8 (>= 8d), python-stringold
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: python-pprint
+Version: 2.7.3-r0.3
+Depends: python-core, python-io
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libgnutlsxx27
+Version: 2.12.23-r8.4
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19), libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libstdc++6 (>= 4.8.2), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: python-dev
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0
+Recommends: python-audio-dev, python-mime-dev, python-io-dev, ncurses-libtinfo-dev, python-resource-dev, python-zlib-dev, python-lang-dev, python-multiprocessing-dev, python-pkgutil-dev, python-subprocess-dev, db-dev, python-json-dev, python-gdbm-dev, bzip2-dev, python-sqlite3-dev, libpython2-dev, python-pickle-dev, python-threading-dev, python-codecs-dev, libgdbm-dev, python-pydoc-dev, python-pprint-dev, openssl-dev, python-curses-dev, libreadline-dev, python-fcntl-dev, python-compile-dev, python-debugger-dev, python-xmlrpc-dev, libbz2-dev, sqlite3-dev, python-distutils-dev, ncurses-libncursesw-dev, python-difflib-dev, python-crypt-dev, python-numbers-dev, python-idle-dev, python-db-dev, python-compiler-dev, python-unixadmin-dev, libssl-dev, ncurses-libpanelw-dev, python-tests-dev, python-logging-dev, libcrypto-dev, python-datetime-dev, python-unittest-dev, python-profile-dev, python-netclient-dev, libsqlite3-dev, python-xml-dev, python-textutils-dev, libz-dev, python-image-dev, python-smtpd-dev, python-hotshot-dev, python-html-dev, python-tkinter-dev, python-mmap-dev, python-bsddb-dev, python-compression-dev, python-readline-dev, python-elementtree-dev, python-email-dev, python-shell-dev, python-terminal-dev, python-doctest-dev, python-sqlite3-tests-dev, python-mailbox-dev, python-2to3-dev, libc6-dev, python-math-dev, python-robotparser-dev, python-syslog-dev, python-stringold-dev, python-re-dev, python-netserver-dev, python-ctypes-dev, python-core-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: pulseaudio-module-filter-heuristics
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-vorbis
+Version: 1.2.3-r0
+Depends: libogg0 (>= 1.3.1), libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libvorbis (>= 1.3.4), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: alsa-utils-amixer
+Version: 1.0.27.2-r0
+Depends: libasound2 (>= 1.0.27.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libjpeg8
+Version: 8d-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libcap-dev
+Version: 2.22-r6
+Depends: libcap2 (= 2.22-r6)
+Recommends: libc6-dev, attr-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: libopkg1
+Version: 1:0.2.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libusb-1.0-0
+Version: 1.0.9-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: kernel-module-xt-hashlimit
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-nat
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libuuid1
+Version: 2.24.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-ip-tables
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-esp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: base-files-dev
+Version: 3.0.14-r86
+Depends: base-files (= 3.0.14-r86)
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: perl-module-fcntl
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, libc6 (>= 2.19), perl-module-xsloader, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: mdns
+Version: 544-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: kernel-module-xt-nfqueue
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gcc-symlinks
+Version: 4.8.2-r0
+Depends: gcc
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-amanda
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-ipv4
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-defrag-ipv4, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libnl-3-cli
+Version: 1:3.2.22-r0
+Depends: libnl-route-3-200 (>= 3.2.22), libnl-nf-3-200 (>= 3.2.22), libnl-3-200 (>= 3.2.22), libnl-3-genl (>= 3.2.22), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: base-files
+Version: 3.0.14-r86
+Status: install ok installed
+Architecture: edison
+Conffiles:
+ /etc/fstab 0faf6098b78841623a0865c0460d0dcb
+ /etc/hostname b26ee7e61dd2e2fa07f488eb92caf651
+ /etc/shells a0b758b0ae1eaefda1dfb8b031f7a903
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: alsa-conf-base
+Version: 1.0.27.2-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: perl-module-file-stat
+Version: 5.14.3-r1
+Depends: perl-module-class-struct, perl-module-fcntl, perl-module-carp, perl-module-warnings-register, perl-module-overload, perl-module-warnings, perl-module-vars, perl-module-exporter, perl-module-symbol, perl-module-strict, perl-module-constant, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: openssh-sshd
+Version: 6.5p1-r0
+Depends: libc6 (>= 2.19), libz1 (>= 1.2.8), openssh-keygen, libwrap0 (>= 7.6), libcrypto1.0.0 (>= 1.0.1m), base-files, shadow, base-passwd
+Provides: sshd
+Conflicts: dropbear
+Status: install ok installed
+Architecture: core2-32
+Conffiles:
+ /etc/ssh/sshd_config 3d50b3ee4fef8582e35d738a04fca398
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: python-pygobject-dev
+Version: 2.27.91-r6
+Depends: libpyglib-2.0-python0, python-pygobject (= 2.27.91-r6)
+Recommends: libz-dev, libglib-2.0-dev, libffi-dev, libpython2-dev, libc6-dev, python-textutils-dev, python-pygobject-lib-dev, python-dev, python-core-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: libxml2-dev
+Version: 2.9.1-r0
+Depends: libxml2 (= 2.9.1-r0)
+Recommends: libc6-dev, libz-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: perl-module-pod-simple-tiedoutfh
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-carp, perl-module-symbol, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-netlink
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libmpc3
+Version: 1.0.2-r0
+Depends: libgmp10 (>= 5.1.1), libmpfr4 (>= 3.1.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791322
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-proto-sctp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: dosfstools
+Version: 2.11-r5
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: openssl-dev
+Version: 1.0.1m-r0
+Depends: libcrypto1.0.0, openssl (= 1.0.1m-r0), libssl1.0.0
+Recommends: libc6-dev, cryptodev-linux-dev, libcrypto-dev, libssl-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libstdc++6
+Version: 4.8.2-r0
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: db-dev
+Version: 5.3.21-r0
+Depends: db (= 5.3.21-r0)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: perl-module-b
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, libc6 (>= 2.19), perl-module-xsloader, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: systemd-binfmt
+Version: 1:213+git0+c9679c652b-r0
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+Recommends: kernel-module-binfmt-misc
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-nfnetlink-log
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libmraa-doc
+Version: 0.6.1-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: cryptodev-linux
+Version: 1.6-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: iotkit-comm-c
+Version: 0.1.1-r2
+Depends: libcurl5 (>= 7.35.0), mdns, paho-mqtt (>= 3.1), mosquitto, sshpass, libc6 (>= 2.19), zeromq (>= 4.0.4), libiotkit1 (>= 1.4.8)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: wpa-supplicant-cli
+Version: android-4.4.4_r2.0.1-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libdbus-1-3
+Version: 1.6.18-r0
+Depends: libc6 (>= 2.19)
+Recommends: dbus-1
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: libnl-3-genl
+Version: 1:3.2.22-r0
+Depends: libnl-3-cli (>= 3.2.22), libnl-3-200 (>= 3.2.22), libc6 (>= 2.19)
+Replaces: libnl-genl2, libnl-genl-3-200
+Conflicts: libnl-genl2, libnl-genl-3-200
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: attr-dev
+Version: 2.4.47-r0
+Depends: attr (= 2.4.47-r0)
+Recommends: libattr-dev, ncurses-dev, libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: bzip2
+Version: 1.0.6-r5
+Depends: update-alternatives-opkg, libbz2-0 (>= 1.0.6), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: tzdata
+Version: 2013i-r0
+Conflicts: timezone-asia, timezone-europe, timezone-iso3166.tab, timezone-america, timezones, timezone-zone.tab, timezone-pacific, timezone-atlantic, timezone-antarctica, timezone-arctic, timezone-africa, timezone-indian, timezone-australia
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791326
+
+Package: cmake-dev
+Version: 2.8.12.2-r0
+Depends: cmake (= 2.8.12.2-r0)
+Recommends: libarchive-dev, libgcc-s-dev, libcurl-dev, libz-dev, curl-dev, libstdc++-dev, libc6-dev, libexpat-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: pciutils
+Version: 3.2.1-r0
+Depends: libkmod2 (>= 16+git0+36c4bb928a), libz1 (>= 1.2.8), pciutils-ids, libc6 (>= 2.19), libpci3 (>= 3.2.1)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791333
+
+Package: nfs-utils-client
+Version: 1.2.9-r0
+Depends: rpcbind, libc6 (>= 2.19), libcap2 (>= 2.22), libnfsidmap0 (>= 0.25), libevent (>= 2.0.21), libwrap0 (>= 7.6), libmount1 (>= 2.24.1), base-files, shadow, base-passwd, bash
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: bcm43340-bt
+Version: 1.0-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: python-distutils
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: libtool
+Version: 2.4.2-r6.0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: u-boot
+Version: 2014.04-1-r0
+Status: install user installed
+Architecture: edison
+Installed-Time: 1433791327
+
+Package: openssl-conf
+Version: 1.0.1m-r0
+Status: install ok installed
+Architecture: core2-32
+Conffiles:
+ /usr/lib/ssl/openssl.cnf ce31ab5015842bf7c2939514a634e0e4
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: sbc
+Version: 1.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: python-core
+Version: 2.7.3-r0.3
+Depends: python-re, libpython2.7-1.0 (>= 2.7.3), libz1 (>= 1.2.8), python-lang, libc6 (>= 2.19)
+Recommends: python-readline
+Provides: python
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: attr
+Version: 2.4.47-r0
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: libmount1
+Version: 2.24.1-r0
+Depends: libblkid1 (>= 2.24.1), libuuid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: util-linux-mount
+Version: 2.24.1-r0
+Depends: libmount1 (>= 2.24.1), update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: usbutils
+Version: 007-r0
+Depends: libz1 (>= 1.2.8), usbutils-ids, libusb-1.0-0 (>= 1.0.9), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: initscripts
+Version: 1.0-r155
+Depends: initscripts-functions
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: perl-module-threads
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-config, perl-module-overload, perl-module-xsloader, perl-module-warnings, libc6 (>= 2.19), perl-module-strict, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good
+Version: 1.2.3-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kernel-module-u-serial
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-io-handle
+Version: 5.14.3-r1
+Depends: perl-module-symbol, perl, perl-module-exporter, perl-module-carp, perl-module-io-file, perl-module-strict, perl-module-io, perl-module-selectsaver
+Provides: perl-module-i586-poky-linux-io-handle
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libcrypto1.0.0
+Version: 1.0.1m-r0
+Depends: libc6 (>= 2.19)
+Recommends: openssl-conf
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: kernel-module-videobuf2-memops
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-card-restore
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: libmraa0
+Version: 0.6.1-r0
+Depends: libgcc1 (>= 4.8.2), python-core, libpython2.7-1.0 (>= 2.7.3), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: post-install
+Version: 1.0-r0
+Depends: systemd
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: python-numbers
+Version: 2.7.3-r0.3
+Depends: python-core, python-lang, python-re
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libtinfo5
+Version: 5.9-r15.1
+Depends: libc6 (>= 2.19)
+Recommends: ncurses-terminfo-base
+Suggests: ncurses-terminfo
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: pulseaudio-module-bluetooth-policy
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: python-pydoc
+Version: 2.7.3-r0.3
+Depends: python-core, python-stringold, python-lang, python-re
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: kernel-module-xt-ct
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-suspend-on-idle
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: kernel-module-ipt-ulog
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-xsloader
+Version: 5.14.3-r1
+Depends: perl-module-dynaloader, perl-module-carp, perl
+Provides: perl-module-i586-poky-linux-xsloader
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-ipt-clusterip
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good-audioparsers
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstvideo-1.0-0 (>= 1.2.3), libgstaudio-1.0-0 (>= 1.2.3), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, libgstpbutils-1.0-0 (>= 1.2.3), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: cleanjournal
+Version: 1.0-r0
+Depends: systemd
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libelf1
+Version: 0.148-r11
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libgstpbutils-1.0-0
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstvideo-1.0-0 (>= 1.2.3), libgstaudio-1.0-0 (>= 1.2.3), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: pulseaudio-module-cli-protocol-unix
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), pulseaudio-lib-protocol-cli (>= 5.0), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22), pulseaudio-lib-cli (>= 5.0)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: kernel-module-iptable-mangle
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-ip-tables
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-bytes-heavy
+Version: 5.14.3-r1
+Depends: perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: python-io
+Version: 2.7.3-r0.3
+Depends: libssl1.0.0 (>= 1.0.1m), libpython2.7-1.0 (>= 2.7.3), python-core, python-textutils, python-math, libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: perl-module-list-util-pp
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-vars, perl-module-exporter, perl, perl-module-scalar-util, perl-module-warnings, perl-module-strict
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: perl-module-pod-escapes
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: gstreamer1.0-meta-audio
+Version: 1.0-r0
+Depends: gstreamer1.0-plugins-good-wavparse, gstreamer1.0-meta-base, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-pulse, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-base-audiotestsrc
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791326
+
+Package: perl-module-exporter
+Version: 5.14.3-r1
+Depends: perl-module-exporter-heavy, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: perl-module-file-path
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-vars, perl-module-file-spec, perl, perl-module-exporter, perl-module-strict, perl-module-file-basename, perl-module-cwd
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-netserver
+Version: 2.7.3-r0.3
+Depends: python-core, python-netclient
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: perl-module-exporter-heavy
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-carp, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-resource
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-bcm4334x
+Version: 1.141-r47
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: perl-module-thread-queue
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-carp, perl-module-attributes, perl, perl-module-scalar-util, perl-module-warnings, perl-module-threads-shared
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-mro
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-warnings, libc6 (>= 2.19), perl-module-xsloader, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-textutils
+Version: 2.7.3-r0.3
+Depends: libpython2.7-1.0 (>= 2.7.3), python-core, python-io, libc6 (>= 2.19), python-re, python-stringold
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: libvorbis
+Version: 1.3.4-r0
+Depends: libogg0 (>= 1.3.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: perl-module-term-cap
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-carp, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-xt-redirect
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-unittest
+Version: 2.7.3-r0.3
+Depends: python-shell, python-difflib, python-core, python-io, python-pprint, python-lang, python-stringold
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: util-linux-agetty
+Version: 2.24.1-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: pulseaudio-lib-alsa-util
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libudev1 (>= 213+git0+c9679c652b), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libasound2 (>= 1.0.27.2), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: libcurl-dev
+Version: 7.35.0-r0
+Depends: libcurl5
+Recommends: libz-dev, libtasn1-dev, libc6-dev, libcap-dev, libgpg-error-dev, libgnutls-dev, libgcrypt-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: libxml2
+Version: 2.9.1-r0
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kernel-module-xt-state
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-length
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libmosquittopp1
+Version: 1.3.4-r0
+Depends: libmosquitto1 (>= 1.3.4), libstdc++6 (>= 4.8.2)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: perl-module-pod-simple-linksection
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-overload, perl-module-vars, perl-module-pod-simple-blackbox, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-sip
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-crypt
+Version: 2.7.3-r0.3
+Depends: libssl1.0.0 (>= 1.0.1m), libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19), libcrypto1.0.0 (>= 1.0.1m), python-core
+Recommends: openssl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: perl-module-encode
+Version: 5.14.3-r1
+Depends: perl-module-encode-encoding, perl-module-carp, perl-module-encode-configlocal-pm, perl-module-exporter, perl-module-xsloader, perl-module-encode-alias, perl-module-warnings, perl-module-bytes, libc6 (>= 2.19), perl-module-strict, perl-module-base, perl, perl-module-encode-config
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-threads-shared
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl, perl-module-scalar-util, perl-module-warnings, libc6 (>= 2.19), perl-module-strict, perl-module-xsloader
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: pulseaudio-lib-protocol-cli
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), pulseaudio-lib-cli (>= 5.0), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22), libdbus-1-3 (>= 1.6.18)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: initscripts-dev
+Version: 1.0-r155
+Depends: initscripts (= 1.0-r155)
+Recommends: update-alternatives-opkg-dev, initscripts-functions-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: json-c
+Version: 0.11-r0
+Depends: libc6 (>= 2.19)
+Provides: libjson
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-io
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-xsloader, perl-module-warnings, libc6 (>= 2.19), perl-module-strict, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libblkid1
+Version: 2.24.1-r0
+Depends: libuuid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: eglibc-gconv
+Version: 2.19-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-tftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat, kernel-module-nf-conntrack-tftp
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-ipt-ecn
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libthread-db1
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Provides: glibc-thread-db
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: mosquitto-clients
+Version: 1.3.4-r0
+Depends: libmosquitto1 (>= 1.3.4), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: gstreamer1.0-plugins-base-videoconvert
+Version: 1.2.3-r0
+Depends: libgstvideo-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libffi6 (>= 3.0.13), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: python-email
+Version: 2.7.3-r0.3
+Depends: python-image, python-mime, python-core, python-io, python-re, python-netclient, python-audio
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: libsqlite3-0
+Version: 1:3.8.3.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libevent
+Version: 2.0.21-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: python-math
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19), python-crypt
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: bcm43340-fw
+Version: 6.20.190-r2
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791326
+
+Package: gstreamer1.0-plugins-base-ogg
+Version: 1.2.3-r0
+Depends: libogg0 (>= 1.3.1), libffi6 (>= 3.0.13), libgstvideo-1.0-0 (>= 1.2.3), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libgstriff-1.0-0 (>= 1.2.3), libgstpbutils-1.0-0 (>= 1.2.3), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good-souphttpsrc
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libxml2 (>= 2.9.1), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libsoup-2.4 (>= 2.45.3), libsqlite3-0 (>= 3.8.3.1), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: tcpdump
+Version: 4.1.1-r1
+Depends: libpcap1 (>= 1.5.3), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: python-rpm
+Version: 5.4.9-r63
+Depends: libssl1.0.0 (>= 1.0.1m), libpython2.7-1.0 (>= 2.7.3), rpm-libs (>= 5.4.9), file (>= 5.16), libelf1 (>= 0.148), libossp-uuid16 (>= 1.6.2), libpopt0 (>= 1.16), libz1 (>= 1.2.8), db (>= 5.3.21), libpcre1 (>= 8.34), libattr1 (>= 2.4.47), libacl1 (>= 2.2.52), libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libbeecrypt7 (>= 4.2.1), libpcreposix0 (>= 8.34), rpm, libstdc++6 (>= 4.8.2), libbz2-0 (>= 1.0.6)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-cp210x
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-g-multi
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-libcomposite
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: connman-init-systemd
+Version: 1.0-r1
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: gdbserver
+Version: 7.6.2-r0
+Depends: libc6 (>= 2.19)
+Recommends: glibc-thread-db
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: libpcreposix0
+Version: 8.34-r0
+Depends: libpcre1 (>= 8.34), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: nfs-utils
+Version: 1.2.9-r0
+Depends: libblkid1 (>= 2.24.1), libc6 (>= 2.19), nfs-utils-client, bash, libwrap0 (>= 7.6)
+Recommends: update-rc.d, kernel-module-nfsd
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: base-passwd-dev
+Version: 3.5.29-r0
+Depends: base-passwd (= 3.5.29-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: python-elementtree
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: linux-libc-headers-dev
+Version: 3.14-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libgpg-error-dev
+Version: 1.12-r0
+Depends: libgpg-error0 (= 1.12-r0), libgpg-error0 (>= 1.12), libc6 (>= 2.19)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: mcu-fw-load
+Version: 0.1-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: perl-module-pod-plaintext
+Version: 5.14.3-r1
+Depends: perl-module-pod-select, perl-module-carp, perl-module-vars, perl, perl-module-symbol, perl-module-strict
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-pod-simple-transcode
+Version: 5.14.3-r1
+Depends: perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: ethtool
+Version: 3.13-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: perl-module-scalar-util-pp
+Version: 5.14.3-r1
+Depends: perl-module-overload, perl-module-vars, perl-module-exporter, perl, perl-module-warnings, perl-module-strict, perl-module-b
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-playback
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstvideo-1.0-0 (>= 1.2.3), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libgstpbutils-1.0-0 (>= 1.2.3), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: pulseaudio-lib-cli
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: python-ctypes
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-symbol
+Version: 5.14.3-r1
+Depends: perl-module-exporter, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libtic5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libpcre1
+Version: 8.34-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: gstreamer1.0-meta-base
+Version: 1.0-r0
+Depends: gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-good-souphttpsrc, gstreamer1.0, gstreamer1.0-plugins-base-videoscale, gstreamer1.0-plugins-base-audioresample
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791319
+
+Package: libgstvideo-1.0-0
+Version: 1.2.3-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: libcheck
+Version: 0.9.12-r0
+Depends: gawk, libc6 (>= 2.19)
+Replaces: check (<= 0.9.5)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: curl
+Version: 7.35.0-r0
+Depends: libcurl5 (>= 7.35.0), libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: perl-module-io-file
+Version: 5.14.3-r1
+Depends: perl-module-fcntl, perl-module-carp, perl-module-io-seekable, perl-module-file-spec, perl, perl-module-exporter, perl-module-symbol, perl-module-strict, perl-module-selectsaver
+Provides: perl-module-i586-poky-linux-io-file
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: pulseaudio-module-null-sink
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: libgmp10
+Version: 5.1.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791322
+Auto-Installed: yes
+
+Package: kernel-module-videobuf2-vmalloc
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-videobuf2-memops
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-socket
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-defrag-ipv4, kernel-module-nf-defrag-ipv6
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libgstriff-1.0-0
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: clloader
+Version: 1.0-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: cryptodev-linux-dev
+Version: 1.6-r0
+Depends: cryptodev-linux (= 1.6-r0)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: iotkit-comm-c-dev
+Version: 0.1.1-r2
+Depends: iotkit-comm-c (= 0.1.1-r2), libc6 (>= 2.19)
+Recommends: sshpass-dev, gcov-dev, zeromq-dev, libcurl-dev, mosquitto-dev, libiotkit-dev, libc6-dev, cmake-dev, mdns-dev, paho-mqtt-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791330
+
+Package: libtasn1-dev
+Version: 3.4-r0
+Depends: libtasn1-6 (= 3.4-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: libpython2.7-1.0
+Version: 2.7.3-r0.3
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: perl-module-text-parsewords
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-carp, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libpulse0
+Version: 5.0-r0
+Depends: libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libcap2 (>= 2.22), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: wpa-supplicant
+Version: android-4.4.4_r2.0.1-r1
+Depends: libssl1.0.0 (>= 1.0.1m), libdbus-1-3 (>= 1.6.18), libcrypto1.0.0 (>= 1.0.1m), libnl-3-200 (>= 3.2.22), libnl-3-genl (>= 3.2.22), libc6 (>= 2.19)
+Recommends: wpa-supplicant-cli, wpa-supplicant-passphrase
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libgomp1
+Version: 4.8.2-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: kernel-module-ts-fsm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: i2c-tools
+Version: 3.0.3-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libpanel5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: python-unixadmin
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libgnutls-dev
+Version: 2.12.23-r8.4
+Depends: libgnutlsxx27, libc6 (>= 2.19), libgnutls-openssl27, libgnutls-extra26, libgnutls26 (= 2.12.23-r8.4), libgnutls26 (>= 2.12.23)
+Recommends: gnutls-openssl-dev, libgcc-s-dev, libz-dev, gnutls-extra-dev, liblzo2-dev, libtasn1-dev, libstdc++-dev, libc6-dev, libreadline-dev, libcap-dev, libgpg-error-dev, libgcrypt-dev, gnutls-xx-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: opkg-collateral
+Version: 1.0-r2
+Status: install user installed
+Architecture: core2-32
+Conffiles:
+ /etc/opkg/opkg.conf 50bf6fd742dfaca19ff7a54d0a03e74a
+Installed-Time: 1433791330
+
+Package: rpcbind
+Version: 0.2.1-r0
+Depends: libc6 (>= 2.19), libwrap0 (>= 7.6), libtirpc1 (>= 0.2.4), base-files, shadow, base-passwd
+Recommends: update-rc.d
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: libncursesw5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libreadline-dev
+Version: 6.3-r0
+Depends: libreadline6 (= 6.3-r0)
+Recommends: libc6-dev, ncurses-libtinfo-dev, ncurses-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: liblzo2-dev
+Version: 2.06-r1
+Depends: liblzo2-2 (= 2.06-r1)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: e2fsprogs-badblocks
+Version: 1.42.9-r1
+Depends: libcom-err2 (>= 1.42.9), libext2fs2 (>= 1.42.9), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: pulseaudio-lib-bluez5-util
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: pulseaudio-module-bluez5-device
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), pulseaudio-lib-bluez5-util (>= 5.0), sbc (>= 1.2), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: alsa-utils-alsamixer
+Version: 1.0.27.2-r0
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19), libpanelw5 (>= 5.9), libmenuw5 (>= 5.9), libasound2 (>= 1.0.27.2), libformw5 (>= 5.9)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: perl-module-scalar-util
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-list-util, perl-module-vars, perl-module-scalar-util-pp, perl, perl-module-exporter, perl-module-strict
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libsamplerate0
+Version: 0.1.8-r1
+Depends: libsndfile1 (>= 1.0.25), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-usb-f-acm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-u-serial, kernel-module-libcomposite
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: parted
+Version: 3.1-r1
+Depends: libreadline6 (>= 6.3), libuuid1 (>= 2.24.1), libtinfo5 (>= 5.9), libc6 (>= 2.19), libblkid1 (>= 2.24.1)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: cmake
+Version: 2.8.12.2-r0
+Depends: libgcc1 (>= 4.8.2), libarchive13 (>= 3.1.2), libz1 (>= 1.2.8), libcurl5 (>= 7.35.0), libc6 (>= 2.19), libexpat1 (>= 2.1.0), libstdc++6 (>= 4.8.2)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: libmenu5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: python-threading
+Version: 2.7.3-r0.3
+Depends: python-core, python-lang
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: poky-feed-config-opkg
+Version: 1.0-r2
+Status: install user installed
+Architecture: edison
+Conffiles:
+ /etc/opkg/base-feeds.conf d41d8cd98f00b204e9800998ecf8427e
+ /etc/opkg/arch.conf ae03a27b23dd70bc8f00f7d6d430553d
+Installed-Time: 1433791333
+
+Package: perl-module-data-dumper
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-b-deparse, perl-module-overload, perl-module-xsloader, perl-module-scalar-util, perl-module-exporter, libc6 (>= 2.19), perl, perl-module-config
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: connman-tools
+Version: 1.27-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libgnutls26 (>= 2.12.23), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791318
+
+Package: usbutils-ids
+Version: 007-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: systemd
+Version: 1:213+git0+c9679c652b-r0
+Depends: libgcc1 (>= 4.8.2), kmod, dbus-1, shadow, update-alternatives-opkg, libcap2 (>= 2.22), util-linux-mount, liblzma5 (>= 5.1.3alpha), libc6 (>= 2.19), udev (= 1:213+git0+c9679c652b-r0), libattr1 (>= 2.4.47), libacl1 (>= 2.2.52), base-files, libkmod2 (>= 16+git0+36c4bb928a), libblkid1 (>= 2.24.1), systemd-binfmt, base-passwd
+Recommends: util-linux-fsck, update-rc.d, systemd-compat-units, systemd-serialgetty, util-linux-agetty, kernel-module-autofs4, kernel-module-unix, e2fsprogs-e2fsck, kernel-module-ipv6
+Status: install ok installed
+Architecture: core2-32
+Conffiles:
+ /etc/systemd/journald.conf a72de1096cc0556391fe3316d0287aaa
+ /etc/systemd/logind.conf 747ae2312b6922546190bf806d8d12be
+ /etc/systemd/system.conf fc053f715f95c4523b2862b9741f6e9d
+ /etc/systemd/user.conf 9eaad8fbb7bb6230d4b28abb76b4e81c
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: gcc
+Version: 4.8.2-r0
+Depends: libc6 (>= 2.19), libz1 (>= 1.2.8), libgmp10 (>= 5.1.1), libmpfr4 (>= 3.1.2), libmpc3 (>= 1.0.2)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-proto-gre
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libkmod2
+Version: 16+git0+36c4bb928a-r0
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libacl1
+Version: 2.2.52-r0
+Depends: libattr1 (>= 2.4.47), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: perl-module-errno
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-carp, perl
+Provides: perl-module-i586-poky-linux-errno
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: base-passwd
+Version: 3.5.29-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: python-mmap
+Version: 2.7.3-r0.3
+Depends: python-core, python-io, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: zeromq
+Version: 4.0.4-r2
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: perl-module-pod-select
+Version: 5.14.3-r1
+Depends: perl-module-pod-parser, perl-module-strict, perl-module-carp, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: systemd-serialgetty
+Version: 1.0-r5
+Depends: systemd
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: perl-module-posix
+Version: 5.14.3-r1
+Depends: perl-module-vars, perl-module-exporter, perl-module-xsloader, perl-module-autoloader, perl-module-warnings, perl-module-fcntl, libc6 (>= 2.19), perl-module-strict, perl, perl-module-tie-hash
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: perl-module-file-compare
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-carp, perl-module-warnings, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: cpp-symlinks
+Version: 4.8.2-r0
+Depends: cpp
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: kernel-module-nfnetlink
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-realm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gdb
+Version: 7.6.2-r0
+Depends: libreadline6 (>= 6.3), libz1 (>= 1.2.8), libtinfo5 (>= 5.9), libc6 (>= 2.19), libexpat1 (>= 2.1.0)
+Recommends: glibc-thread-db
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: kernel-module-xt-connbytes
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libsystemd0
+Version: 1:213+git0+c9679c652b-r0
+Depends: libgcc1 (>= 4.8.2), liblzma5 (>= 5.1.3alpha), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: libreadline6
+Version: 6.3-r0
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: hostapd-daemon
+Version: 2.1-r0
+Depends: libssl1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libnl-3-200 (>= 3.2.22), libnl-3-genl (>= 3.2.22), libcrypto1.0.0 (>= 1.0.1m)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791327
+
+Package: gawk-dev
+Version: 4.0.2-r0
+Depends: gawk (= 4.0.2-r0)
+Recommends: libc6-dev, update-alternatives-opkg-dev, gawk-common-dev, libreadline-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: perl-module-encode-configlocal-pm
+Version: 5.14.3-r1
+Depends: perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-class-struct
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-carp, perl-module-warnings-register, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libmosquitto1
+Version: 1.3.4-r0
+Depends: libssl1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libcares2 (>= 1.10.0), libcrypto1.0.0 (>= 1.0.1m)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: libform5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libncurses5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libexpat-dev
+Version: 2.1.0-r0
+Depends: libexpat1 (= 2.1.0-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: shadow
+Version: 4.1.4.3-r14
+Depends: update-alternatives-opkg, shadow-securetty, base-passwd, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: e2fsprogs-e2fsck
+Version: 1.42.9-r1
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: python-re
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-audioresample
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), liborc-test-0.4-0 (>= 0.4.18), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kmod
+Version: 16+git0+36c4bb928a-r0
+Depends: update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Replaces: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Conflicts: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: gnu-config
+Version: 20120814-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libgnutls-openssl27
+Version: 2.12.23-r8.4
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: openssh-keygen
+Version: 6.5p1-r0
+Depends: libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19)
+Conflicts: ssh-keygen
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-tftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: busybox, systemd, udev, netbase, base-files, update-alternatives-opkg, base-passwd
+Provides: task-core-boot
+Replaces: task-core-boot
+Conflicts: task-core-boot
+Status: install user installed
+Architecture: edison
+Installed-Time: 1433791321
+
+Package: kernel-module-xt-statistic
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: openssh-scp
+Version: 6.5p1-r0
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: mcu-fw-bin
+Version: 0.1-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: perl-module-encode-encoding
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-encode-mime-name, perl-module-encode, perl, perl-module-warnings, perl-module-strict
+Provides: perl-module-i586-poky-linux-encode-encoding
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: pkgconfig
+Version: 0.28-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libc6 (>= 2.19)
+Provides: pkgconfig(pkg-config) (= 0.28)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: pulseaudio-module-stream-restore
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), pulseaudio-lib-protocol-native (>= 5.0), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: kernel-module-xt-classify
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libdbus-glib-1-dev
+Version: 0.100.2-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libdbus-1-3 (>= 1.6.18), libexpat1 (>= 2.1.0), libc6 (>= 2.19), libdbus-glib-1-2 (= 0.100.2-r0), libdbus-glib-1-2 (>= 0.100.2)
+Recommends: libz-dev, dbus-lib-dev, libglib-2.0-dev, libffi-dev, libc6-dev, libexpat-dev, dbus-dev, dbus-x11-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libical-dev
+Version: 0.48-r0
+Depends: libical (= 0.48-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libgnutls26
+Version: 2.12.23-r8.4
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libiotkit1
+Version: 1.4.8-r0
+Depends: libgcc1 (>= 4.8.2), libpython2.7-1.0 (>= 2.7.3), libstdc++6 (>= 4.8.2), libcurl5 (>= 7.35.0), python-core, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: kernel-module-ts-kmp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: eglibc-gconv-utf-16
+Version: 2.19-r0
+Depends: eglibc-gconv, libc6 (>= 2.19)
+Provides: glibc-gconv-utf-16
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: libgettextsrc
+Version: 0.18.3.2-r0
+Depends: libgettextlib (>= 0.18.3.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: gettext
+Version: 0.18.3.2-r0
+Depends: libgettextsrc (>= 0.18.3.2), libgettextlib (>= 0.18.3.2), libc6 (>= 2.19)
+Conflicts: proxy-libintl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: rpm-libs
+Version: 5.4.9-r63
+Depends: libgcc1 (>= 4.8.2), libssl1.0.0 (>= 1.0.1m), file (>= 5.16), libelf1 (>= 0.148), libattr1 (>= 2.4.47), libpopt0 (>= 1.16), libz1 (>= 1.2.8), db (>= 5.3.21), libpcre1 (>= 8.34), libossp-uuid16 (>= 1.6.2), libacl1 (>= 2.2.52), libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libbeecrypt7 (>= 4.2.1), libpcreposix0 (>= 8.34), libstdc++6 (>= 4.8.2), libbz2-0 (>= 1.0.6)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-uvcvideo
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-videobuf2-core, kernel-module-videobuf2-memops, kernel-module-videobuf2-vmalloc
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-base
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-carp, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.4.21-r0
+Depends: libc6 (>= 2.19)
+Recommends: kernel-module-nf-defrag-ipv4, kernel-module-nf-conntrack, kernel-module-ipt-masquerade, kernel-module-x-tables, kernel-module-nf-nat, kernel-module-nf-conntrack-ipv4, kernel-module-iptable-nat, kernel-module-ip-tables, kernel-module-iptable-filter
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791321
+
+Package: kernel-module-iptable-filter
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-ip-tables
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-pptp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-module-nf-conntrack, kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack-pptp, kernel-module-nf-conntrack-proto-gre, kernel-module-nf-nat, kernel-module-nf-nat-proto-gre
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: iotkit-comm-js
+Version: 0.1.1-r2
+Depends: libgcc1 (>= 4.8.2), paho-mqtt, mdns, nodejs, libstdc++6 (>= 4.8.2), libiotkit1, mosquitto, sshpass, libc6 (>= 2.19), zeromq (>= 4.0.4)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: libffi-dev
+Version: 3.0.13-r0
+Depends: libffi6 (= 3.0.13-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: python-compile
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791324
+
+Package: kernel-module-xt-helper
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libc6-dev
+Version: 2.19-r0
+Depends: libthread-db1, eglibc-extra-nss, libcidn1, libc6 (= 2.19-r0)
+Recommends: linux-libc-headers-dev, eglibc-extra-nss-dev, libsegfault-dev, eglibc-thread-db-dev, libcidn-dev
+Provides: virtual-libc-dev, libc6-dev, glibc-dev, libc-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: perl-module-constant
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-carp, perl-module-vars, perl-module-warnings-register, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-dbus
+Version: 1.2.0-r0
+Depends: libdbus-glib-1-2 (>= 0.100.2), libffi6 (>= 3.0.13), python-threading, libdbus-1-3 (>= 1.6.18), libz1 (>= 1.2.8), libglib-2.0-0 (>= 2.38.2), python-io, python-logging, libc6 (>= 2.19), python-xml, python-stringold
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libgdbm-dev
+Version: 1.11-r0
+Depends: libgdbm4 (= 1.11-r0), libgdbm-compat4
+Recommends: gdbm-compat-dev, libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: bcm43340-mod
+Version: 1.141-r47
+Depends: kernel-module-bcm4334x
+Status: install user installed
+Architecture: edison
+Installed-Time: 1433791315
+
+Package: alsa-utils-aplay
+Version: 1.0.27.2-r0
+Depends: libasound2 (>= 1.0.27.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791324
+
+Package: perl-module-encode-mime-name
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-warnings, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-ts-bm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libext2fs2
+Version: 1.42.9-r1
+Depends: libcom-err2 (>= 1.42.9), libblkid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libgdbm4
+Version: 1.11-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-broadcast
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-compiler
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-re
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-exporter, perl-module-xsloader, perl-module-strict, perl-module-warnings, libc6 (>= 2.19), perl-module-term-cap, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: systemd-analyze
+Version: 1:213+git0+c9679c652b-r0
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791321
+
+Package: kernel-module-xt-policy
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libgnutls-extra26
+Version: 2.12.23-r8.4
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), liblzo2-2 (>= 2.06), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: rpm
+Version: 5.4.9-r63
+Depends: libssl1.0.0 (>= 1.0.1m), rpm-libs (>= 5.4.9), file (>= 5.16), libelf1 (>= 0.148), libattr1 (>= 2.4.47), libpopt0 (>= 1.16), libz1 (>= 1.2.8), db (>= 5.3.21), libpcre1 (>= 8.34), libossp-uuid16 (>= 1.6.2), libacl1 (>= 2.2.52), libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libbeecrypt7 (>= 4.2.1), run-postinsts, libpcreposix0 (>= 8.34), base-files, libstdc++6 (>= 4.8.2), libbz2-0 (>= 1.0.6)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-xt-ecn
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-string
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl
+Version: 5.14.3-r1
+Depends: libperl5 (>= 5.14.3), libc6 (>= 2.19)
+Provides: perl-module-strict, perl-module-config, perl-module-warnings, perl-module-vars, perl-module-warnings-register
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: glib-networking
+Version: 2.38.0-r0
+Depends: libffi6 (>= 3.0.13), libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: pulseaudio-misc
+Version: 5.0-r0
+Depends: libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libcap2 (>= 2.22), libc6 (>= 2.19), pulseaudio-module-cli-protocol-unix
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: udev
+Version: 1:213+git0+c9679c652b-r0
+Depends: libgcc1 (>= 4.8.2), libkmod2 (>= 16+git0+36c4bb928a), libacl1 (>= 2.2.52), libc6 (>= 2.19), libblkid1 (>= 2.24.1)
+Recommends: udev-hwdb
+Provides: hotplug
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: bluez5
+Version: 5.24-r0
+Depends: libdbus-1-3 (>= 1.6.18), libudev1 (>= 213+git0+c9679c652b), libreadline6 (>= 6.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), eglibc-gconv-utf-16
+Conflicts: bluez4
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: python-mime
+Version: 2.7.3-r0.3
+Depends: python-core, python-io
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: perl-module-bytes
+Version: 5.14.3-r1
+Depends: perl-module-bytes-heavy, perl-module-carp, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-ftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-ftp, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: g++
+Version: 4.8.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: liblzma5
+Version: 5.1.3alpha-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: python-xml
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), python-elementtree, libc6 (>= 2.19), python-re
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libcheck-dev
+Version: 0.9.12-r0
+Depends: libcheck (= 0.9.12-r0)
+Recommends: gawk-dev, libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: oobe
+Version: 1.2.0-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: perl-module-b-deparse
+Version: 5.14.3-r1
+Depends: perl-module-data-dumper, perl-module-carp, perl-module-re, perl-module-vars, perl, perl-module-warnings, perl-module-strict, perl-module-b
+Provides: perl-module-i586-poky-linux-b-deparse
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: ca-certificates
+Version: 20130610-r0
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/ca-certificates.conf 04d20df0d4d3d377145a847d2909887a
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: perl-module-pod-text
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-encode, perl-module-pod-simple, perl-module-vars, perl-module-exporter, perl-module-strict, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libpulsecommon
+Version: 5.0-r0
+Depends: json-c (>= 0.11), libcap2 (>= 2.22), libsndfile1 (>= 1.0.25), libdbus-1-3 (>= 1.6.18), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libnl-route-3-200
+Version: 1:3.2.22-r0
+Depends: libnl-3-200 (>= 3.2.22), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libncurses5
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: iotkit-opkg
+Version: 0.0.1-r0
+Depends: opkg
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libpanelw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: kernel-module-smsc95xx
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libgdbm-compat4
+Version: 1.11-r0
+Depends: libgdbm4 (>= 1.11), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: perl-module-carp
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-exporter, perl-module-warnings, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-arpt-mangle
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libpyglib-2.0-python0
+Version: 2.27.91-r6
+Depends: libglib-2.0-0 (>= 2.38.2), libpython2.7-1.0 (>= 2.7.3), libffi6 (>= 3.0.13), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: ncurses-terminfo-base
+Version: 5.9-r15.1
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good-autodetect
+Version: 1.2.3-r0
+Depends: libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, libffi6 (>= 3.0.13), gstreamer1.0 (>= 1.2.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: libglib-2.0-dev
+Version: 1:2.38.2-r0
+Depends: libglib-2.0-0 (= 1:2.38.2-r0)
+Recommends: libc6-dev, libffi-dev, libz-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: upm-dev
+Version: 0.1.9-r0
+Depends: upm (= 0.1.9-r0)
+Recommends: libgcc-s-dev, libpython2-dev, libmraa-dev, libstdc++-dev, libc6-dev, python-core-dev, python-dev, nodejs-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: libsoup-2.4
+Version: 2.45.3-r0
+Depends: libz1 (>= 1.2.8), libxml2 (>= 2.9.1), libffi6 (>= 3.0.13), libsqlite3-0 (>= 3.8.3.1), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2)
+Recommends: glib-networking
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: cpp
+Version: 4.8.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: libattr1
+Version: 2.4.47-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: gawk
+Version: 4.0.2-r0
+Depends: update-alternatives-opkg, gawk-common, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libpcap1
+Version: 1.5.3-r0
+Depends: libdbus-1-3 (>= 1.6.18), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: libsndfile1
+Version: 1.0.25-r2
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libss2
+Version: 1.42.9-r1
+Depends: libcom-err2 (>= 1.42.9), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: libgcc-s-dev
+Version: 4.8.2-r0
+Depends: libgcc1 (= 4.8.2-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: bzip2-dev
+Version: 1.0.6-r5
+Depends: bzip2 (= 1.0.6-r5)
+Recommends: libc6-dev, update-alternatives-opkg-dev, libbz2-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good-wavparse
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstriff-1.0-0 (>= 1.2.3), libgstaudio-1.0-0 (>= 1.2.3), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: mosquitto
+Version: 1.3.4-r0
+Depends: libssl1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libcrypto1.0.0 (>= 1.0.1m)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: pulseaudio-module-udev-detect
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libudev1 (>= 213+git0+c9679c652b), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: update-rc.d
+Version: 0.7-r5
+Status: install ok installed
+Architecture: all
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: python-multiprocessing
+Version: 2.7.3-r0.3
+Depends: libpython2.7-1.0 (>= 2.7.3), python-pickle, python-threading, python-mmap, python-ctypes, python-core, python-io, libc6 (>= 2.19), python-lang
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libcap2
+Version: 2.22-r6
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libcurl5
+Version: 7.35.0-r0
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Recommends: ca-certificates
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: kernel-module-ipt-masquerade
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-fcntl
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: kernel-module-xt-trace
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-pkttype
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-bcm-bt-lpm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-always-sink
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: perl-module-overload
+Version: 5.14.3-r1
+Depends: perl-module-mro, perl-module-scalar-util, perl-module-warnings-register, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: iotkit-agent
+Version: 1.7.0-r0
+Depends: libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: kernel-module-nf-conntrack-proto-gre
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-iptable-nat
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-nat-ipv4, kernel-module-nf-nat, kernel-module-nf-conntrack, kernel-module-ip-tables
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-good-pulse
+Version: 1.2.3-r0
+Depends: libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libz1 (>= 1.2.8), libgstvideo-1.0-0 (>= 1.2.3), libpulsecommon (>= 5.0), libgstaudio-1.0-0 (>= 1.2.3), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libffi6 (>= 3.0.13), libgsttag-1.0-0 (>= 1.2.3), libcap2 (>= 2.22), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, libgstpbutils-1.0-0 (>= 1.2.3), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: bluetooth-rfkill-event
+Version: 1.0-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791333
+
+Package: liborc-0.4-0
+Version: 0.4.18-r2.0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: perl-module-pod-usage
+Version: 5.14.3-r1
+Depends: perl-module-pod-select, perl-module-carp, perl-module-pod-plaintext, perl-module-config, perl-module-vars, perl-module-file-spec, perl, perl-module-exporter, perl-module-pod-text, perl-module-strict
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: pciutils-ids
+Version: 3.2.1-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: libgcrypt-dev
+Version: 1.5.3-r0
+Depends: libgcrypt11 (= 1.5.3-r0), libc6 (>= 2.19)
+Recommends: libgpg-error-dev, libc6-dev, libcap-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: libz-dev
+Version: 1.2.8-r0
+Depends: libz1 (= 1.2.8-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: libarchive13
+Version: 3.1.2-r0
+Depends: libxml2 (>= 2.9.1), libz1 (>= 1.2.8), libc6 (>= 2.19), libbz2-0 (>= 1.0.6), libattr1 (>= 2.4.47)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: file
+Version: 5.16-r0
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libz1
+Version: 1.2.8-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: sshpass
+Version: 1.05-r0.0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: python-stringold
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19), python-re
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: libcidn1
+Version: 2.19-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: kernel-module-mac80211
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libglib-2.0-0
+Version: 1:2.38.2-r0
+Depends: libffi6 (>= 3.0.13), libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: python-pkgutil
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: util-linux-fsck
+Version: 2.24.1-r0
+Depends: libmount1 (>= 2.24.1), update-alternatives-opkg, libblkid1 (>= 2.24.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-irc
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-irc, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-logging
+Version: 2.7.3-r0.3
+Depends: python-core, python-io, python-lang, python-pickle, python-stringold
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: perl-module-dynaloader
+Version: 5.14.3-r1
+Depends: perl-module-config, perl-module-carp, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-subprocess
+Version: 2.7.3-r0.3
+Depends: python-core, python-io, python-fcntl, python-pickle, python-re
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: gstreamer1.0
+Version: 1.2.3-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: dbus-dev
+Version: 1.6.18-r0
+Depends: dbus-1 (= 1.6.18-r0), libdbus-1-3
+Recommends: base-passwd-dev, shadow-dev, shadow-sysroot-dev, base-files-dev, dbus-lib-dev, libc6-dev, libexpat-dev, initscripts-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: swig
+Version: 3.0.5-r0
+Depends: libgcc1 (>= 4.8.2), libz1 (>= 1.2.8), libstdc++6 (>= 4.8.2), libpcre1 (>= 8.34), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: perl-module-file-spec-unix
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-scalar-util, perl-module-vars, perl-module-cwd, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libattr-dev
+Version: 2.4.47-r0
+Depends: libattr1
+Recommends: libc6-dev, ncurses-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: pulseaudio-module-alsa-sink
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), pulseaudio-lib-alsa-util (>= 5.0), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libudev1 (>= 213+git0+c9679c652b), libsndfile1 (>= 1.0.25), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libasound2 (>= 1.0.27.2), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: libtasn1-6
+Version: 3.4-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: perl-module-integer
+Version: 5.14.3-r1
+Depends: perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: curl-dev
+Version: 7.35.0-r0
+Depends: curl (= 7.35.0-r0)
+Recommends: libgnutls-dev, libz-dev, libcurl-dev, libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: netbase
+Version: 1:5.2-r0
+Status: install ok installed
+Architecture: core2-32
+Conffiles:
+ /etc/hosts 27acad957c7cded40cd6ac50d23ddc66
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: cppzmq-dev
+Version: git-r0
+Depends: zeromq-dev
+Recommends: zeromq-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: ncurses-dev
+Version: 5.9-r15.1
+Depends: libtinfo5, ncurses (= 5.9-r15.1), libpanelw5, libform5, libtic5, libmenuw5, libformw5, libpanel5, libmenu5, libticw5
+Recommends: ncurses-libmenu-dev, ncurses-libpanel-dev, ncurses-libtinfo-dev, ncurses-libform-dev, libc6-dev, ncurses-libncursesw-dev, ncurses-libtic-dev, ncurses-libncurses-dev, ncurses-libmenuw-dev, ncurses-terminfo-base-dev, update-alternatives-opkg-dev, ncurses-libpanelw-dev, ncurses-libformw-dev, ncurses-libticw-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: e2fsprogs-tune2fs
+Version: 1.42.9-r1
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791319
+
+Package: bluez5-obex
+Version: 5.24-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libdbus-1-3 (>= 1.6.18), libical (>= 0.48), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791331
+
+Package: python-image
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-h323
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-h323, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: perl-module-io-seekable
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-io-handle, perl, perl-module-exporter, perl-module-fcntl, perl-module-strict
+Provides: perl-module-i586-poky-linux-io-seekable
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: libgcc1
+Version: 4.8.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: connman-client
+Version: 1.27-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libdbus-1-3 (>= 1.6.18), libreadline6 (>= 6.3), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: libgsttag-1.0-0
+Version: 1.2.3-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), libz1 (>= 1.2.8), gstreamer1.0 (>= 1.2.3), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: perl-module-list-util
+Version: 5.14.3-r1
+Depends: perl-module-vars, perl-module-dynaloader, perl-module-list-util-pp, perl-module-xsloader, perl-module-exporter, libc6 (>= 2.19), perl-module-strict, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: nodejs-npm
+Version: 0.10.35-r0
+Depends: python-compiler, python-multiprocessing, python-shell, python-textutils, python-ctypes, python-datetime, python-misc, python-crypt, python-subprocess, python-netclient
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791321
+
+Package: kernel-module-xt-cluster
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: liblzo2-2
+Version: 2.06-r1
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791328
+Auto-Installed: yes
+
+Package: perl-module-pod-inputobjects
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-vars, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-alsa
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libasound2 (>= 1.0.27.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: python-audio
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: ncurses
+Version: 5.9-r15.1
+Depends: libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: g++-symlinks
+Version: 4.8.2-r0
+Depends: g++
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libexpat1
+Version: 2.1.0-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-proto-udplite
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-tproxy-core
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: nodejs-dev
+Version: 0.10.35-r0
+Depends: nodejs (= 0.10.35-r0)
+Recommends: python-datetime-dev, python-netclient-dev, libgcc-s-dev, python-subprocess-dev, libssl-dev, python-ctypes-dev, python-multiprocessing-dev, curl-dev, python-compiler-dev, libstdc++-dev, libcrypto-dev, libc6-dev, python-textutils-dev, nodejs-npm-dev, python-shell-dev, python-misc-dev, python-crypt-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791328
+
+Package: kernel-image-3.10.17-yocto-standard
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: alsa-utils-alsactl
+Version: 1.0.27.2-r0
+Depends: libasound2 (>= 1.0.27.2), libc6 (>= 2.19)
+Recommends: alsa-states
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+
+Package: kernel-module-aufs
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libnl-nf-3-200
+Version: 1:3.2.22-r0
+Depends: libnl-route-3-200 (>= 3.2.22), libnl-3-200 (>= 3.2.22), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: perl-module-cwd
+Version: 5.14.3-r1
+Depends: perl-module-dynaloader, perl-module-vars, perl-module-file-spec, perl-module-xsloader, perl-module-exporter, libc6 (>= 2.19), perl-module-strict, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: upm
+Version: 0.1.9-r0
+Depends: libgcc1 (>= 4.8.2), libpython2.7-1.0 (>= 2.7.3), libstdc++6 (>= 4.8.2), python-core, libc6 (>= 2.19), libmraa0 (>= 0.6.1)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: libasound2
+Version: 1.0.27.2-r0
+Depends: alsa-conf-base, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: crashlog
+Version: 1.0-r0
+Depends: systemd
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: python-smartpm
+Version: 1.4.1-r9
+Depends: python-pickle, python-threading, python-shell, python-resource, python-textutils, python-codecs, python-smartpm-backend-rpm, python-core, python-compression, python-unixadmin, libc6 (>= 2.19), python-xml, python-crypt, python-fcntl, python-netclient, python-pprint
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791324
+
+Package: kernel-module-nf-conntrack-netbios-ns
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-broadcast
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: python-pygobject
+Version: 2.27.91-r6
+Depends: libpython2.7-1.0 (>= 2.7.3), libpyglib-2.0-python0 (>= 2.27.91), python-textutils, libz1 (>= 1.2.8), libffi6 (>= 3.0.13), python-core, libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791316
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-pptp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-proto-gre
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-audiotestsrc
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: run-postinsts
+Version: 1.0-r9
+Recommends: update-rc.d
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libnfsidmap0
+Version: 0.25-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: kernel-module-xt-limit
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: systemd-compat-units
+Version: 1.0-r29
+Status: install ok installed
+Architecture: all
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: perl-module-file-copy
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-config, perl-module-file-spec, perl-module-exporter, perl, perl-module-warnings, perl-module-strict, perl-module-file-basename
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-misc
+Version: 2.7.3-r0.3
+Depends: libpython2.7-1.0 (>= 2.7.3), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791321
+Auto-Installed: yes
+
+Package: pulseaudio-module-bluez5-discover
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), pulseaudio-lib-bluez5-util (>= 5.0), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: libperl5
+Version: 5.14.3-r1
+Depends: libc6 (>= 2.19)
+Provides: perl-module-config, perl-module-i586-poky-linux-config-heavy, libperl5, perl-module-i586-poky-linux-config, perl-module-config-heavy
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: python-compression
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), python-zlib, libbz2-0 (>= 1.0.6), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: perl-module-getopt-long
+Version: 5.14.3-r1
+Depends: perl-module-text-parsewords, perl-module-overload, perl-module-vars, perl, perl-module-exporter, perl-module-pod-usage, perl-module-strict, perl-module-constant
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: nodejs
+Version: 0.10.35-r0
+Depends: libgcc1 (>= 4.8.2), libssl1.0.0 (>= 1.0.1m), libstdc++6 (>= 4.8.2), libcrypto1.0.0 (>= 1.0.1m), nodejs-npm, libc6 (>= 2.19), curl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: e2fsprogs-resize2fs
+Version: 1.42.9-r1
+Depends: libe2p2 (>= 1.42.9), libcom-err2 (>= 1.42.9), libext2fs2 (>= 1.42.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: db
+Version: 5.3.21-r0
+Depends: libc6 (>= 2.19)
+Conflicts: db3
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libpci3
+Version: 3.2.1-r0
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: pulseaudio-module-loopback
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: xdk-daemon
+Version: 0.0.31-r0
+Depends: libarchive-bin, libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: python-dbus-dev
+Version: 1.2.0-r0
+Depends: python-dbus (= 1.2.0-r0)
+Recommends: libdbus-glib-1-dev, python-io-dev, libz-dev, dbus-lib-dev, libglib-2.0-dev, python-logging-dev, libffi-dev, libc6-dev, python-xml-dev, libexpat-dev, python-stringold-dev, python-threading-dev, dbus-dev, python-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: connman
+Version: 1.27-r0
+Depends: iptables (>= 1.4.21), dbus-1, libdbus-1-3 (>= 1.6.18), bluez5, libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), wpa-supplicant
+Recommends: update-rc.d, connman-conf
+Provides: connman-plugin-bluetooth, connman-plugin-loopback, connman-plugin-wifi, connman-plugin-ethernet
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: kernel-module-iio-trig-sysfs
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-rescue-streams
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: libgettextlib
+Version: 0.18.3.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-xt-connmark
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: ldd
+Version: 2.19-r0
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791315
+
+Package: pulseaudio-module-filter-apply
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: libmenuw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libudev1
+Version: 1:213+git0+c9679c652b-r0
+Depends: libgcc1 (>= 4.8.2), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791315
+Auto-Installed: yes
+
+Package: libgpg-error0
+Version: 1.12-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-ftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-conntrack
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: make
+Version: 4.0-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libltdl7
+Version: 2.4.2-r6.0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: perl-module-autoloader
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-carp, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: pulseaudio-module-alsa-card
+Version: 5.0-r0
+Depends: libltdl7 (>= 2.4.2), libpulse0 (>= 5.0), pulseaudio-lib-alsa-util (>= 5.0), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libudev1 (>= 213+git0+c9679c652b), libsndfile1 (>= 1.0.25), libpulsecore (>= 5.0), speex (>= 1.2rc1), libc6 (>= 2.19), libasound2 (>= 1.0.27.2), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791332
+Auto-Installed: yes
+
+Package: python-argparse
+Version: 1.2.1-r4
+Depends: python-textutils, python-codecs, python-core
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791333
+
+Package: python-html
+Version: 2.7.3-r0.3
+Depends: python-core
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791326
+
+Package: kernel-module-ipt-ah
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: libflac8
+Version: 1.3.0-r0
+Depends: libogg0 (>= 1.3.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: speex
+Version: 1.2rc1-r2
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: pulseaudio-module-augment-properties
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: python-pickle
+Version: 2.7.3-r0.3
+Depends: libpython2.7-1.0 (>= 2.7.3), python-codecs, python-core, python-io, libc6 (>= 2.19), python-re
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: pulseaudio-module-position-event-sounds
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: zeromq-dev
+Version: 4.0.4-r2
+Depends: zeromq (= 4.0.4-r2)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: libtirpc1
+Version: 0.2.4-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791327
+Auto-Installed: yes
+
+Package: kernel-module-libcomposite
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: pulseaudio-module-default-device-restore
+Version: 5.0-r0
+Depends: speex (>= 1.2rc1), libpulse0 (>= 5.0), libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), libsamplerate0 (>= 0.1.8), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libpulsecore (>= 5.0), libltdl7 (>= 2.4.2), libc6 (>= 2.19), libcap2 (>= 2.22)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791333
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-audioconvert
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: e2fsprogs-mke2fs
+Version: 1.42.9-r1
+Depends: libblkid1 (>= 2.24.1), libcom-err2 (>= 1.42.9), libe2p2 (>= 1.42.9), libc6 (>= 2.19), libext2fs2 (>= 1.42.9), libuuid1 (>= 2.24.1)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791332
+
+Package: libcares-dev
+Version: 1.10.0-r0
+Depends: libcares2 (= 1.10.0-r0)
+Recommends: libc6-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: ap-mode-toggle
+Version: 0.1-r6
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+
+Package: perl-module-selectsaver
+Version: 5.14.3-r1
+Depends: perl-module-carp, perl-module-symbol, perl
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791323
+Auto-Installed: yes
+
+Package: kernel-module-xt-tcpmss
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-volume
+Version: 1.2.3-r0
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: libformw5
+Version: 5.9-r15.1
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: perl-module-encode-alias
+Version: 5.14.3-r1
+Depends: perl-module-strict, perl-module-encode, perl-module-base, perl-module-warnings, perl
+Provides: perl-module-i586-poky-linux-encode-alias
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: kernel-module-nf-defrag-ipv4
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-defrag-ipv6
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: wpa-supplicant-passphrase
+Version: android-4.4.4_r2.0.1-r1
+Depends: libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: libmraa-dev
+Version: 0.6.1-r0
+Depends: libmraa0 (= 0.6.1-r0)
+Recommends: libgcc-s-dev, nodejs-dev, libpython2-dev, libstdc++-dev, libc6-dev, python-dev, python-core-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791329
+Auto-Installed: yes
+
+Package: libossp-uuid16
+Version: 1.6.2-r2
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: libsqlite3-dev
+Version: 1:3.8.3.1-r0
+Depends: libsqlite3-0
+Recommends: libc6-dev, libreadline-dev, ncurses-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791317
+Auto-Installed: yes
+
+Package: libpopt0
+Version: 1.16-r3
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: wireless-tools
+Version: 1:30.pre9-r0
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791330
+
+Package: libdbus-glib-1-2
+Version: 0.100.2-r0
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), libdbus-1-3 (>= 1.6.18), libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libe2p2
+Version: 1.42.9-r1
+Depends: libc6 (>= 2.19)
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-xt-nflog
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink-log, kernel-module-nfnetlink
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: shadow-dev
+Version: 4.1.4.3-r14
+Depends: shadow (= 4.1.4.3-r14)
+Recommends: libc6-dev, base-passwd-dev, update-alternatives-opkg-dev, shadow-securetty-dev
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: kernel-module-xt-sctp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gstreamer1.0-plugins-base-gio
+Version: 1.2.3-r0
+Depends: libz1 (>= 1.2.8), gstreamer1.0-plugins-base, libffi6 (>= 3.0.13), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0 (>= 1.2.3)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: kernel-module-videobuf2-core
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: gawk-common
+Version: 4.0.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libmpfr4
+Version: 3.1.2-r0
+Depends: libgmp10 (>= 5.1.1), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791322
+Auto-Installed: yes
+
+Package: python-zlib
+Version: 2.7.3-r0.3
+Depends: python-core, libpython2.7-1.0 (>= 2.7.3), libz1 (>= 1.2.8), libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: mosquitto-dev
+Version: 1.3.4-r0
+Depends: libmosquittopp1, mosquitto (= 1.3.4-r0), libmosquitto1
+Recommends: libmosquittopp1-dev, libssl-dev, openssl-dev, libcrypto-dev, libstdc++-dev, libmosquitto1-dev, libc6-dev, libcares-dev
+Status: install user installed
+Architecture: core2-32
+Installed-Time: 1433791330
+Auto-Installed: yes
+
+Package: libogg0
+Version: 1.3.1-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791326
+Auto-Installed: yes
+
+Package: python-smartpm-backend-rpm
+Version: 1.4.1-r9
+Depends: python-rpm, libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791324
+Auto-Installed: yes
+
+Package: udev-hwdb
+Version: 1:213+git0+c9679c652b-r0
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791319
+Auto-Installed: yes
+
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r3
+Depends: shadow-securetty (= 4.1.4.3-r3)
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791318
+Auto-Installed: yes
+
+Package: libfreetype6
+Version: 2.5.2-r0
+Depends: libc6 (>= 2.19)
+Status: install ok installed
+Architecture: core2-32
+Installed-Time: 1433791325
+Auto-Installed: yes
+
+Package: packagegroup-core-buildessential
+Version: 1.0-r0
+Depends: cpp-symlinks, gcc, binutils-symlinks, g++-symlinks, pkgconfig, gettext, automake, g++, libtool, libstdc++-dev, libstdc++6, cpp, gcc-symlinks, autoconf, make, binutils
+Status: install user installed
+Architecture: all
+Installed-Time: 1433791324
+
+Package: kernel-module-nf-nat-amanda
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-amanda, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-xt-dccp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-nat-ipv4
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791320
+Auto-Installed: yes
+
+Package: kernel-module-nf-conntrack-sane
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Status: install ok installed
+Architecture: edison
+Installed-Time: 1433791319
+Auto-Installed: yes
+

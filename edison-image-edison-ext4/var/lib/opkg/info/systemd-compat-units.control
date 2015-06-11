@@ -1,0 +1,11 @@
+Package: systemd-compat-units
+Version: 1.0-r29
+Description: Enhances systemd compatilibity with existing SysVinit scripts
+ Enhances systemd compatilibity with existing SysVinit scripts.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: systemd-compat-units
+Source: None

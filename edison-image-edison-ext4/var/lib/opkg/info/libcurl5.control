@@ -1,0 +1,14 @@
+Package: libcurl5
+Version: 7.35.0-r0
+Description: Command line tool and library for client-side URL transfers
+ Command line tool and library for client-side URL transfers.
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: curl
+Homepage: http://curl.haxx.se/
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Recommends: ca-certificates
+Source: http://curl.haxx.se/download/curl-7.35.0.tar.bz2 file://pkgconfig_fix.patch file://generate_code_for_disable_manual.patch file://remove_inappropriate_file_from_rel.patch file://configure_ac.patch

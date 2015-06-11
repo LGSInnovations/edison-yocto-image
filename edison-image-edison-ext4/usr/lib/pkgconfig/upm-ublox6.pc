@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-ublox6
+Description: upm lib ublox6
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-ublox6
+Cflags: -I${includedir}/upm

@@ -1,0 +1,3 @@
+/lib/modules/3.10.17-yocto-standard/kernel/net/ipv6/
+/lib/modules/3.10.17-yocto-standard/kernel/net/ipv6/netfilter/nf_defrag_ipv6.ko
+/lib/modules/3.10.17-yocto-standard/kernel/net/ipv6/netfilter/

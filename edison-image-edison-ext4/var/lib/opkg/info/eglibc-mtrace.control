@@ -1,0 +1,14 @@
+Package: eglibc-mtrace
+Version: 2.19-r0
+Description: mtrace utility provided by eglibc
+ mtrace utility provided by eglibc
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: core2-32
+OE: eglibc-mtrace
+Homepage: http://www.eglibc.org/
+Depends: perl
+Provides: libc-mtrace
+Source: None

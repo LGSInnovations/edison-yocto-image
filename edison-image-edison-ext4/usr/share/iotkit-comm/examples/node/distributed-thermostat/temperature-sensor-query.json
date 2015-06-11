@@ -1,0 +1,7 @@
+{
+  "name" : ".*thermostat/sensor",
+  "type" : {
+    "name": "zmqpubsub"
+  },
+  "properties": {"dataType": "float", "sensorType": "ambient"}
+}

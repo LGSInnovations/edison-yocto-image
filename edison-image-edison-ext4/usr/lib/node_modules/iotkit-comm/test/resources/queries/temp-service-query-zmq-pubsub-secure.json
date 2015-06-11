@@ -1,0 +1,7 @@
+{
+  "name" : ".*secureCpuTemp.*",
+  "type" : {
+    "name": "zmqpubsub"
+  },
+  "type_params": {"mustsecure": true}
+}

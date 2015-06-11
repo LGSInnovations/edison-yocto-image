@@ -1,0 +1,11 @@
+Package: blink-led
+Version: 0.1-r0
+Description: blink-led version 0.1-r0
+ Blinks the Edison LED
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: blink-led
+Source: file://blink-led file://blink-led.service

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-mpr121
+Description: upm lib mpr121
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-mpr121
+Cflags: -I${includedir}/upm

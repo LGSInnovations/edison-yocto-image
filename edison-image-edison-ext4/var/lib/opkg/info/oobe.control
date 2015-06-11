@@ -1,0 +1,11 @@
+Package: oobe
+Version: 1.2.0-r0
+Description: oobe version 1.2.0-r0
+ The out-of-box configuration service
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: oobe
+Source: git://github.com/01org/edison-oobe.git;protocol=https

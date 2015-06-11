@@ -1,0 +1,11 @@
+Package: opkg-config-base
+Version: 1.0-r1
+Description: Base configuration files for opkg
+ Base configuration files for opkg.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: edison
+OE: opkg-config-base
+Source: None

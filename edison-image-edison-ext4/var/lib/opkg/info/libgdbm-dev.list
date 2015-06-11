@@ -1,0 +1,10 @@
+/usr/include/gdbm/gdbm.h
+/usr/include/gdbm/ndbm.h
+/usr/lib/libgdbm_compat.la
+/usr/lib/libgdbm.la
+/usr/lib/libgdbm_compat.so
+/usr/include/gdbm.h
+/usr/lib/libgdbm.so
+/usr/include/ndbm.h
+/usr/include/gdbm/
+/usr/include/dbm.h

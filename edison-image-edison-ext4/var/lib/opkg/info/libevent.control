@@ -1,0 +1,13 @@
+Package: libevent
+Version: 2.0.21-r1
+Description: An asynchronous event notification library
+ An asynchronous event notification library.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: libevent
+Homepage: http://libevent.org/
+Depends: libc6 (>= 2.19)
+Source: http://github.com/downloads/libevent/libevent/libevent-2.0.21-stable.tar.gz file://obsolete_automake_macros.patch file://disable_tests.patch

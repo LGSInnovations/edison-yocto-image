@@ -1,0 +1,14 @@
+Package: file
+Version: 5.16-r0
+Description: File classification tool
+ File attempts to classify files depending on their contents and prints a
+ description if a match is found.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: file
+Homepage: http://www.darwinsys.com/file/
+Depends: libz1 (>= 1.2.8), libc6 (>= 2.19)
+Source: ftp://ftp.astron.com/pub/file/file-5.16.tar.gz file://dump file://filesystems

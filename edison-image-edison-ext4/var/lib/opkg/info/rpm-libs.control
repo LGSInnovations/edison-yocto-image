@@ -1,0 +1,13 @@
+Package: rpm-libs
+Version: 5.4.9-r63
+Description: Libraries for manipulating RPM packages
+ This package contains the RPM shared libraries.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: core2-32
+OE: rpm
+Homepage: http://rpm5.org/
+Depends: libgcc1 (>= 4.8.2), libssl1.0.0 (>= 1.0.1m), file (>= 5.16), libelf1 (>= 0.148), libattr1 (>= 2.4.47), libpopt0 (>= 1.16), libz1 (>= 1.2.8), db (>= 5.3.21), libpcre1 (>= 8.34), libossp-uuid16 (>= 1.6.2), libacl1 (>= 2.2.52), libcrypto1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libbeecrypt7 (>= 4.2.1), libpcreposix0 (>= 8.34), libstdc++6 (>= 4.8.2), libbz2-0 (>= 1.0.6)
+Source: http://www.rpm5.org/files/rpm/rpm-5.4/rpm-5.4.9-0.20120508.src.rpm;extract=rpm-5.4.9.tar.gz file://rpm-log-auto-rm.patch file://rpm-db-reduce.patch file://perfile_rpmdeps.sh file://rpm-autogen.patch file://rpm-libsql-fix.patch file://header-include-fix.patch file://rpm-platform.patch file://rpm-showrc.patch file://rpm-solvedb.patch file://rpm-tools-mtree-LDFLAGS.patch file://rpm-fileclass.patch file://rpm-canonarch.patch file://rpm-no-loopmsg.patch file://rpm-scriptletexechelper.patch file://pythondeps.sh file://rpmdeps-oecore.patch file://rpm-resolvedep.patch file://rpm-respect-arch.patch file://rpm-no-perl-urpm.patch file://rpm-macros.patch file://rpm-lua.patch file://rpm-ossp-uuid.patch file://rpm-packageorigin.patch file://rpm-pkgconfigdeps.patch file://uclibc-support.patch file://rpmatch.patch file://fstack-protector-configure-check.patch file://dbconvert.patch file://rpm-uuid-include.patch file://makefile-am-exec-hook.patch file://rpm-stub-out-git_strerror.patch file://rpm-db_buffer_small.patch file://rpm-py-init.patch file://python-rpm-rpmsense.patch file://rpm-reloc-macros.patch file://rpm-platform2.patch file://rpm-remove-sykcparse-decl.patch file://debugedit-segv.patch file://debugedit-valid-file-to-fix-segment-fault.patch file://rpm-platform-file-fix.patch file://rpm-lsb-compatibility.patch file://rpm-tag-generate-endian-conversion-fix.patch file://rpm-verify-files.patch file://rpm-hardlink-segfault-fix.patch file://rpm-payload-use-hashed-inode.patch

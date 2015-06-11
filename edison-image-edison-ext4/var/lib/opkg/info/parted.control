@@ -1,0 +1,13 @@
+Package: parted
+Version: 3.1-r1
+Description: Disk partition editing/resizing utility
+ Disk partition editing/resizing utility.
+Section: console/tools
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: core2-32
+OE: parted
+Homepage: http://www.gnu.org/software/parted/parted.html
+Depends: libreadline6 (>= 6.3), libuuid1 (>= 2.24.1), libtinfo5 (>= 5.9), libc6 (>= 2.19), libblkid1 (>= 2.24.1)
+Source: ftp://ftp.gnu.org/gnu/parted/parted-3.1.tar.xz file://no_check.patch file://syscalls.patch file://fix-git-version-gen.patch file://fix-doc-mandir.patch file://fix-dvh-overflows.patch file://fix-deprecated-readline.patch file://run-ptest file://Makefile

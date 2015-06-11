@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: iotkit
+Description: Low Level Skeleton Library for Communication
+Version: 1.4.8
+
+Libs: -L${libdir} -liotkit
+Cflags: -I${includedir}

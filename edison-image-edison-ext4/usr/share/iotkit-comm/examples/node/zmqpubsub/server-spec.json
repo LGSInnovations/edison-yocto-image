@@ -1,0 +1,7 @@
+{
+  "name": "/ndg/echo/server",
+  "type": {
+  "name": "zmqpubsub"
+  },
+  "port": 9344
+}

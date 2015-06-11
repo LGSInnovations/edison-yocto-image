@@ -1,0 +1,12 @@
+Package: pulseaudio-service
+Version: 1.0-r0
+Description: pulseaudio-service version 1.0-r0
+ Pulseaudio systemd service
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: pulseaudio-service
+Depends: shadow, base-passwd, base-files
+Source: file://pulseaudio.service

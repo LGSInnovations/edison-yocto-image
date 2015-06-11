@@ -1,0 +1,15 @@
+Package: iotkit-comm-c-dev
+Version: 0.1.1-r2
+Description: iotkit-comm-c version 0.1.1-r2 - Development files
+ Inter of Things communication library for device-to-device and device-to-
+ cloud messaging  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: iotkit-comm-c
+Depends: iotkit-comm-c (= 0.1.1-r2), libc6 (>= 2.19)
+Recommends: sshpass-dev, gcov-dev, zeromq-dev, libcurl-dev, mosquitto-dev, libiotkit-dev, libc6-dev, cmake-dev, mdns-dev, paho-mqtt-dev
+Source: git://github.com/intel-iot-devkit/iotkit-comm-c.git;protocol=https

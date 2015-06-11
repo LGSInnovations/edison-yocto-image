@@ -1,0 +1,12 @@
+Package: pciutils-ids
+Version: 3.2.1-r0
+Description: PCI utilities - device ID database
+ Package providing the PCI device ID database for pciutils.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: pciutils
+Homepage: http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml
+Source: http://kernel.org/pub/software/utils/pciutils/pciutils-3.2.1.tar.bz2 file://configure.patch file://lib-build-fix.patch file://guess-fix.patch file://makefile.patch

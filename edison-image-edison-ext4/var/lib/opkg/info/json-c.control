@@ -1,0 +1,15 @@
+Package: json-c
+Version: 0.11-r0
+Description: C bindings for apps which will manipulate JSON data
+ JSON-C implements a reference counting object model that allows you to
+ easily construct JSON objects in C.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: json-c
+Homepage: https://github.com/json-c/json-c/wiki
+Depends: libc6 (>= 2.19)
+Provides: libjson
+Source: https://s3.amazonaws.com/json-c_releases/releases/json-c-0.11.tar.gz

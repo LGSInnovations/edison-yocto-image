@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-nrf8001
+Description: upm lib nrf8001
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-nrf8001
+Cflags: -I${includedir}/upm

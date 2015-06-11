@@ -1,0 +1,12 @@
+Package: python-argparse
+Version: 1.2.1-r4
+Description: Python command-line parsing library
+ Python command-line parsing library.
+Section: devel/python
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PSF
+Architecture: core2-32
+OE: python-argparse
+Depends: python-textutils, python-codecs, python-core
+Source: http://argparse.googlecode.com/files/argparse-1.2.1.tar.gz

@@ -1,0 +1,2 @@
+/lib/systemd/system/pwr-button-handler.service
+/usr/bin/pwr_button_handler

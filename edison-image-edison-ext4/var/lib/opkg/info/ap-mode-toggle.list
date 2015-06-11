@@ -1,0 +1,2 @@
+/lib/systemd/system/ap-mode-toggle.service
+/usr/bin/ap-mode-toggle

@@ -1,0 +1,8 @@
+{
+  "name" : "/INTEL/NDG/secureTemperature",
+  "type" : {
+    "name": "mqtt"
+  },
+  "properties" : {"dataType": "float"},
+  "type_params": {"mustsecure": true}
+}

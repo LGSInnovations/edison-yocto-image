@@ -1,0 +1,12 @@
+Package: bluetooth-rfkill-event
+Version: 1.0-r0
+Description: bluetooth-rfkill-event version 1.0-r0
+ Bluetooth rfkill event daemon for Bluetooth chips
+Section: connectivity
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: bluetooth-rfkill-event
+Depends: libglib-2.0-0 (>= 2.38.2), libc6 (>= 2.19)
+Source: file://bluetooth_rfkill_event.c file://bluetooth-rfkill-event.service file://bcm43341.conf

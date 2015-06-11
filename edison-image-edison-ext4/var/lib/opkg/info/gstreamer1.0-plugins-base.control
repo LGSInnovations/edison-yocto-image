@@ -1,0 +1,12 @@
+Package: gstreamer1.0-plugins-base
+Version: 1.2.3-r0
+Description: Plugins for the GStreamer multimedia framework 1.x
+ Plugins for the GStreamer multimedia framework 1.x.
+Section: multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2+
+Architecture: core2-32
+OE: gstreamer1.0-plugins-base
+Homepage: http://gstreamer.freedesktop.org/
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.2.3.tar.xz

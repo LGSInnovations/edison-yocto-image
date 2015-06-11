@@ -1,0 +1,13 @@
+Package: libgsttag-1.0-0
+Version: 1.2.3-r0
+Description: gstreamer gsttag-1.0 library
+ gstreamer gsttag-1.0 library
+Section: multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2+
+Architecture: core2-32
+OE: gstreamer1.0-plugins-base
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), libz1 (>= 1.2.8), gstreamer1.0 (>= 1.2.3), libc6 (>= 2.19)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.2.3.tar.xz

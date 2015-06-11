@@ -1,0 +1,13 @@
+Package: libtirpc1
+Version: 0.2.4-r0
+Description: Transport-Independent RPC library
+ Libtirpc is a port of Suns Transport-Independent RPC library to Linux
+Section: libs/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: libtirpc
+Homepage: http://sourceforge.net/projects/libtirpc/
+Depends: libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/libtirpc/libtirpc-0.2.4.tar.bz2;name=libtirpc http://distfiles.gentoo.org/distfiles/libtirpc-glibc-nfs.tar.xz;name=glibc-nfs file://libtirpc-0.2.1-fortify.patch

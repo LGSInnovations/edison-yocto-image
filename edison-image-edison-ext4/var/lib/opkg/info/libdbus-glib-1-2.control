@@ -1,0 +1,14 @@
+Package: libdbus-glib-1-2
+Version: 0.100.2-r0
+Description: High level language (GLib) binding for D-Bus
+ GLib bindings for the D-Bus message bus that integrate the D-Bus library
+ with the GLib thread abstraction and main loop.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: AFL-2 | GPLv2+
+Architecture: core2-32
+OE: dbus-glib
+Homepage: http://www.freedesktop.org/Software/dbus
+Depends: libglib-2.0-0 (>= 2.38.2), libffi6 (>= 3.0.13), libdbus-1-3 (>= 1.6.18), libz1 (>= 1.2.8), libc6 (>= 2.19)
+Source: http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.100.2.tar.gz file://no-examples.patch file://test-install-makefile.patch file://obsolete_automake_macros.patch

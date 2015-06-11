@@ -1,0 +1,7 @@
+{
+  "name": ".*server",
+  "type": {
+    "name": "mqtt"
+  },
+  "type_params": {"mustsecure": true}
+}

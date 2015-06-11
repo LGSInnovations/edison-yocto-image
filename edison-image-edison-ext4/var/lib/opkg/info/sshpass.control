@@ -1,0 +1,13 @@
+Package: sshpass
+Version: 1.05-r0.0
+Description: sshpass version 1.05-r0.0
+ Non-interactive ssh password auth
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: sshpass
+Homepage: http://sshpass.sourceforge.net/
+Depends: libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/sshpass/sshpass-1.05.tar.gz

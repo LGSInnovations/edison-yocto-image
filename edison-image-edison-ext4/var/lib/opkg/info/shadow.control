@@ -1,0 +1,13 @@
+Package: shadow
+Version: 4.1.4.3-r14
+Description: Tools to change and administer password and group data
+ Tools to change and administer password and group data.
+Section: base utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD | Artistic-1.0
+Architecture: core2-32
+OE: shadow
+Homepage: http://pkg-shadow.alioth.debian.org
+Depends: update-alternatives-opkg, shadow-securetty, base-passwd, libc6 (>= 2.19)
+Source: http://pkg-shadow.alioth.debian.org/releases/shadow-4.1.4.3.tar.bz2 file://shadow.automake-1.11.patch file://shadow_fix_for_automake-1.12.patch file://shadow-4.1.3-dots-in-usernames.patch file://shadow-4.1.4.2-env-reset-keep-locale.patch file://login_defs_pam.sed file://shadow-4.1.4.2-groupmod-pam-check.patch file://shadow-4.1.4.2-su_no_sanitize_env.patch file://shadow-update-pam-conf.patch file://slackware_fix_for_glib-2.17_crypt.patch file://fix-etc-gshadow-reading.patch

@@ -1,0 +1,12 @@
+Package: bcm43340-mod
+Version: 1.141-r47
+Description: bcm43340-mod version 1.141-r47
+ Broadcom wifi driver for the 43340
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: edison
+OE: bcm43340-mod
+Depends: kernel-module-bcm4334x
+Source: git://github.com/01org/edison-bcm43340.git;branch=master;protocol=git;rev=9d609e1ffadbf8895a701e6283392bb54bd962f9

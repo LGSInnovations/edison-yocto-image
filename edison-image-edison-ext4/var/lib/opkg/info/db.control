@@ -1,0 +1,14 @@
+Package: db
+Version: 5.3.21-r0
+Description: Berkeley Database v5
+ Berkeley Database v5.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Sleepycat
+Architecture: core2-32
+OE: db
+Homepage: http://www.oracle.com/technology/products/berkeley-db/db/index.html
+Depends: libc6 (>= 2.19)
+Conflicts: db3
+Source: http://download.oracle.com/berkeley-db/db-5.3.21.tar.gz file://arm-thumb-mutex_db5.patch;patchdir=.. file://fix-parallel-build.patch

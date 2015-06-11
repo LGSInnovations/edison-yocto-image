@@ -1,0 +1,7 @@
+[Unit]
+Description=OpenSSH Key Generation
+
+[Service]
+ExecStart=/bin/sh -c "if ! sshd -t &> /dev/null ; then rm /etc/ssh/*_key* ; ssh-keygen -A ; sync ; fi"
+Type=oneshot
+RemainAfterExit=yes

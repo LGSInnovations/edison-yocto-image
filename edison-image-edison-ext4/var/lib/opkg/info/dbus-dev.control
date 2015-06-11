@@ -1,0 +1,20 @@
+Package: dbus-dev
+Version: 1.6.18-r0
+Description: D-Bus message bus - Development files
+ D-Bus is a message bus system, a simple way for applications to talk to
+ one another. In addition to interprocess communication, D-Bus helps
+ coordinate process lifecycle; it makes it simple and reliable to code a
+ \"single instance\" application or daemon, and to launch applications and
+ daemons on demand when their services are needed.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: AFL-2 | GPLv2+
+Architecture: core2-32
+OE: dbus
+Homepage: http://dbus.freedesktop.org
+Depends: dbus-1 (= 1.6.18-r0), libdbus-1-3
+Recommends: base-passwd-dev, shadow-dev, shadow-sysroot-dev, base-files-dev, dbus-lib-dev, libc6-dev, libexpat-dev, initscripts-dev
+Source: http://dbus.freedesktop.org/releases/dbus/dbus-1.6.18.tar.gz file://tmpdir.patch file://dbus-1.init file://os-test.patch file://clear-guid_from_server-if-send_negotiate_unix_f.patch file://Set-correct-address-when-using-address-systemd.patch file://fixed-memory-freeing-if-error-during-listing-service.patch

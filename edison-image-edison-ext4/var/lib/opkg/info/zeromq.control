@@ -1,0 +1,13 @@
+Package: zeromq
+Version: 4.0.4-r2
+Description: zeromq version 4.0.4-r2
+ Zeromq - The Intelligent Transport Layer
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv3+
+Architecture: core2-32
+OE: zeromq
+Homepage: http://www.zeromq.org
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Source: http://download.zeromq.org/zeromq-4.0.4.tar.gz

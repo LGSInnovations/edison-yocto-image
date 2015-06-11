@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-gy65
+Description: upm lib gy65
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-gy65
+Cflags: -I${includedir}/upm

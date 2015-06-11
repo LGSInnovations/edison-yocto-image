@@ -1,0 +1,13 @@
+Package: libnl-nf-3-200
+Version: 1:3.2.22-r0
+Description: A library for applications dealing with netlink sockets
+ A library for applications dealing with netlink sockets.
+Section: libs/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: core2-32
+OE: libnl
+Homepage: http://www.infradead.org/~tgr/libnl/
+Depends: libnl-route-3-200 (>= 3.2.22), libnl-3-200 (>= 3.2.22), libc6 (>= 2.19)
+Source: http://www.infradead.org/~tgr/libnl/files/libnl-3.2.22.tar.gz file://fix-pktloc_syntax_h-race.patch file://fix-pc-file.patch file://fix-lib-cache_mngr.c-two-parentheses-bugs.patch file://0001-fix-double-free-caused-by-freeing-link-af_data-in-rt.patch

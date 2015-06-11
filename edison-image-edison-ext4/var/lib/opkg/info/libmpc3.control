@@ -1,0 +1,15 @@
+Package: libmpc3
+Version: 1.0.2-r0
+Description: C library for complex number arithmetic with arbitrary precision and correct rounding
+ Mpc is a C library for the arithmetic of complex numbers with arbitrarily
+ high precision and correct rounding of the result. It is built upon and
+ follows the same principles as Mpfr
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv3
+Architecture: core2-32
+OE: libmpc
+Homepage: http://www.multiprecision.org/
+Depends: libgmp10 (>= 5.1.1), libmpfr4 (>= 3.1.2), libc6 (>= 2.19)
+Source: http://www.multiprecision.org/mpc/download/mpc-1.0.2.tar.gz

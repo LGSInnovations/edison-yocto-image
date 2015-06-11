@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-ldt0028
+Description: upm lib ldt0028
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-ldt0028
+Cflags: -I${includedir}/upm

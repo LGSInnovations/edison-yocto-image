@@ -1,0 +1,13 @@
+Package: swig
+Version: 3.0.5-r0
+Description: swig version 3.0.5-r0
+ SWIG - Simplified Wrapper and Interface Generator
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD & GPLv3
+Architecture: core2-32
+OE: swig
+Homepage: http://swig.sourceforge.net/
+Depends: libgcc1 (>= 4.8.2), libz1 (>= 1.2.8), libstdc++6 (>= 4.8.2), libpcre1 (>= 8.34), libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/swig/swig-3.0.5.tar.gz file://0001-configure-use-pkg-config-for-pcre-detection.patch

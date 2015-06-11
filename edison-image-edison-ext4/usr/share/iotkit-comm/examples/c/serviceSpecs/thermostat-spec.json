@@ -1,0 +1,8 @@
+{
+  "name": "/my/home/thermostat",
+  "type": {
+    "name": "zmqpubsub",
+    "protocol": "tcp"
+  },
+  "properties": {"dataType": "float", "unit": "F"}
+}

@@ -1,0 +1,13 @@
+Package: strace
+Version: 4.8-r0
+Description: System call tracing tool
+ System call tracing tool.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: strace
+Homepage: http://strace.sourceforge.net
+Depends: libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/strace/strace-4.8.tar.xz file://git-version-gen file://strace-add-configure-options.patch file://Makefile-ptest.patch file://run-ptest

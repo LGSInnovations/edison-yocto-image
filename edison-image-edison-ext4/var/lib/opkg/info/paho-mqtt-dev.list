@@ -1,0 +1,7 @@
+/usr/lib/libpaho-mqtt3as.so
+/usr/lib/libpaho-mqtt3c.so
+/usr/lib/libpaho-mqtt3cs.so
+/usr/include/MQTTClient.h
+/usr/include/MQTTClientPersistence.h
+/usr/lib/libpaho-mqtt3a.so
+/usr/include/MQTTAsync.h

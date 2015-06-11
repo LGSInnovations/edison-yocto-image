@@ -1,0 +1,7 @@
+{
+    "name": "/ndg/temperature/cpuTemp",
+    "type": {
+        "name": "zmqpubsub"
+    },
+    "type_params": {"mustsecure": true}
+}

@@ -1,0 +1,6 @@
+{
+  "name" : "/my/home/thermostat",
+  "type" : {
+    "name": "zmqpubsub"
+  }
+}

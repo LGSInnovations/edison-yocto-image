@@ -1,0 +1,14 @@
+Package: libsoup-2.4
+Version: 2.45.3-r0
+Description: An HTTP library implementation in C
+ An HTTP library implementation in C.
+Section: x11/gnome/libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2
+Architecture: core2-32
+OE: libsoup-2.4
+Homepage: http://www.gnome.org/
+Depends: libz1 (>= 1.2.8), libxml2 (>= 2.9.1), libffi6 (>= 3.0.13), libsqlite3-0 (>= 3.8.3.1), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2)
+Recommends: glib-networking
+Source: http://ftp.gnome.org/pub/GNOME/sources/libsoup/2.45/libsoup-2.45.3.tar.xz file://fix-compiling-failed-while-mips-gcc-optimization-enabled.patch

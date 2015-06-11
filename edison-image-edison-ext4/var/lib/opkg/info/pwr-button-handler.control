@@ -1,0 +1,13 @@
+Package: pwr-button-handler
+Version: 0.1-r0
+Description: pwr-button-handler version 0.1-r0
+ Daemon listening to Edison PWR long button press, and starting OOBE
+ service when it happens
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: pwr-button-handler
+Depends: libc6 (>= 2.19)
+Source: file://pwr-button-handler.c file://pwr-button-handler.service

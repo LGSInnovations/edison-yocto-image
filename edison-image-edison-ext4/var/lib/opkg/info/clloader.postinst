@@ -1,0 +1,14 @@
+
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS enable clloader.service sketch_reset.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl restart clloader.service sketch_reset.service
+	fi
+fi

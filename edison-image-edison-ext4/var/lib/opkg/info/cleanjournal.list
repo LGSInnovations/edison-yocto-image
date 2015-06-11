@@ -1,0 +1,2 @@
+/usr/sbin/clean_journal.sh
+/lib/systemd/system/cleanjournal.service

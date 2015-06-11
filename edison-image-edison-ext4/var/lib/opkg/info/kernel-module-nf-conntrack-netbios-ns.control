@@ -1,0 +1,13 @@
+Package: kernel-module-nf-conntrack-netbios-ns
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Description: nf-conntrack-netbios-ns kernel module
+ nf-conntrack-netbios-ns kernel module; NetBIOS name service broadcast
+ connection tracking helper
+Section: kernel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: edison
+OE: linux-yocto
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-broadcast
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch

@@ -1,0 +1,14 @@
+Package: libarchive-bin
+Version: 3.1.2-r0
+Description: Support for reading various archive formats
+ C library and command-line tools for reading and writing tar, cpio, zip,
+ ISO, and other archive formats
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: libarchive
+Homepage: http://www.libarchive.org/
+Depends: libattr1 (>= 2.4.47), libz1 (>= 1.2.8), libbz2-0 (>= 1.0.6), libc6 (>= 2.19)
+Source: http://libarchive.org/downloads/libarchive-3.1.2.tar.gz file://libarchive-CVE-2013-0211.patch

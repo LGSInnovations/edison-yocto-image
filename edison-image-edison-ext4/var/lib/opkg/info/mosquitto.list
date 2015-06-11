@@ -1,0 +1,9 @@
+/etc/mosquitto/mosquitto.conf
+/usr/bin/mosquitto_passwd
+/etc/mosquitto/pskfile.example
+/etc/mosquitto/mosquitto.conf.example
+/etc/mosquitto/pwfile.example
+/usr/sbin/mosquitto
+/etc/mosquitto/
+/etc/mosquitto/aclfile.example
+/lib/systemd/system/mosquitto.service

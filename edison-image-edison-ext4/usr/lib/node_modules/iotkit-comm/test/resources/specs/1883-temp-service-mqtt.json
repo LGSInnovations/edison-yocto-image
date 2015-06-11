@@ -1,0 +1,7 @@
+{
+  "name" : "/INTEL/NDG/temperature",
+  "type" : {
+    "name": "mqtt"
+  },
+  "properties" : {"dataType": "float"}
+}

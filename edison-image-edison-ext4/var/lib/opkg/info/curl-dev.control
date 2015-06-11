@@ -1,0 +1,16 @@
+Package: curl-dev
+Version: 7.35.0-r0
+Description: Command line tool and library for client-side URL transfers - Development files
+ Command line tool and library for client-side URL transfers.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: curl
+Homepage: http://curl.haxx.se/
+Depends: curl (= 7.35.0-r0)
+Recommends: libgnutls-dev, libz-dev, libcurl-dev, libc6-dev
+Source: http://curl.haxx.se/download/curl-7.35.0.tar.bz2 file://pkgconfig_fix.patch file://generate_code_for_disable_manual.patch file://remove_inappropriate_file_from_rel.patch file://configure_ac.patch

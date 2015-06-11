@@ -1,0 +1,13 @@
+Package: alsa-utils-alsamixer
+Version: 1.0.27.2-r0
+Description: ncurses-based control for ALSA mixer and settings
+ ALSA sound utilities.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: alsa-utils
+Homepage: http://www.alsa-project.org
+Depends: libncursesw5 (>= 5.9), libtinfo5 (>= 5.9), libc6 (>= 2.19), libpanelw5 (>= 5.9), libmenuw5 (>= 5.9), libasound2 (>= 1.0.27.2), libformw5 (>= 5.9)
+Source: ftp://ftp.alsa-project.org/pub/utils/alsa-utils-1.0.27.2.tar.bz2 file://0001-alsactl-don-t-let-systemd-unit-restore-the-volume-wh.patch file://asound.state file://0001-service-sync-on-drive-the-stored-config-file.patch

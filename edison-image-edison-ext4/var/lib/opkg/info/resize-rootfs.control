@@ -1,0 +1,12 @@
+Package: resize-rootfs
+Version: 1.0-r0
+Description: resize-rootfs version 1.0-r0
+ Resize Rootfs systemd service
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: resize-rootfs
+Depends: e2fsprogs-resize2fs, systemd
+Source: file://resize-rootfs.service

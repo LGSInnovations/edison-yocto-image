@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-grovemoisture
+Description: upm lib grovemoisture
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-grovemoisture
+Cflags: -I${includedir}/upm

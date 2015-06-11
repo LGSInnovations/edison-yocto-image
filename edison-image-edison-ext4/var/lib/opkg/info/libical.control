@@ -1,0 +1,13 @@
+Package: libical
+Version: 0.48-r0
+Description: iCal and scheduling (RFC 2445, 2446, 2447) library
+ iCal and scheduling (RFC 2445, 2446, 2447) library.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 | MPL-1
+Architecture: core2-32
+OE: libical
+Homepage: http://sourceforge.net/projects/freeassociation/
+Depends: libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/project/freeassociation/libical/libical-0.48/libical-0.48.tar.gz file://pthread-fix.patch

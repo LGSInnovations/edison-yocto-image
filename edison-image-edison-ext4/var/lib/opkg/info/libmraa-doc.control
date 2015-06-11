@@ -1,0 +1,12 @@
+Package: libmraa-doc
+Version: 0.6.1-r0
+Description: Low Level Skeleton Library for Communication on Intel platforms - Documentation files
+ Low Level Skeleton Library for Communication on Intel platforms.  This
+ package contains documentation.
+Section: doc
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: mraa
+Source: git://github.com/intel-iot-devkit/mraa.git;protocol=git;rev=64f377cdfcedaaff6a8fb76f83b7ece9eaba422e;nobranch=1

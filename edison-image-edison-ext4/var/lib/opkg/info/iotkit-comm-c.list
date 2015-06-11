@@ -1,0 +1,17 @@
+/etc/iotkit-comm/plugin-interfaces/
+/usr/lib/libenableiot-client.so
+/usr/lib/libmqttpubsub-service.so
+/etc/iotkit-comm/plugin-interfaces/client-interface.json
+/etc/iotkit-comm/config.json
+/usr/lib/libiotkit-comm.so
+/etc/iotkit-comm/plugin-interfaces/enableiot-service-interface.json
+/usr/lib/libzmqreqrep-service.so
+/usr/lib/libzmqreqrep-client.so
+/usr/lib/libenableiot-service.so
+/usr/lib/libmqttpubsub-client.so
+/etc/iotkit-comm/plugin-interfaces/enableiot-client-interface.json
+/etc/iotkit-comm/
+/etc/iotkit-comm/plugin-interfaces/interface-for-interfaces.json
+/usr/lib/libzmqpubsub-client.so
+/etc/iotkit-comm/plugin-interfaces/service-interface.json
+/usr/lib/libzmqpubsub-service.so

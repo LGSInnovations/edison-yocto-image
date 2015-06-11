@@ -1,0 +1,14 @@
+Package: ca-certificates
+Version: 20130610-r0
+Description: Common CA certificates
+ This package includes PEM files of CA certificates to allow SSL-based
+ applications to check for the authenticity of SSL connections. This
+ derived from Debian's CA Certificates.
+Section: misc
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPL-2.0+ & MPL-2.0
+Architecture: all
+OE: ca-certificates
+Homepage: http://packages.debian.org/sid/ca-certificates
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch

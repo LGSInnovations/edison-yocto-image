@@ -1,0 +1,16 @@
+Package: libgcrypt-dev
+Version: 1.5.3-r0
+Description: General purpose cryptographic library based on the code from GnuPG - Development files
+ General purpose cryptographic library based on the code from GnuPG.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: libgcrypt
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libgcrypt11 (= 1.5.3-r0), libc6 (>= 2.19)
+Recommends: libgpg-error-dev, libc6-dev, libcap-dev
+Source: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.5.3.tar.gz file://add-pkgconfig-support.patch file://libgcrypt-fix-building-error-with-O2-in-sysroot-path.patch

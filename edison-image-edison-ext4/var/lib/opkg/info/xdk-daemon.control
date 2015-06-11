@@ -1,0 +1,12 @@
+Package: xdk-daemon
+Version: 0.0.31-r0
+Description: xdk-daemon version 0.0.31-r0
+ Provides communication to the Intel XDK
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Proprietary
+Architecture: core2-32
+OE: xdk-daemon
+Depends: libarchive-bin, libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Source: http://download.xdk.intel.com/iot/xdk-daemon-0.0.31.tar.bz2

@@ -1,0 +1,17 @@
+[Unit]
+Description=Intel_XDK_Daemon
+Requires=mdns.service
+After=mdns.service
+
+[Service]
+Environment="NODE_PATH=/usr/lib/node_modules"
+Environment="NODE_ENV=production"
+Environment="AVAHI_COMPAT_NOWARN=1"
+Environment="HOME=/home/root"
+#User=root
+ExecStart=/opt/xdk-daemon/xdk-daemon
+Restart=always
+RestartSec=10s
+
+[Install]
+WantedBy=multi-user.target

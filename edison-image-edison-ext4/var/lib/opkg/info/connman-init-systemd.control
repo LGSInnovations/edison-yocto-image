@@ -1,0 +1,13 @@
+Package: connman-init-systemd
+Version: 1.0-r1
+Description: Initialization service for ConnMan
+ Initializes necessary ConnMan services. This is needed in headless
+ system, otherwise we might not be able to connect to device after
+ installation. This service is only run once in the first boot.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: connman-init-systemd
+Source: file://connman-init-settings.sh file://connman-init.service file://connman.settings.template

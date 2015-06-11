@@ -1,0 +1,9 @@
+/lib/libattr.so
+/usr/include/attr/libattr.h
+/usr/lib/libattr.la
+/usr/include/attr/error_context.h
+/usr/include/attr/attributes.h
+/usr/lib/libattr.so
+/usr/include/attr/xattr.h
+/usr/include/attr/
+/lib/libattr.la

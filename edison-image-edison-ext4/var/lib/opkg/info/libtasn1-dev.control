@@ -1,0 +1,16 @@
+Package: libtasn1-dev
+Version: 3.4-r0
+Description: Library for ASN.1 and DER manipulation - Development files
+ Library for ASN.1 and DER manipulation.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+ & LGPLv2.1+
+Architecture: core2-32
+OE: libtasn1
+Homepage: http://www.gnu.org/software/libtasn1/
+Depends: libtasn1-6 (= 3.4-r0)
+Recommends: libc6-dev
+Source: ftp://ftp.gnu.org/gnu/libtasn1/libtasn1-3.4.tar.gz file://libtasn1_fix_for_automake_1.12.patch file://dont-depend-on-help2man.patch

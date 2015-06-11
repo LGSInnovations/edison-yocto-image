@@ -1,0 +1,13 @@
+Package: libbeecrypt7
+Version: 4.2.1-r3
+Description: A general-purpose cryptography library
+ A general-purpose cryptography library.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2.1
+Architecture: core2-32
+OE: beecrypt
+Homepage: http://sourceforge.net/projects/beecrypt
+Depends: libgcc1 (>= 4.8.2), libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/beecrypt/beecrypt-4.2.1.tar.gz file://disable-icu-check.patch file://fix-security.patch file://fix-for-gcc-4.7.patch file://run-ptest file://beecrypt-enable-ptest-support.patch

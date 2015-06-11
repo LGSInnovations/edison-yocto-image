@@ -1,0 +1,13 @@
+/lib/systemd/system/wpa_supplicant_p2p_event.service
+/etc/wpa_supplicant/wpa_supplicant.conf
+/usr/share/dbus-1/system-services/fi.w1.wpa_supplicant1.service
+/lib/systemd/system/wpa_supplicant_wlan0_event.service
+/usr/share/dbus-1/system-services/fi.epitest.hostap.WPASupplicant.service
+/etc/wpa_supplicant/udhcpd-p2p.conf
+/etc/dbus-1/system.d/dbus-wpa_supplicant.conf
+/etc/wpa_supplicant/wpa_cli-actions.sh
+/lib/systemd/system/wpa_supplicant.service
+/etc/default/volatiles/99_wpa_supplicant
+/etc/wpa_supplicant/p2p_supplicant.conf
+/etc/wpa_supplicant/
+/usr/sbin/wpa_supplicant

@@ -1,0 +1,5 @@
+/usr/lib/pkgconfig/libzmq.pc
+/usr/lib/libzmq.la
+/usr/include/zmq_utils.h
+/usr/lib/libzmq.so
+/usr/include/zmq.h

@@ -1,0 +1,12 @@
+/etc/default/volatiles/volatiles.04_pulse
+/etc/pulse/
+/etc/pulse/daemon.conf
+/etc/bash_completion.d/
+/etc/pulse/default.pa
+/usr/bin/pulseaudio
+/usr/bin/pactl
+/etc/bash_completion.d/pulseaudio-bash-completion.sh
+/etc/pulse/system.pa
+/lib/udev/rules.d/90-pulseaudio.rules
+/etc/dbus-1/system.d/pulseaudio-system.conf
+/etc/pulse/client.conf

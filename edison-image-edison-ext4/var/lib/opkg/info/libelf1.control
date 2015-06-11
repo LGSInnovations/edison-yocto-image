@@ -1,0 +1,13 @@
+Package: libelf1
+Version: 0.148-r11
+Description: Utilities and libraries for handling compiled object files
+ Utilities and libraries for handling compiled object files.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: (GPL-2+ & Elfutils-Exception)
+Architecture: core2-32
+OE: elfutils
+Homepage: https://fedorahosted.org/elfutils
+Depends: libc6 (>= 2.19)
+Source: https://fedorahosted.org/releases/e/l/elfutils/elfutils-0.148.tar.bz2 file://redhat-portability.diff file://redhat-robustify.diff file://hppa_backend.diff file://arm_backend.diff file://mips_backend.diff file://m68k_backend.diff file://testsuite-ignore-elflint.diff file://elf_additions.diff file://elfutils-fsize.patch file://remove-unused.patch file://mempcpy.patch file://fix_for_gcc-4.7.patch file://dso-link-change.patch file://nm-Fix-size-passed-to-snprintf-for-invalid-sh_name-case.patch file://elfutils-ar-c-fix-num-passed-to-memset.patch file://i386_dis.h file://x86_64_dis.h

@@ -1,0 +1,13 @@
+Package: clloader
+Version: 1.0-r0
+Description: clloader version 1.0-r0
+ This is the edison arduino sketch download daemon.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: core2-32
+OE: clloader
+Homepage: http://www.intel.com
+Depends: libc6 (>= 2.19)
+Source: git://github.com/01org/clloader.git;protocol=https;branch=edison file://clloader.service file://sketch_reset.service

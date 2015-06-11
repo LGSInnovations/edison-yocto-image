@@ -1,0 +1,15 @@
+Package: cppzmq-dev
+Version: git-r0
+Description: cppzmq version git-r0 - Development files
+ C++ bindings for ZeroMQ  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: cppzmq
+Homepage: http://www.zeromq.org
+Depends: zeromq-dev
+Recommends: zeromq-dev
+Source: git://github.com/zeromq/cppzmq.git

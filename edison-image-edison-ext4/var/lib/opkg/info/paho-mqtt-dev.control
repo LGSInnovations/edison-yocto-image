@@ -1,0 +1,17 @@
+Package: paho-mqtt-dev
+Version: 3.1-r1
+Description: paho-mqtt version 3.1-r1 - Development files
+ Client implementation of open and standard messaging protocols for
+ Machine-to-Machine (M2M) and Internet of Things (IoT).  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: EPL-1.0 | EDL-1.0
+Architecture: core2-32
+OE: paho-mqtt
+Homepage: http://www.eclipse.org/paho/
+Depends: paho-mqtt (= 3.1-r1)
+Recommends: libssl-dev, openssl-dev, libcrypto-dev, libc6-dev
+Source: git://git.eclipse.org/gitroot/paho/org.eclipse.paho.mqtt.c.git;protocol=http file://makefile.patch

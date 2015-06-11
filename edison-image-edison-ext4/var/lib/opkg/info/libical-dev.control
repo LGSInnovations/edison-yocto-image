@@ -1,0 +1,16 @@
+Package: libical-dev
+Version: 0.48-r0
+Description: iCal and scheduling (RFC 2445, 2446, 2447) library - Development files
+ iCal and scheduling (RFC 2445, 2446, 2447) library.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 | MPL-1
+Architecture: core2-32
+OE: libical
+Homepage: http://sourceforge.net/projects/freeassociation/
+Depends: libical (= 0.48-r0)
+Recommends: libc6-dev
+Source: http://downloads.sourceforge.net/project/freeassociation/libical/libical-0.48/libical-0.48.tar.gz file://pthread-fix.patch

@@ -1,0 +1,5 @@
+/usr/include/mosquitto.h
+/usr/include/mosquittopp.h
+/usr/lib/libmosquittopp.so
+/usr/include/mosquitto_plugin.h
+/usr/lib/libmosquitto.so

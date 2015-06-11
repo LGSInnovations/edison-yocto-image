@@ -1,0 +1,13 @@
+Package: libgcrypt11
+Version: 1.5.3-r0
+Description: General purpose cryptographic library based on the code from GnuPG
+ General purpose cryptographic library based on the code from GnuPG.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: libgcrypt
+Homepage: http://directory.fsf.org/project/libgcrypt/
+Depends: libcap2 (>= 2.22), libgpg-error0 (>= 1.12), libc6 (>= 2.19)
+Source: ftp://ftp.gnupg.org/gcrypt/libgcrypt/libgcrypt-1.5.3.tar.gz file://add-pkgconfig-support.patch file://libgcrypt-fix-building-error-with-O2-in-sysroot-path.patch

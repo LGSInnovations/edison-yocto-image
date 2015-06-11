@@ -1,0 +1,17 @@
+Package: gawk-dev
+Version: 4.0.2-r0
+Description: GNU awk text processing utility - Development files
+ The GNU version of awk, a text processing utility. Awk interprets a
+ special-purpose programming language to do quick and easy text pattern
+ matching and reformatting jobs.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: core2-32
+OE: gawk
+Homepage: www.gnu.org/software/gawk
+Depends: gawk (= 4.0.2-r0)
+Recommends: libc6-dev, update-alternatives-opkg-dev, gawk-common-dev, libreadline-dev
+Source: ftp://ftp.gnu.org/gnu/gawk/gawk-4.0.2.tar.gz file://run-ptest

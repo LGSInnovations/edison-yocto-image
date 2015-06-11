@@ -1,0 +1,13 @@
+Package: libsndfile1
+Version: 1.0.25-r2
+Description: Audio format Conversion library
+ Audio format Conversion library.
+Section: libs/multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: core2-32
+OE: libsndfile1
+Homepage: http://www.mega-nerd.com/libsndfile
+Depends: libc6 (>= 2.19)
+Source: http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.25.tar.gz

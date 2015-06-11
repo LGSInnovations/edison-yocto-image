@@ -1,0 +1,12 @@
+Package: u-boot
+Version: 2014.04-1-r0
+Description: Universal Boot Loader for embedded devices
+ Universal Boot Loader for embedded devices.
+Section: bootloaders
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: edison
+OE: u-boot
+Homepage: http://www.denx.de/wiki/U-Boot/WebHome
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env

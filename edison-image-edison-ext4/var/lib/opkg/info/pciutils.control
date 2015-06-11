@@ -1,0 +1,14 @@
+Package: pciutils
+Version: 3.2.1-r0
+Description: PCI utilities
+ The PCI Utilities package contains a library for portable access to PCI
+ bus configuration space and several utilities based on this library.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: pciutils
+Homepage: http://atrey.karlin.mff.cuni.cz/~mj/pciutils.shtml
+Depends: libkmod2 (>= 16+git0+36c4bb928a), libz1 (>= 1.2.8), pciutils-ids, libc6 (>= 2.19), libpci3 (>= 3.2.1)
+Source: http://kernel.org/pub/software/utils/pciutils/pciutils-3.2.1.tar.bz2 file://configure.patch file://lib-build-fix.patch file://guess-fix.patch file://makefile.patch

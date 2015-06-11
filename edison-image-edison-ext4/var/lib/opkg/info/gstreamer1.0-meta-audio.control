@@ -1,0 +1,12 @@
+Package: gstreamer1.0-meta-audio
+Version: 1.0-r0
+Description: gstreamer1.0-meta-base version 1.0-r0
+ Gstreamer1.0 package groups
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: gstreamer1.0-meta-base
+Depends: gstreamer1.0-plugins-good-wavparse, gstreamer1.0-meta-base, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-pulse, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-base-audiotestsrc
+Source: None

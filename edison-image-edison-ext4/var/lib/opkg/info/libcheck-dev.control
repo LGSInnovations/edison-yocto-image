@@ -1,0 +1,16 @@
+Package: libcheck-dev
+Version: 0.9.12-r0
+Description: Check - unit testing framework for C code - Development files
+ Check - unit testing framework for C code.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+
+Architecture: core2-32
+OE: libcheck
+Homepage: http://check.sourceforge.net/
+Depends: libcheck (= 0.9.12-r0)
+Recommends: gawk-dev, libc6-dev
+Source: http://downloads.sourceforge.net/check/check-0.9.12.tar.gz

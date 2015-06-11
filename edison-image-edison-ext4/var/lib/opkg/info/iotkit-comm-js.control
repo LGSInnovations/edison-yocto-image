@@ -1,0 +1,13 @@
+Package: iotkit-comm-js
+Version: 0.1.1-r2
+Description: iotkit-comm-js version 0.1.1-r2
+ Inter of Things communication library for device-to-device and device-to-
+ cloud messaging
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: iotkit-comm-js
+Depends: libgcc1 (>= 4.8.2), paho-mqtt, mdns, nodejs, libstdc++6 (>= 4.8.2), libiotkit1, mosquitto, sshpass, libc6 (>= 2.19), zeromq (>= 4.0.4)
+Source: git://github.com/intel-iot-devkit/iotkit-comm-js.git;protocol=https

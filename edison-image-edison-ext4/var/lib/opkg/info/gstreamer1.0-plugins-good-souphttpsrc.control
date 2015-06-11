@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-good-souphttpsrc
+Version: 1.2.3-r0
+Description: GStreamer plugin for souphttpsrc
+ GStreamer plugin for souphttpsrc
+Section: multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: gstreamer1.0-plugins-good
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libffi6 (>= 3.0.13), libxml2 (>= 2.9.1), libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libsoup-2.4 (>= 2.45.3), libsqlite3-0 (>= 3.8.3.1), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, gstreamer1.0 (>= 1.2.3)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.2.3.tar.xz

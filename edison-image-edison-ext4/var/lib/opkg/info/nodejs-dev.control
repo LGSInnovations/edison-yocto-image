@@ -1,0 +1,16 @@
+Package: nodejs-dev
+Version: 0.10.35-r0
+Description: nodejs version 0.10.35-r0 - Development files
+ nodeJS Evented I/O for V8 JavaScript  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & BSD-2-Clause & BSD-3-Clause & BSD-4-Clause & ISC & GPLv2 & GPLv3 & AFL-2.0 & GPL-2.0-with-OpenSSL-exception & Zlib
+Architecture: core2-32
+OE: nodejs
+Homepage: http://nodejs.org
+Depends: nodejs (= 0.10.35-r0)
+Recommends: python-datetime-dev, python-netclient-dev, libgcc-s-dev, python-subprocess-dev, libssl-dev, python-ctypes-dev, python-multiprocessing-dev, curl-dev, python-compiler-dev, libstdc++-dev, libcrypto-dev, libc6-dev, python-textutils-dev, nodejs-npm-dev, python-shell-dev, python-misc-dev, python-crypt-dev
+Source: http://nodejs.org/dist/v0.10.35/node-v0.10.35.tar.gz

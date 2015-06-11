@@ -1,0 +1,4 @@
+/etc/dbus-1/system.d/connman.conf
+/lib/systemd/system/connman.service
+/usr/lib/connman/plugins/
+/usr/sbin/connmand

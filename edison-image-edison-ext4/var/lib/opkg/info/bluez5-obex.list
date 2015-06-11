@@ -1,0 +1,3 @@
+/usr/lib/systemd/user/obex.service
+/usr/lib/bluez5/bluetooth/obexd
+/usr/share/dbus-1/services/org.bluez.obex.service

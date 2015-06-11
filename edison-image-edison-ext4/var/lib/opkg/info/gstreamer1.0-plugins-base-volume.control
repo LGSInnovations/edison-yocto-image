@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-base-volume
+Version: 1.2.3-r0
+Description: GStreamer plugin for volume
+ GStreamer plugin for volume
+Section: multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2+
+Architecture: core2-32
+OE: gstreamer1.0-plugins-base
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libffi6 (>= 3.0.13), libgstaudio-1.0-0 (>= 1.2.3), gstreamer1.0-plugins-base, libz1 (>= 1.2.8), libgsttag-1.0-0 (>= 1.2.3), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), liborc-0.4-0 (>= 0.4.18), gstreamer1.0 (>= 1.2.3)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-base/gst-plugins-base-1.2.3.tar.xz

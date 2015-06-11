@@ -1,0 +1,31 @@
+{
+    "pluginInterfaceDir": "plugin-interfaces",
+    "pluginDir": "plugins",
+    "superInterfaceName": "interface-for-interfaces",
+    "serviceDir": "serviceSpecs",
+    "communication": {
+        "pluginFileSuffixes": {
+            "clientFileSuffix": "client",
+            "serverFileSuffix": "service"
+        }
+    },
+    "unusedPortDetectAttempts": 3,
+    "stateDirName": "iotkit-comm",
+    "stateMapName": "state.json",
+    "localaddr": "127.0.0.1",
+    "port_min": 1025,
+    "port_max": 65535,
+    "auth": {
+        "keyDirSuffix": "_credentials",
+        "keyDirName": "iotkit-comm",
+        "CAName": "myca",
+        "privateKeyNameSuffix": "_key",
+        "hostKeyNameSuffix": "_host",
+        "clientKeyNameSuffix": "_client",
+        "SSLCertSuffix": ".crt",
+        "SSLCertReqSuffix": ".csr",
+        "SSHPubKeySuffix": ".pub",
+        "defaultUser": "root",
+        "SSHCertSuffix": "-cert"
+    }
+}

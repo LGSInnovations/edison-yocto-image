@@ -1,0 +1,2 @@
+/usr/sbin/brctl
+/bin/busybox.nosuid 50

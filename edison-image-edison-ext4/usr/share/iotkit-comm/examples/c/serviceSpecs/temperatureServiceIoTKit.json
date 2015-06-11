@@ -1,0 +1,8 @@
+{
+    "name" : "temperature.v1.0/garage_sensor",
+    "type" : {
+        "name": "iotkit-agent"
+    },
+    "port" : 1884,
+    "type_params": {"mustsecure": false}
+}

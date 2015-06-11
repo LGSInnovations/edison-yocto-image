@@ -1,0 +1,3 @@
+/etc/systemd/system/basic.target.wants/post-install.service
+/sbin/post-install.sh
+/lib/systemd/system/post-install.service

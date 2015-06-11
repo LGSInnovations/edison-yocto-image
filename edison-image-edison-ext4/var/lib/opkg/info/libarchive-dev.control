@@ -1,0 +1,16 @@
+Package: libarchive-dev
+Version: 3.1.2-r0
+Description: Support for reading various archive formats - Development files
+ C library and command-line tools for reading and writing tar, cpio, zip,
+ ISO, and other archive formats  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: libarchive
+Homepage: http://www.libarchive.org/
+Depends: libarchive13 (= 3.1.2-r0)
+Recommends: libc6-dev, libz-dev, libattr-dev, attr-dev, libbz2-dev, bzip2-dev, libxml2-dev
+Source: http://libarchive.org/downloads/libarchive-3.1.2.tar.gz file://libarchive-CVE-2013-0211.patch

@@ -1,0 +1,12 @@
+Package: iotkit-opkg
+Version: 0.0.1-r0
+Description: iotkit-opkg version 0.0.1-r0
+ This configures the opkg sources for the iotkit packages
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: iotkit-opkg
+Depends: opkg
+Source: file://iotkit.conf

@@ -1,0 +1,19 @@
+Package: connman-tools
+Version: 1.27-r0
+Description: A daemon for managing internet connections within embedded devices
+ The ConnMan project provides a daemon for managing internet connections
+ within embedded devices running the Linux operating system.  The
+ Connection Manager is designed to be slim and to use as few resources as
+ possible, so it can be easily integrated. It is a fully modular system
+ that can be extended, through plug-ins, to support all kinds of wired or
+ wireless technologies. Also, configuration methods, like DHCP and domain
+ name resolving, are implemented using plug-ins.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: connman
+Homepage: http://connman.net/
+Depends: libglib-2.0-0 (>= 2.38.2), libgnutls26 (>= 2.12.23), libc6 (>= 2.19)
+Source: http://kernel.org/pub/linux/network/connman/connman-1.27.tar.xz file://0001-plugin.h-Change-visibility-to-default-for-debug-symb.patch file://wifi_default.patch file://add_xuser_dbus_permission.patch file://disable_p2p.patch file://connman

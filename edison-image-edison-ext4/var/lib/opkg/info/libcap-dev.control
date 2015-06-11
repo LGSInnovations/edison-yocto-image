@@ -1,0 +1,16 @@
+Package: libcap-dev
+Version: 2.22-r6
+Description: Library for getting/setting POSIX.1e capabilities - Development files
+ Library for getting/setting POSIX.1e capabilities.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD | GPLv2
+Architecture: core2-32
+OE: libcap
+Homepage: http://sites.google.com/site/fullycapable/
+Depends: libcap2 (= 2.22-r6)
+Recommends: libc6-dev, attr-dev
+Source: ftp://ftp.debian.org/debian/pool/main/libc/libcap2/libcap2_2.22.orig.tar.gz file://fix-CAP_LAST_CAP.patch

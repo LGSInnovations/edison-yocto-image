@@ -1,0 +1,15 @@
+Package: db-dev
+Version: 5.3.21-r0
+Description: Berkeley Database v5 - Development files
+ Berkeley Database v5.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Sleepycat
+Architecture: core2-32
+OE: db
+Homepage: http://www.oracle.com/technology/products/berkeley-db/db/index.html
+Depends: db (= 5.3.21-r0)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+Source: http://download.oracle.com/berkeley-db/db-5.3.21.tar.gz file://arm-thumb-mutex_db5.patch;patchdir=.. file://fix-parallel-build.patch

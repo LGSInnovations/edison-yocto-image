@@ -1,0 +1,8 @@
+{
+  "name": "/my/home/thermostat",
+  "type": {
+    "name": "zmqpubsub"
+  },
+  "port": 9999,
+  "properties": {"dataType": "float", "unit": "F"}
+}

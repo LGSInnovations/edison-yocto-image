@@ -1,0 +1,8 @@
+/usr/include/ares.h
+/usr/lib/pkgconfig/libcares.pc
+/usr/lib/libcares.so
+/usr/include/ares_rules.h
+/usr/include/ares_build.h
+/usr/include/ares_dns.h
+/usr/include/ares_version.h
+/usr/lib/libcares.la

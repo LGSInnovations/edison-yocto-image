@@ -1,0 +1,20 @@
+#!/bin/sh
+	update-alternatives --install /usr/bin/addr2line addr2line /usr/bin/i586-poky-linux-addr2line 100
+	update-alternatives --install /usr/bin/ar ar /usr/bin/i586-poky-linux-ar 100
+	update-alternatives --install /usr/bin/as as /usr/bin/i586-poky-linux-as 100
+	update-alternatives --install /usr/bin/c++filt c++filt /usr/bin/i586-poky-linux-c++filt 100
+	update-alternatives --install /usr/bin/elfedit elfedit /usr/bin/i586-poky-linux-elfedit 100
+	update-alternatives --install /usr/bin/gprof gprof /usr/bin/i586-poky-linux-gprof 100
+	update-alternatives --install /usr/bin/ld ld /usr/bin/i586-poky-linux-ld 100
+	update-alternatives --install /usr/bin/ld.bfd ld.bfd /usr/bin/i586-poky-linux-ld.bfd 100
+	update-alternatives --install /usr/bin/nm nm /usr/bin/i586-poky-linux-nm 100
+	update-alternatives --install /usr/bin/objcopy objcopy /usr/bin/i586-poky-linux-objcopy 100
+	update-alternatives --install /usr/bin/objdump objdump /usr/bin/i586-poky-linux-objdump 100
+	update-alternatives --install /usr/bin/ranlib ranlib /usr/bin/i586-poky-linux-ranlib 100
+	update-alternatives --install /usr/bin/readelf readelf /usr/bin/i586-poky-linux-readelf 100
+	update-alternatives --install /usr/bin/size size /usr/bin/i586-poky-linux-size 100
+	update-alternatives --install /usr/bin/strings strings /usr/bin/i586-poky-linux-strings 100
+	update-alternatives --install /usr/bin/strip strip /usr/bin/i586-poky-linux-strip 100
+if [ x"$D" = "x" ]; then
+	if [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi
+fi

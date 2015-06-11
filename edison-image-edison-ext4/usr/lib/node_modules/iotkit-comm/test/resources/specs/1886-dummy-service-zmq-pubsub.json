@@ -1,0 +1,10 @@
+{
+  "name": "/ndg/dummy",
+  "type": {
+    "name": "zmqpubsub",
+    "protocol": "tcp"
+  },
+  "port": 1886,
+  "properties": {"dataType": "float", "unit": "F"},
+  "advertise": {"locally": true, "cloud": false}
+}

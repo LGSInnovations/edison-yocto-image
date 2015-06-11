@@ -1,0 +1,14 @@
+Package: python-pygobject-dev
+Version: 2.27.91-r6
+Description: Python GObject bindings - Development files
+ Python GObject bindings.  This package contains symbolic links, header
+ files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1
+Architecture: core2-32
+OE: python-pygobject
+Depends: libpyglib-2.0-python0, python-pygobject (= 2.27.91-r6)
+Recommends: libz-dev, libglib-2.0-dev, libffi-dev, libpython2-dev, libc6-dev, python-textutils-dev, python-pygobject-lib-dev, python-dev, python-core-dev
+Source: http://ftp.gnome.org/pub/GNOME/sources/pygobject/2.27/pygobject-2.27.91.tar.bz2 file://obsolete_automake_macros.patch

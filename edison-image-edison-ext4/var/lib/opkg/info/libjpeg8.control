@@ -1,0 +1,14 @@
+Package: libjpeg8
+Version: 8d-r1
+Description: libjpeg is a library for handling the JPEG (JFIF) image format
+ libjpeg contains a library for handling the JPEG (JFIF) image format, as
+ well as related programs for accessing the libjpeg functions.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD-3-Clause
+Architecture: core2-32
+OE: jpeg
+Homepage: http://www.ijg.org/
+Depends: libc6 (>= 2.19)
+Source: http://www.ijg.org/files/jpegsrc.v8d.tar.gz file://debian-libjpeg7_7-1.diff file://fix_for_automake_1.12.1.patch

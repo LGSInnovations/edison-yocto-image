@@ -1,0 +1,12 @@
+Package: run-postinsts
+Version: 1.0-r9
+Description: Runs postinstall scripts on first boot of the target device
+ Runs postinstall scripts on first boot of the target device.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: run-postinsts
+Recommends: update-rc.d
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service

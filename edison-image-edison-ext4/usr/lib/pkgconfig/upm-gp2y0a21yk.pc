@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-gp2y0a21yk
+Description: upm lib gp2y0a21yk
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-gp2y0a21yk
+Cflags: -I${includedir}/upm

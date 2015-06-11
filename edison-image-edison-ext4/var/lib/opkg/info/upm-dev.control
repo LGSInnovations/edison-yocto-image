@@ -1,0 +1,15 @@
+Package: upm-dev
+Version: 0.1.9-r0
+Description: Sensor/Actuator repository for Mraa - Development files
+ Sensor/Actuator repository for Mraa.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: upm
+Depends: upm (= 0.1.9-r0)
+Recommends: libgcc-s-dev, libpython2-dev, libmraa-dev, libstdc++-dev, libc6-dev, python-core-dev, python-dev, nodejs-dev
+Source: git://github.com/intel-iot-devkit/upm.git;protocol=git;rev=0b9407356d3f46872b5eb654d8dda765cda6d233

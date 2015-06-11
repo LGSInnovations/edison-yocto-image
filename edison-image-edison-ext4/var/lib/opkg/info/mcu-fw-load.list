@@ -1,0 +1,3 @@
+/lib/systemd/system/mcu_fw_loader.service
+/etc/intel_mcu/
+/etc/intel_mcu/mcu_fw_loader.sh

@@ -1,0 +1,4 @@
+/usr/lib/python2.7/site-packages/_dbus_glib_bindings.la
+/usr/lib/pkgconfig/dbus-python.pc
+/usr/include/dbus-1.0/dbus/dbus-python.h
+/usr/lib/python2.7/site-packages/_dbus_bindings.la

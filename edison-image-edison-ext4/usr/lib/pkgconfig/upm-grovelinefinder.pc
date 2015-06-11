@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-grovelinefinder
+Description: upm lib grovelinefinder
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-grovelinefinder
+Cflags: -I${includedir}/upm

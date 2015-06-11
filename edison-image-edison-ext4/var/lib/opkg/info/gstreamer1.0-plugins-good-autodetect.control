@@ -1,0 +1,13 @@
+Package: gstreamer1.0-plugins-good-autodetect
+Version: 1.2.3-r0
+Description: GStreamer plugin for autodetect
+ GStreamer plugin for autodetect
+Section: multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: gstreamer1.0-plugins-good
+Homepage: http://gstreamer.freedesktop.org/
+Depends: libglib-2.0-0 (>= 2.38.2), gstreamer1.0-plugins-good, libffi6 (>= 3.0.13), gstreamer1.0 (>= 1.2.3), libc6 (>= 2.19)
+Source: http://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.2.3.tar.xz

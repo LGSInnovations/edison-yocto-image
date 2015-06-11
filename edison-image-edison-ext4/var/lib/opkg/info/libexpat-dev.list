@@ -1,0 +1,5 @@
+/usr/lib/libexpat.la
+/usr/lib/pkgconfig/expat.pc
+/usr/lib/libexpat.so
+/usr/include/expat_external.h
+/usr/include/expat.h

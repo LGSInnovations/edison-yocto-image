@@ -1,0 +1,13 @@
+Package: libopkg1
+Version: 1:0.2.1-r0
+Description: Open Package Manager library
+ Open Package Manager.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: opkg
+Homepage: http://code.google.com/p/opkg/
+Depends: libc6 (>= 2.19)
+Source: http://downloads.yoctoproject.org/releases/opkg/opkg-0.2.1.tar.gz file://no-install-recommends.patch file://add-exclude.patch file://opkg-configure.service

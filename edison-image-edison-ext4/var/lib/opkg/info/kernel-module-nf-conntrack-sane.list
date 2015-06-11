@@ -1,0 +1,4 @@
+/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/
+/lib/modules/3.10.17-yocto-standard/kernel/net/
+/lib/modules/3.10.17-yocto-standard/kernel/
+/lib/modules/3.10.17-yocto-standard/kernel/net/netfilter/nf_conntrack_sane.ko

@@ -1,0 +1,14 @@
+Package: iotkit-agent
+Version: 1.7.0-r0
+Description: iotkit-agent version 1.7.0-r0
+ Transparently implements the necessary message formats and transport
+ security as well as device registration
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD-2-Clause & BSD-3-Clause & GPL-2.0 & Apache-2.0 & MIT & PD
+Architecture: core2-32
+OE: iotkit-agent
+Homepage: http://enableiot.com
+Depends: libstdc++6 (>= 4.8.2), libc6 (>= 2.19)
+Source: git://github.com/enableiot/iotkit-agent.git;protocol=git

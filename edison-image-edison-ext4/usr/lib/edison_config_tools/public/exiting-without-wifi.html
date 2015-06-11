@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaving Setup</title>
+    <link rel="stylesheet" type="text/css" href="main.css" media="screen"/>
+    <script src="feedbacklib.js"></script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.cookie = '{}';
+            var config = {};
+            config.currenthost = 'params_curr_hostname';
+            config.currentssid = 'params_curr_ssid';
+            config.host = 'params_hostname';
+            config.ssid = 'params_ssid';
+            config.newwifi = 'params_new_wifi';
+            initFeedbackLib(config);
+            document.getElementById("errbox").innerHTML += "<br><br>" + getRerunSetupMessage(config.host, config.ssid);
+            document.getElementById("errbox").style.display = "inherit";
+            queryForCommandOutput();
+        }
+    </script>
+    <noscript>
+        Please enable Javascript. It is needed for this page to work correctly. Thank you.
+    </noscript>
+</head>
+<body>
+<h1>Leaving Setup</h1>
+<div class='section'>
+    <div class="content" style="padding: 30px; padding-bottom: 0px">
+        Please wait while we setup your device. <i>Note that you have left the one-time setup process without
+        configuring WiFi network access</i>.
+        <br><br>
+
+        <hr class="progressbar" id="progressbar" align="left">
+        <textarea class="progresstext" id="progresstext" readonly rows="1" cols="200"></textarea><br><br>
+        <textarea class="cmdout" id="cmdout" readonly rows="10"></textarea>
+    </div>
+</div>
+<div class='section'>
+    <div class="content" id="errbox" style="padding: 30px; padding-bottom: 0px; padding-top: 0px; display: none">
+        To configure WiFi later, rerun this setup using the steps below or connect to the device via its serial
+        port and run <code>configure_edison --wifi</code> on the command line.
+    </div>
+</div>
+</body>
+</html>

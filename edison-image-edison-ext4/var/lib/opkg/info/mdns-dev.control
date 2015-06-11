@@ -1,0 +1,17 @@
+Package: mdns-dev
+Version: 544-r1
+Description: mdns version 544-r1 - Development files
+ Bonjour, also known as zero-configuration networking, enables automatic
+ discovery of computers, devices, and services on IP networks.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Apache-2.0
+Architecture: core2-32
+OE: mdns
+Homepage: http://developer.apple.com/networking/bonjour/
+Depends: mdns (= 544-r1)
+Recommends: libc6-dev
+Source: http://opensource.apple.com/tarballs/mDNSResponder/mDNSResponder-544.tar.gz file://build.patch file://mdns.service

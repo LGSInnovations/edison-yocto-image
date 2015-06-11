@@ -1,0 +1,17 @@
+Package: libiotkit-dev
+Version: 1.4.8-r0
+Description: Transparently implements the necessary message formats and transport security as well as device registration - Development files
+ Transparently implements the necessary message formats and transport
+ security as well as device registration.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: iotkit-lib-c
+Homepage: http://enableiot.com
+Depends: libiotkit1 (= 1.4.8-r0)
+Recommends: gcov-dev, libgcc-s-dev, libcurl-dev, libpython2-dev, curl-dev, libstdc++-dev, libc6-dev, cmake-dev, python-dev, python-core-dev
+Source: git://github.com/enableiot/iotkit-lib-c.git;protocol=https

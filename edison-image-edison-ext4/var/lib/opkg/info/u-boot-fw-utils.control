@@ -1,0 +1,12 @@
+Package: u-boot-fw-utils
+Version: 2014.04-1-r0
+Description: u-boot-fw-utils version 2014.04-1-r0
+ U-boot bootloader fw_printenv/setenv utils
+Section: bootloader
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: edison
+OE: u-boot-fw-utils
+Depends: libc6 (>= 2.19)
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env file://fw_env.config

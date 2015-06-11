@@ -1,0 +1,11 @@
+Package: poky-feed-config-opkg
+Version: 1.0-r2
+Description: Poky example feed configuration
+ Poky example feed configuration.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: edison
+OE: poky-feed-config-opkg
+Source: None

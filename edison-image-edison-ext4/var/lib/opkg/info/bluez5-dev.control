@@ -1,0 +1,17 @@
+Package: bluez5-dev
+Version: 5.24-r0
+Description: Linux Bluetooth Stack Userland V5 - Development files
+ Linux Bluetooth stack V5 userland components.  These include a system
+ configurations, daemons, tools and system libraries.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: bluez5
+Homepage: http://www.bluez.org
+Depends: bluez5 (= 5.24-r0)
+Recommends: python-pygobject-dev, eglibc-gconv-utf-16-dev, libusb-dev, python-dev, udev-dev, dbus-lib-dev, libglib-2.0-dev, libdbus-glib-1-dev, libreadline-dev, libc6-dev, python-dbus-dev, libcheck-dev, libical-dev, libudev-dev
+Source: http://kernel.org/pub/linux/bluetooth/bluez-5.24.tar.xz file://bluetooth.conf file://obex_set_dbus_session_service.patch

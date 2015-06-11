@@ -1,0 +1,14 @@
+Package: libiotkit1
+Version: 1.4.8-r0
+Description: Transparently implements the necessary message formats and transport security as well as device registration
+ Transparently implements the necessary message formats and transport
+ security as well as device registration.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: iotkit-lib-c
+Homepage: http://enableiot.com
+Depends: libgcc1 (>= 4.8.2), libpython2.7-1.0 (>= 2.7.3), libstdc++6 (>= 4.8.2), libcurl5 (>= 7.35.0), python-core, libc6 (>= 2.19)
+Source: git://github.com/enableiot/iotkit-lib-c.git;protocol=https

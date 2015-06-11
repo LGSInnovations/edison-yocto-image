@@ -1,0 +1,15 @@
+Package: glib-networking
+Version: 2.38.0-r0
+Description: GLib networking extensions
+ glib-networking contains the implementations of certain GLib networking
+ features that cannot be implemented directly in GLib itself because of
+ their dependencies.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2
+Architecture: core2-32
+OE: glib-networking
+Homepage: http://git.gnome.org/browse/glib-networking/
+Depends: libffi6 (>= 3.0.13), libcap2 (>= 2.22), libz1 (>= 1.2.8), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libglib-2.0-0 (>= 2.38.2), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Source: http://ftp.gnome.org/pub/GNOME/sources/glib-networking/2.38/glib-networking-2.38.0.tar.xz;name=archive

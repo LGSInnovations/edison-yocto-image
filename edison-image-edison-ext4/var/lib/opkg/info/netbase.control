@@ -1,0 +1,13 @@
+Package: netbase
+Version: 1:5.2-r0
+Description: Basic TCP/IP networking support
+ This package provides the necessary infrastructure for basic TCP/IP based
+ networking
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: netbase
+Homepage: http://packages.debian.org/netbase
+Source: ftp://ftp.debian.org/debian/pool/main/n/netbase/netbase_5.2.tar.gz file://hosts

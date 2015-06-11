@@ -1,0 +1,13 @@
+Package: kernel-module-xt-comment
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Description: xt-comment kernel module
+ xt-comment kernel module; Xtables: No-op match which can be tagged with a
+ comment
+Section: kernel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: edison
+OE: linux-yocto
+Depends: kernel-3.10.17-yocto-standard
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch

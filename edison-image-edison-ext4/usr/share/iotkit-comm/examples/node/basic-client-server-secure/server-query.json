@@ -1,0 +1,8 @@
+{
+  "name": ".*server",
+  "type": {
+    "name": "zmqreqrep"
+  },
+  "properties": {"replymsg": "hi"},
+  "type_params": {"mustsecure": true}
+}

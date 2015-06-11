@@ -1,0 +1,7 @@
+/etc/binfmt.d/
+/lib/systemd/system/shutdown.target
+/lib/systemd/system/proc-sys-fs-binfmt_misc.mount
+/lib/systemd/system/systemd-binfmt.service
+/lib/systemd/systemd-binfmt
+/lib/systemd/system/proc-sys-fs-binfmt_misc.automount
+/usr/lib/binfmt.d/

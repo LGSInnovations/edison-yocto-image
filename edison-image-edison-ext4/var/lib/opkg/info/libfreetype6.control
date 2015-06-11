@@ -1,0 +1,17 @@
+Package: libfreetype6
+Version: 2.5.2-r0
+Description: Freetype font rendering library
+ FreeType is a software font engine that is designed to be small,
+ efficient, highly customizable, and portable while capable of producing
+ high-quality output (glyph images). It can be used in graphics libraries,
+ display servers, font conversion tools, text image generation tools, and
+ many other products as well.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: FreeType | GPLv2+
+Architecture: core2-32
+OE: freetype
+Homepage: http://www.freetype.org/
+Depends: libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/freetype/freetype-2.5.2.tar.bz2

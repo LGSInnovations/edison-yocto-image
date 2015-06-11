@@ -1,0 +1,13 @@
+Package: libgnutls-extra26
+Version: 2.12.23-r8.4
+Description: GNU Transport Layer Security Library
+ GNU Transport Layer Security Library.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: core2-32
+OE: gnutls
+Homepage: http://www.gnu.org/software/gnutls/
+Depends: libcap2 (>= 2.22), libz1 (>= 1.2.8), liblzo2-2 (>= 2.06), libgnutls26 (>= 2.12.23), libc6 (>= 2.19), libgpg-error0 (>= 1.12), libgcrypt11 (>= 1.5.3), libtasn1-6 (>= 3.4)
+Source: ftp://ftp.gnutls.org/gcrypt/gnutls/v2.12/gnutls-2.12.23.tar.bz2 file://gnutls-openssl.patch file://correct_rpl_gettimeofday_signature.patch file://configure-fix.patch file://avoid_AM_PROG_MKDIR_P_warning_error_with_automake_1.12.patch file://CVE-2014-1959-rejection-of-v1-intermediate-cert.patch file://CVE-2014-0092-corrected-return-codes.patch file://CVE-2014-3466.patch file://25_updatedgdocfrommaster.diff file://fix-gettext-version.patch

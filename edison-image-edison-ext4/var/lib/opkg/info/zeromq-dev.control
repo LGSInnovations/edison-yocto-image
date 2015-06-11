@@ -1,0 +1,16 @@
+Package: zeromq-dev
+Version: 4.0.4-r2
+Description: zeromq version 4.0.4-r2 - Development files
+ Zeromq - The Intelligent Transport Layer  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv3+
+Architecture: core2-32
+OE: zeromq
+Homepage: http://www.zeromq.org
+Depends: zeromq (= 4.0.4-r2)
+Recommends: libc6-dev, libgcc-s-dev, libstdc++-dev
+Source: http://download.zeromq.org/zeromq-4.0.4.tar.gz

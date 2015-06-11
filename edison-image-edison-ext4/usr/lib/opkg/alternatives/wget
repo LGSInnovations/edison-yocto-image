@@ -1,0 +1,3 @@
+/usr/bin/wget
+/usr/bin/wget.wget 100
+/bin/busybox.nosuid 50

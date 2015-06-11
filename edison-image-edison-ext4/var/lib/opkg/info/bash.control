@@ -1,0 +1,13 @@
+Package: bash
+Version: 4.3-r0
+Description: An sh-compatible command language interpreter
+ An sh-compatible command language interpreter.
+Section: base/shell
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3+
+Architecture: core2-32
+OE: bash
+Homepage: http://tiswww.case.edu/php/chet/bash/bashtop.html
+Depends: update-alternatives-opkg, libc6 (>= 2.19), libtinfo5 (>= 5.9), base-files
+Source: ftp://ftp.gnu.org/gnu/bash/bash-4.3.tar.gz;name=tarball file://execute_cmd.patch;striplevel=0 file://mkbuiltins_have_stringize.patch file://build-tests.patch file://test-output.patch file://cve-2014-6271.patch;striplevel=0 file://cve-2014-7169.patch file://run-ptest

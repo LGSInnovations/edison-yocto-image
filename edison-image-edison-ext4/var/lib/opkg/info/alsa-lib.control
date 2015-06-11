@@ -1,0 +1,13 @@
+Package: alsa-lib
+Version: 1.0.27.2-r0
+Description: ALSA sound library
+ ALSA sound library.
+Section: libs/multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1 & GPLv2+
+Architecture: core2-32
+OE: alsa-lib
+Homepage: http://www.alsa-project.org
+Depends: libasound2 (>= 1.0.27.2), libc6 (>= 2.19)
+Source: ftp://ftp.alsa-project.org/pub/lib/alsa-lib-1.0.27.2.tar.bz2 file://Check-if-wordexp-function-is-supported.patch file://fix-tstamp-declaration.patch file://Update-iatomic.h-functions-definitions-for-mips.patch

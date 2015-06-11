@@ -1,0 +1,16 @@
+Package: libgpg-error-dev
+Version: 1.12-r0
+Description: Small library that defines common error values for all GnuPG components - Development files
+ Small library that defines common error values for all GnuPG components.
+ This package contains symbolic links, header files, and related items
+ necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: libgpg-error
+Homepage: http://www.gnupg.org/related_software/libgpg-error/
+Depends: libgpg-error0 (= 1.12-r0), libgpg-error0 (>= 1.12), libc6 (>= 2.19)
+Recommends: libc6-dev
+Source: ftp://ftp.gnupg.org/gcrypt/libgpg-error/libgpg-error-1.12.tar.bz2 file://pkgconfig.patch

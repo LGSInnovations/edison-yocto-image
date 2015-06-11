@@ -1,0 +1,16 @@
+sed -e '/^hosts:/s/\s*\<mdns\>//' \
+        -e 's/\(^hosts:.*\)\(\<files\>\)\(.*\)\(\<dns\>\)\(.*\)/\1\2 mdns\3\4\5/' \
+        -i $D/etc/nsswitch.conf
+OPTS=""
+
+if [ -n "$D" ]; then
+    OPTS="--root=$D"
+fi
+
+if type systemctl >/dev/null 2>/dev/null; then
+	systemctl $OPTS enable mdns.service
+
+	if [ -z "$D" -a "enable" = "enable" ]; then
+		systemctl restart mdns.service
+	fi
+fi

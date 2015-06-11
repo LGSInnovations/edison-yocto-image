@@ -1,0 +1,15 @@
+Package: packagegroup-core-tools-debug
+Version: 1.0-r2
+Description: Debugging tools
+ Debugging tools.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: edison
+OE: packagegroup-core-tools-debug
+Depends: strace, gdbserver, gdb, libc-mtrace
+Provides: task-core-tools-debug
+Replaces: task-core-tools-debug
+Conflicts: task-core-tools-debug
+Source: None

@@ -1,0 +1,14 @@
+Package: bluez5-obex
+Version: 5.24-r0
+Description: Linux Bluetooth Stack Userland V5
+ Linux Bluetooth stack V5 userland components.  These include a system
+ configurations, daemons, tools and system libraries.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1+
+Architecture: core2-32
+OE: bluez5
+Homepage: http://www.bluez.org
+Depends: libglib-2.0-0 (>= 2.38.2), libdbus-1-3 (>= 1.6.18), libical (>= 0.48), libc6 (>= 2.19)
+Source: http://kernel.org/pub/linux/bluetooth/bluez-5.24.tar.xz file://bluetooth.conf file://obex_set_dbus_session_service.patch

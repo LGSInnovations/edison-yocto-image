@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-joystick12
+Description: upm lib joystick12
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-joystick12
+Cflags: -I${includedir}/upm

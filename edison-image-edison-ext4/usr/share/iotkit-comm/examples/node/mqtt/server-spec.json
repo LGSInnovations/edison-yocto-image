@@ -1,0 +1,6 @@
+{
+  "name": "/ndg/echo/server",
+  "type": {
+  "name": "mqtt"
+  }
+}

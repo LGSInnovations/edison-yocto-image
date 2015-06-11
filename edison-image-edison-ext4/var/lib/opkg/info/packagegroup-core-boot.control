@@ -1,0 +1,15 @@
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Description: Minimal boot requirements
+ The minimal set of packages required to boot the system
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: edison
+OE: packagegroup-core-boot
+Depends: busybox, systemd, udev, netbase, base-files, update-alternatives-opkg, base-passwd
+Provides: task-core-boot
+Replaces: task-core-boot
+Conflicts: task-core-boot
+Source: None

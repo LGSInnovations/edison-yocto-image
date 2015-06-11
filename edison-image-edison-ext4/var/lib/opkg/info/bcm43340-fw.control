@@ -1,0 +1,11 @@
+Package: bcm43340-fw
+Version: 6.20.190-r2
+Description: bcm43340-fw version 6.20.190-r2
+ Firmware files for use with Linux kernel
+Section: kernel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: Proprietary
+Architecture: all
+OE: bcm43340-fw
+Source: git://github.com/01org/edison-firmware.git;branch=master;protocol=git;rev=8585a10b3527666b2d35b3dcacffede3ec00cb53

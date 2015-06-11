@@ -1,0 +1,6 @@
+/usr/lib/libparted.so.2.0.0
+/usr/lib/libparted-fs-resize.so.0
+/usr/sbin/parted
+/usr/lib/libparted-fs-resize.so.0.0.0
+/usr/sbin/partprobe
+/usr/lib/libparted.so.2

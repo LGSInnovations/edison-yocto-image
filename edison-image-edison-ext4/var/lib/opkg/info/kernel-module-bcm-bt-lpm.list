@@ -1,0 +1,4 @@
+/lib/modules/3.10.17-yocto-standard/kernel/drivers/misc/bcm-lpm/
+/lib/modules/3.10.17-yocto-standard/kernel/drivers/misc/bcm-lpm/bcm_bt_lpm.ko
+/etc/modules-load.d/bcm_bt_lpm.conf
+/lib/modules/3.10.17-yocto-standard/kernel/drivers/misc/

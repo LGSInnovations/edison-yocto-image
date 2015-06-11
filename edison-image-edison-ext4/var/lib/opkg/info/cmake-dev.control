@@ -1,0 +1,16 @@
+Package: cmake-dev
+Version: 2.8.12.2-r0
+Description: Cross-platform, open-source make system - Development files
+ Cross-platform, open-source make system.  This package contains symbolic
+ links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: cmake
+Homepage: http://www.cmake.org/
+Depends: cmake (= 2.8.12.2-r0)
+Recommends: libarchive-dev, libgcc-s-dev, libcurl-dev, libz-dev, curl-dev, libstdc++-dev, libc6-dev, libexpat-dev
+Source: http://www.cmake.org/files/v2.8/cmake-2.8.12.2.tar.gz file://support-oe-qt4-tools-names.patch file://aarch64-cmake.patch file://aarch64-kwsys.patch file://qt4-fail-silent.patch file://cmake-2.8.11.2-FindFreetype.patch file://dont-run-cross-binaries.patch

@@ -1,0 +1,3 @@
+/lib/modules/3.10.17-yocto-standard/kernel/drivers/usb/gadget/
+/lib/modules/3.10.17-yocto-standard/kernel/drivers/usb/gadget/usb_f_acm.ko
+/lib/modules/3.10.17-yocto-standard/kernel/drivers/usb/

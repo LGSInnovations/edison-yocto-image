@@ -1,0 +1,13 @@
+Package: liblzma5
+Version: 5.1.3alpha-r0
+Description: Utilities for managing LZMA compressed files
+ Utilities for managing LZMA compressed files.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PD
+Architecture: core2-32
+OE: xz
+Homepage: http://tukaani.org/xz/
+Depends: libc6 (>= 2.19)
+Source: http://tukaani.org/xz/xz-5.1.3alpha.tar.gz

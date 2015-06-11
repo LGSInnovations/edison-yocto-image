@@ -1,0 +1,10 @@
+{
+  "name": "keepAlive",
+  "description":"Keep Alive for daemon",
+  "main": "main.js",
+  "dependencies" :
+  {
+    "promise" : "5.0.0",
+    "ncp":"0.5.1"
+  }
+}

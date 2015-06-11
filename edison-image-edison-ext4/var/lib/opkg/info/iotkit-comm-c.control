@@ -1,0 +1,13 @@
+Package: iotkit-comm-c
+Version: 0.1.1-r2
+Description: iotkit-comm-c version 0.1.1-r2
+ Inter of Things communication library for device-to-device and device-to-
+ cloud messaging
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: iotkit-comm-c
+Depends: libcurl5 (>= 7.35.0), mdns, paho-mqtt (>= 3.1), mosquitto, sshpass, libc6 (>= 2.19), zeromq (>= 4.0.4), libiotkit1 (>= 1.4.8)
+Source: git://github.com/intel-iot-devkit/iotkit-comm-c.git;protocol=https

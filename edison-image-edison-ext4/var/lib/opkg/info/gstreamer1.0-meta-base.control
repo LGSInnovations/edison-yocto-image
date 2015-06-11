@@ -1,0 +1,12 @@
+Package: gstreamer1.0-meta-base
+Version: 1.0-r0
+Description: gstreamer1.0-meta-base version 1.0-r0
+ Gstreamer1.0 package groups
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: all
+OE: gstreamer1.0-meta-base
+Depends: gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-good-souphttpsrc, gstreamer1.0, gstreamer1.0-plugins-base-videoscale, gstreamer1.0-plugins-base-audioresample
+Source: None

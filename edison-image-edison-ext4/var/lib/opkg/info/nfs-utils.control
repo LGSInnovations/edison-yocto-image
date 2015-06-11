@@ -1,0 +1,15 @@
+Package: nfs-utils
+Version: 1.2.9-r0
+Description: userspace utilities for kernel nfs
+ The nfs-utils package provides a daemon for the kernel NFS server and
+ related tools.
+Section: console/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT & GPLv2+ & BSD
+Architecture: core2-32
+OE: nfs-utils
+Homepage: http://nfs.sourceforge.net/
+Depends: libblkid1 (>= 2.24.1), libc6 (>= 2.19), nfs-utils-client, bash, libwrap0 (>= 7.6)
+Recommends: update-rc.d, kernel-module-nfsd
+Source: http://kernel.org/pub/linux/utils/nfs-utils/1.2.9/nfs-utils-1.2.9.tar.bz2 file://0001-configure-Allow-to-explicitly-disable-nfsidmap.patch file://nfs-utils-1.0.6-uclibc.patch file://nfs-utils-1.2.3-sm-notify-res_init.patch file://nfsserver file://nfscommon file://nfs-utils.conf file://nfs-server.service file://nfs-mountd.service file://nfs-statd.service

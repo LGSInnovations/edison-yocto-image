@@ -1,0 +1,14 @@
+Package: cryptodev-linux-dev
+Version: 1.6-r0
+Description: A /dev/crypto device driver - Development files
+ A /dev/crypto device driver.  This package contains symbolic links,
+ header files, and related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: cryptodev-linux
+Homepage: http://cryptodev-linux.org/
+Depends: cryptodev-linux (= 1.6-r0)
+Source: http://download.gna.org/cryptodev-linux/cryptodev-linux-1.6.tar.gz

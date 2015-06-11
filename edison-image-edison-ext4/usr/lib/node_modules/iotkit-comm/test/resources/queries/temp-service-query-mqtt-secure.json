@@ -1,0 +1,7 @@
+{
+  "name" : ".*secureTemperature$",
+  "type" : {
+    "name": "mqtt"
+  },
+  "type_params": {"mustsecure": true}
+}

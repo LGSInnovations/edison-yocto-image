@@ -1,0 +1,18 @@
+Package: kmod
+Version: 16+git0+36c4bb928a-r0
+Description: Tools for managing Linux kernel modules
+ kmod is a set of tools to handle common tasks with Linux kernel modules
+ like                insert, remove, list, check properties, resolve
+ dependencies and aliases.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPL-2.0+ & LGPL-2.1+
+Architecture: core2-32
+OE: kmod
+Homepage: http://packages.profusion.mobi/kmod/
+Depends: update-alternatives-opkg, libz1 (>= 1.2.8), libc6 (>= 2.19)
+Provides: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Replaces: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Conflicts: module-init-tools-depmod, module-init-tools, module-init-tools-insmod-static
+Source: git://git.kernel.org/pub/scm/utils/kernel/kmod/kmod.git file://depmod-search.conf file://run-ptest file://ptest.patch file://avoid_parallel_tests.patch file://fix-O_CLOEXEC.patch

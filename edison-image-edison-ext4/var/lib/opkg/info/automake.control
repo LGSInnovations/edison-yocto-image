@@ -1,0 +1,15 @@
+Package: automake
+Version: 1.14-r0
+Description: A GNU tool for automatically generating Makefiles
+ Automake is a tool for automatically generating `Makefile.in' files
+ compliant with the GNU Coding Standards. Automake requires the use of
+ Autoconf.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: automake
+Homepage: http://www.gnu.org/software/automake/
+Depends: perl-module-data-dumper, perl-module-threads, perl-module-vars, perl-module-text-parsewords, perl, autoconf, perl-module-bytes, perl-module-strict, perl-module-thread-queue
+Source: ftp://ftp.gnu.org/gnu/automake/automake-1.14.tar.gz file://python-libdir.patch file://py-compile-compile-only-optimized-byte-code.patch file://buildtest.patch

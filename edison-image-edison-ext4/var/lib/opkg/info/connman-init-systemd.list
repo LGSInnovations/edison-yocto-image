@@ -1,0 +1,4 @@
+/lib/systemd/system/connman-init.service
+/usr/lib/connman/connman-init-settings.sh
+/usr/lib/connman/
+/usr/lib/connman/connman.settings.template

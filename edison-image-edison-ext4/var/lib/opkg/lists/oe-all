@@ -1,0 +1,697 @@
+Package: bcm43340-fw-dbg
+Version: 6.20.190-r2
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b86a46211f5f57f95bdcaf75167c992c
+Size: 772
+Filename: bcm43340-fw-dbg_6.20.190-r2_all.ipk
+Source: git://github.com/01org/edison-firmware.git;branch=master;protocol=git;rev=8585a10b3527666b2d35b3dcacffede3ec00cb53
+Description:  bcm43340-fw version 6.20.190-r2 - Debugging files  Firmware files for use
+ with Linux kernel  This package contains ELF   symbols and related
+ sources for debugging purposes.
+OE: bcm43340-fw
+License: Proprietary
+Priority: optional
+
+Package: bcm43340-fw-dev
+Version: 6.20.190-r2
+Depends: bcm43340-fw (= 6.20.190-r2)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: bc87e6adf0aae4eebfdd109e8e364c22
+Size: 804
+Filename: bcm43340-fw-dev_6.20.190-r2_all.ipk
+Source: git://github.com/01org/edison-firmware.git;branch=master;protocol=git;rev=8585a10b3527666b2d35b3dcacffede3ec00cb53
+Description:  bcm43340-fw version 6.20.190-r2 - Development files  Firmware files for
+ use with Linux kernel  This package contains symbolic   links, header
+ files, and related items necessary for software   development.
+OE: bcm43340-fw
+License: Proprietary
+Priority: optional
+
+Package: bcm43340-fw
+Version: 6.20.190-r2
+Section: kernel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 958a3377be9cd35f5cbdf754c64e7581
+Size: 276192
+Filename: bcm43340-fw_6.20.190-r2_all.ipk
+Source: git://github.com/01org/edison-firmware.git;branch=master;protocol=git;rev=8585a10b3527666b2d35b3dcacffede3ec00cb53
+Description:  bcm43340-fw version 6.20.190-r2  Firmware files for use with Linux kernel
+OE: bcm43340-fw
+License: Proprietary
+Priority: optional
+
+Package: ca-certificates-dbg
+Version: 20130610-r0
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0d5f856d46f28a840d10759458838bc9
+Size: 882
+Filename: ca-certificates-dbg_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates - Debugging files  This package includes PEM files
+ of CA certificates to allow SSL-based   applications to check for the
+ authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains ELF symbols   and related sources
+ for debugging purposes.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-dev
+Version: 20130610-r0
+Depends: ca-certificates (= 20130610-r0)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 35d8dc2683c7cc5f3e629562519962bc
+Size: 914
+Filename: ca-certificates-dev_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates - Development files  This package includes PEM
+ files of CA certificates to allow SSL-based   applications to check for
+ the authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains symbolic   links, header files, and
+ related items necessary for software   development.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates-doc
+Version: 20130610-r0
+Section: doc
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d1bd7ab02ffe0801882c209f60ca6e50
+Size: 2160
+Filename: ca-certificates-doc_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates - Documentation files  This package includes PEM
+ files of CA certificates to allow SSL-based   applications to check for
+ the authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.  This package contains   documentation.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: ca-certificates
+Version: 20130610-r0
+Section: misc
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ad0c6950aa02a7709a0f55b2e1548df5
+Size: 151458
+Filename: ca-certificates_20130610-r0_all.ipk
+Source: git://anonscm.debian.org/collab-maint/ca-certificates.git file://0001-update-ca-certificates-remove-c-rehash.patch file://0002-update-ca-certificates-use-SYSROOT.patch file://default-sysroot.patch file://sbindir.patch
+Description:  Common CA certificates  This package includes PEM files of CA
+ certificates to allow SSL-based   applications to check for the
+ authenticity of SSL connections. This   derived from Debian's CA
+ Certificates.
+OE: ca-certificates
+HomePage: http://packages.debian.org/sid/ca-certificates
+License: GPL-2.0+ & MPL-2.0
+Priority: optional
+
+Package: gstreamer1.0-meta-audio
+Version: 1.0-r0
+Depends: gstreamer1.0-plugins-good-wavparse, gstreamer1.0-meta-base, gstreamer1.0-plugins-base-vorbis, gstreamer1.0-plugins-good-pulse, gstreamer1.0-plugins-good-flac, gstreamer1.0-plugins-base-ogg, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-base-audiotestsrc
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d7606adadef7398dee4e5482012c85b1
+Size: 688
+Filename: gstreamer1.0-meta-audio_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: gstreamer1.0-meta-base-dbg
+Version: 1.0-r0
+Recommends: gstreamer1.0-plugins-base-typefindfunctions-dbg, gstreamer1.0-plugins-base-videoconvert-dbg, gstreamer1.0-plugins-base-audioresample-dbg, gstreamer1.0-plugins-good-souphttpsrc-dbg, gstreamer1.0-plugins-base-audioconvert-dbg, gstreamer1.0-plugins-base-gio-dbg, gstreamer1.0-plugins-base-volume-dbg, gstreamer1.0-plugins-base-playback-dbg, gstreamer1.0-plugins-good-autodetect-dbg, gstreamer1.0-plugins-base-alsa-dbg, gstreamer1.0-plugins-base-videoscale-dbg, gstreamer1.0-dbg
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 236b24e3a978666793067ddf481cdbd2
+Size: 790
+Filename: gstreamer1.0-meta-base-dbg_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0 - Debugging files  Gstreamer1.0
+ package groups  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: gstreamer1.0-meta-base-dev
+Version: 1.0-r0
+Depends: gstreamer1.0-meta-base (= 1.0-r0)
+Recommends: gstreamer1.0-plugins-base-typefindfunctions-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-gio-dev, gstreamer1.0-plugins-base-audioconvert-dev, gstreamer1.0-plugins-base-videoconvert-dev, gstreamer1.0-plugins-base-volume-dev, gstreamer1.0-plugins-good-souphttpsrc-dev, gstreamer1.0-plugins-base-alsa-dev, gstreamer1.0-plugins-base-audioresample-dev, gstreamer1.0-plugins-good-dev, gstreamer1.0-plugins-base-playback-dev, gstreamer1.0-plugins-good-autodetect-dev, gstreamer1.0-plugins-base-videoscale-dev, gstreamer1.0-plugins-bad-dev, gstreamer1.0-plugins-base-dev
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 388de4f508d837c621e41b42addeb68d
+Size: 828
+Filename: gstreamer1.0-meta-base-dev_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0 - Development files  Gstreamer1.0
+ package groups  This package contains symbolic links, header   files, and
+ related items necessary for software development.
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: gstreamer1.0-meta-base
+Version: 1.0-r0
+Depends: gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-videoconvert, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-base-alsa, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-good-souphttpsrc, gstreamer1.0, gstreamer1.0-plugins-base-videoscale, gstreamer1.0-plugins-base-audioresample
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 064e833c80e59f3d4a6e1a1a7538018f
+Size: 718
+Filename: gstreamer1.0-meta-base_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: gstreamer1.0-meta-debug
+Version: 1.0-r0
+Depends: gstreamer1.0-meta-base, gstreamer1.0-plugins-good-debug, gstreamer1.0-plugins-base-videotestsrc, gstreamer1.0-plugins-base-audiotestsrc
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2491964252c820e4bb5d76229ae26bbe
+Size: 658
+Filename: gstreamer1.0-meta-debug_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: gstreamer1.0-meta-video
+Version: 1.0-r0
+Depends: gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-matroska, gstreamer1.0-plugins-base-theora, gstreamer1.0-meta-base
+Recommends: gstreamer1.0-meta-audio
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9bc6300856ffdc2c4fdb4df22cf6689f
+Size: 668
+Filename: gstreamer1.0-meta-video_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: gstreamer1.0-meta-x11-base
+Version: 1.0-r0
+Recommends: gstreamer1.0-plugins-base-xvimagesink, gstreamer1.0-plugins-base-ximagesink
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7b72ade8a5db210e0360e74a51a94ac3
+Size: 646
+Filename: gstreamer1.0-meta-x11-base_1.0-r0_all.ipk
+Source: None
+Description:  gstreamer1.0-meta-base version 1.0-r0  Gstreamer1.0 package groups
+OE: gstreamer1.0-meta-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-buildessential-dbg
+Version: 1.0-r0
+Recommends: binutils-dbg, g++-dbg, make-dbg, cpp-symlinks-dbg, g++-symlinks-dbg, pkgconfig-dbg, gcc-dbg, libtool-dbg, gcc-symlinks-dbg, autoconf-dbg, cpp-dbg, binutils-symlinks-dbg, automake-dbg, gettext-dbg, libstdc++-dbg
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: fc84870ee6756c98aac818eb48cfe9ba
+Size: 768
+Filename: packagegroup-core-buildessential-dbg_1.0-r0_all.ipk
+Source: None
+Description:  Essential build dependencies - Debugging files  Essential build
+ dependencies.  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: packagegroup-core-buildessential
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-buildessential-dev
+Version: 1.0-r0
+Depends: packagegroup-core-buildessential (= 1.0-r0)
+Recommends: binutils-dev, g++-symlinks-dev, pkgconfig-dev, g++-dev, make-dev, cpp-dev, gettext-dev, cpp-symlinks-dev, libstdc++-dev, binutils-symlinks-dev, automake-dev, libtool-dev, gcc-symlinks-dev, autoconf-dev, gcc-dev
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 495e00e923a815d91d892381785c0433
+Size: 798
+Filename: packagegroup-core-buildessential-dev_1.0-r0_all.ipk
+Source: None
+Description:  Essential build dependencies - Development files  Essential build
+ dependencies.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: packagegroup-core-buildessential
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-buildessential
+Version: 1.0-r0
+Depends: cpp-symlinks, gcc, binutils-symlinks, g++-symlinks, pkgconfig, gettext, automake, g++, libtool, libstdc++-dev, libstdc++6, cpp, gcc-symlinks, autoconf, make, binutils
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2ff4fa0c4be0828d601bcee4c46a06e0
+Size: 706
+Filename: packagegroup-core-buildessential_1.0-r0_all.ipk
+Source: None
+Description:  Essential build dependencies  Essential build dependencies.
+OE: packagegroup-core-buildessential
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh-dbg
+Version: 1.0-r1
+Recommends: openssh-dbg
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f15ac094347cd2df410b61c4336b92fb
+Size: 692
+Filename: packagegroup-core-ssh-openssh-dbg_1.0-r1_all.ipk
+Source: None
+Description:  OpenSSH SSH client/server - Debugging files  OpenSSH SSH client/server.
+ This package contains ELF symbols and related   sources for debugging
+ purposes.
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh-dev
+Version: 1.0-r1
+Depends: packagegroup-core-ssh-openssh (= 1.0-r1)
+Recommends: openssh-dev
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 380856d24fc7de2a6e5eee6fd3304e0f
+Size: 720
+Filename: packagegroup-core-ssh-openssh-dev_1.0-r1_all.ipk
+Source: None
+Description:  OpenSSH SSH client/server - Development files  OpenSSH SSH client/server.
+ This package contains symbolic links, header   files, and related items
+ necessary for software development.
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-ssh-openssh
+Version: 1.0-r1
+Depends: openssh
+Provides: task-core-ssh-openssh
+Replaces: task-core-ssh-openssh
+Conflicts: task-core-ssh-openssh
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 91bb1e2a3c228975e13206f551cee6a5
+Size: 648
+Filename: packagegroup-core-ssh-openssh_1.0-r1_all.ipk
+Source: None
+Description:  OpenSSH SSH client/server  OpenSSH SSH client/server.
+OE: packagegroup-core-ssh-openssh
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dbg
+Version: 1.0-r9
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 124ddd53470521b0325245c5ee829d2e
+Size: 706
+Filename: run-postinsts-dbg_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device - Debugging
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains ELF symbols and related sources for debugging purposes.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts-dev
+Version: 1.0-r9
+Depends: run-postinsts (= 1.0-r9)
+Recommends: initscripts-dev
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f327fc460a7f4e7b31c9f9ce339eb172
+Size: 752
+Filename: run-postinsts-dev_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device - Development
+ files  Runs postinstall scripts on first boot of the target device.  This
+ package contains symbolic links, header files, and related items
+ necessary for software development.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: run-postinsts
+Version: 1.0-r9
+Recommends: update-rc.d
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0c8243f1e5e9a7d8b51a68f81cde5885
+Size: 1996
+Filename: run-postinsts_1.0-r9_all.ipk
+Source: file://run-postinsts file://run-postinsts.init file://run-postinsts.service
+Description:  Runs postinstall scripts on first boot of the target device  Runs
+ postinstall scripts on first boot of the target device.
+OE: run-postinsts
+License: MIT
+Priority: optional
+
+Package: systemd-compat-units-dbg
+Version: 1.0-r29
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 450c0917379d64d9da17dcc1ee55b7b3
+Size: 700
+Filename: systemd-compat-units-dbg_1.0-r29_all.ipk
+Source: None
+Description:  Enhances systemd compatilibity with existing SysVinit scripts - Debugging
+ files  Enhances systemd compatilibity with existing SysVinit scripts.
+ This   package contains ELF symbols and related sources for debugging
+ purposes.
+OE: systemd-compat-units
+License: MIT
+Priority: optional
+
+Package: systemd-compat-units-dev
+Version: 1.0-r29
+Depends: systemd-compat-units (= 1.0-r29)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9b82bdb21283066f0eb8e50965062800
+Size: 730
+Filename: systemd-compat-units-dev_1.0-r29_all.ipk
+Source: None
+Description:  Enhances systemd compatilibity with existing SysVinit scripts -
+ Development files  Enhances systemd compatilibity with existing SysVinit
+ scripts.  This   package contains symbolic links, header files, and
+ related items   necessary for software development.
+OE: systemd-compat-units
+License: MIT
+Priority: optional
+
+Package: systemd-compat-units
+Version: 1.0-r29
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2d3a07feb680fb4c5899b3d45a1e590a
+Size: 890
+Filename: systemd-compat-units_1.0-r29_all.ipk
+Source: None
+Description:  Enhances systemd compatilibity with existing SysVinit scripts  Enhances
+ systemd compatilibity with existing SysVinit scripts.
+OE: systemd-compat-units
+License: MIT
+Priority: optional
+
+Package: tzdata-africa
+Version: 2013i-r0
+Provides: tzdata-africa
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b4adc34bd3201efdd207a9bc605b31c0
+Size: 8080
+Filename: tzdata-africa_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-americas
+Version: 2013i-r0
+Provides: tzdata-americas
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7364cfbcc0642cc394ba25fb1eb8ec3d
+Size: 87864
+Filename: tzdata-americas_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-antarctica
+Version: 2013i-r0
+Provides: tzdata-antarctica
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9bcd13183b162a6c3246595842a1d26e
+Size: 4398
+Filename: tzdata-antarctica_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-arctic
+Version: 2013i-r0
+Provides: tzdata-arctic
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: dfdb25f9edce0f1418f0dfda8b0f5354
+Size: 1908
+Filename: tzdata-arctic_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-asia
+Version: 2013i-r0
+Provides: tzdata-asia
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cf88e1ef167a2cdbe7f6cc997ce61139
+Size: 29782
+Filename: tzdata-asia_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-atlantic
+Version: 2013i-r0
+Provides: tzdata-atlantic
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6a32c5f9e9bfedeb2698e55d41b9773f
+Size: 6780
+Filename: tzdata-atlantic_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-australia
+Version: 2013i-r0
+Provides: tzdata-australia
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e4e79a9f24a7df7b8165e9a9a55ad52b
+Size: 5646
+Filename: tzdata-australia_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-europe
+Version: 2013i-r0
+Provides: tzdata-europe
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e8ca65af0707ef673954923592093d7e
+Size: 21916
+Filename: tzdata-europe_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-misc
+Version: 2013i-r0
+Provides: tzdata-misc
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6293a37405ed6dcbfe9d2b35e262db67
+Size: 13244
+Filename: tzdata-misc_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-pacific
+Version: 2013i-r0
+Provides: tzdata-pacific
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: aa0ff4c66d6efacf6690888e14a7c12b
+Size: 7914
+Filename: tzdata-pacific_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-posix
+Version: 2013i-r0
+Provides: tzdata-posix
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 4282c5e44db89d7ffdcffc3e6b72ec61
+Size: 202436
+Filename: tzdata-posix_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata-right
+Version: 2013i-r0
+Provides: tzdata-right
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0596789a191fcb30c849d694f06c8888
+Size: 216050
+Filename: tzdata-right_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: tzdata
+Version: 2013i-r0
+Conflicts: timezone-asia, timezone-europe, timezone-iso3166.tab, timezone-america, timezones, timezone-zone.tab, timezone-pacific, timezone-atlantic, timezone-antarctica, timezone-arctic, timezone-africa, timezone-indian, timezone-australia
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 1a398315ef49f77d53f4fac6ea519b03
+Size: 38548
+Filename: tzdata_2013i-r0_all.ipk
+Source: ftp://ftp.iana.org/tz/releases/tzdata2013i.tar.gz;name=tzdata
+Description:  Timezone database  Timezone database.
+OE: tzdata
+HomePage: ftp://elsie.nci.nih.gov/pub/
+License: PD & BSD
+Priority: optional
+
+Package: update-rc.d-dbg
+Version: 0.7-r5
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: dc923830fcd6929ac3da532863545b87
+Size: 812
+Filename: update-rc.d-dbg_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git file://add-verbose.patch file://check-if-symlinks-are-valid.patch file://fix-to-handle-priority-numbers-correctly.patch
+Description:  manage symlinks in /etc/rcN.d - Debugging files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   ELF symbols
+ and related sources for debugging purposes.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d-dev
+Version: 0.7-r5
+Depends: update-rc.d (= 0.7-r5)
+Section: devel
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: deeb5f5de848642f0c47843dbf8e2d4d
+Size: 844
+Filename: update-rc.d-dev_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git file://add-verbose.patch file://check-if-symlinks-are-valid.patch file://fix-to-handle-priority-numbers-correctly.patch
+Description:  manage symlinks in /etc/rcN.d - Development files  update-rc.d is a
+ utilities that allows the management of symlinks to the   initscripts in
+ the /etc/rcN.d directory structure.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+
+Package: update-rc.d
+Version: 0.7-r5
+Section: base
+Architecture: all
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 26c1e89353dcef789a0957112f11f575
+Size: 2826
+Filename: update-rc.d_0.7-r5_all.ipk
+Source: git://github.com/philb/update-rc.d.git file://add-verbose.patch file://check-if-symlinks-are-valid.patch file://fix-to-handle-priority-numbers-correctly.patch
+Description:  manage symlinks in /etc/rcN.d  update-rc.d is a utilities that allows the
+ management of symlinks to the   initscripts in the /etc/rcN.d directory
+ structure.
+OE: update-rc.d
+License: GPLv2+
+Priority: optional
+

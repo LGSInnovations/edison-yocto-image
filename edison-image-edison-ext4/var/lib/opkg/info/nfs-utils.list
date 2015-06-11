@@ -1,0 +1,6 @@
+/lib/systemd/system/nfs-server.service
+/usr/sbin/exportfs
+/usr/sbin/rpc.nfsd
+/usr/sbin/rpc.mountd
+/lib/systemd/system/nfs-mountd.service
+/sbin/osd_login

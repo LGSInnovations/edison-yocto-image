@@ -1,0 +1,13 @@
+Package: libnfsidmap0
+Version: 0.25-r0
+Description: NFS id mapping library
+ NFS id mapping library.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: libnfsidmap
+Homepage: http://www.citi.umich.edu/projects/nfsv4/linux/
+Depends: libc6 (>= 2.19)
+Source: http://www.citi.umich.edu/projects/nfsv4/linux/libnfsidmap/libnfsidmap-0.25.tar.gz file://fix-ac-prereq.patch file://Set_nobody_user_group.patch

@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-ttp223
+Description: upm lib ttp223
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-ttp223
+Cflags: -I${includedir}/upm

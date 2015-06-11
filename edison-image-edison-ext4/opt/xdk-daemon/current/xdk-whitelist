@@ -1,0 +1,145 @@
+#!/usr/bin/node
+/**
+ * @license Copyright 2013 - 2014 Intel Corporation All Rights Reserved.
+ *
+ * The source code, information and material ("Material") contained herein is owned by Intel Corporation or its
+ * suppliers or licensors, and title to such Material remains with Intel Corporation or its suppliers or
+ * licensors. The Material contains proprietary information of Intel or its suppliers and licensors. The
+ * Material is protected by worldwide copyright laws and treaty provisions. No part of the Material may be used,
+ * copied, reproduced, modified, published, uploaded, posted, transmitted, distributed or disclosed in any way
+ * without Intel's prior express written permission. No license under any patent, copyright or other intellectual
+ * property rights in the Material is granted to or conferred upon you, either expressly, by implication,
+ * inducement, estoppel or otherwise. Any license under such intellectual property rights must be express and
+ * approved by Intel in writing.
+ *
+ * Unless otherwise agreed by Intel in writing, you may not remove or alter this notice or any other notice
+ * embedded in Materials by Intel or Intel's suppliers or licensors in any way.
+ */
+var configFile_ = __dirname+'/../config.json',
+   config = new require('./daemonConfig')(configFile_,true);
+
+var args = process.argv.slice(2,4);
+console.log('\n');
+if(args.length === 1) {
+  if(args[0]==='--clear'){
+    config.data.whitelist = [];
+    config.save();
+    console.log('whitelist cleared!\n');
+  }
+  else if(args[0]==='--list'){
+    console.log('Intel(R) XDK Daemon Whitelist:\n--------------------------------------------------');
+    for(var i in config.data.whitelist) {
+     console.log(config.data.whitelist[i]);
+    }
+    console.log('\n');
+  }
+  else if(args[0]==='--enable'){
+    enableWhitelisting();
+    console.log('whitelist enabled!\n');
+  }
+  else if(args[0]==='--disable'){
+    disableWhitelisting();
+    console.log('whitelist disabled!\n');
+  }
+  else {
+    console.log('Invalid Command!\n');
+  }
+}
+else if(args.length === 2) {
+  if(args[1].match(/\b(?:\d{1,3}\.){3}\d{1,3}\b/))
+  {
+    if(args[0]==='--add')
+    { 
+        if(ipExists(args[1]))
+        {
+          console.log("IP address already in whitelist!\n");
+        }
+        else 
+        {
+          addIp(args[1]);
+          console.log(args[1]+' added to whitelist!\n');
+        }
+    }
+    else if(args[0]==='--remove')
+    {
+        if(ipExists(args[1]))
+        {
+          console.log('Removing Valid IP\n');
+          removeIp(args[1]);
+        }
+        else {
+          console.error('IP address not found in whitelist!\n');
+        } 
+    }
+    else {
+      console.log('Invalid Command!\n');
+    }
+  }
+  else
+  {
+    console.error('Error: Invalid IP specified\n');
+  }
+}
+else if(args.length === 0) {
+ var validParameters = {'clear':'Remove all IP addersses from the whitelist',
+  'add':'Add an IP address to the whitelist. Ex: xdk-whitelist --add <ip address>',
+  'remove':'Remove an IP address from the whitelist. Ex: xdk-whitelist --remove <ip address>',
+  'list':'Display a list of IP addresses in the whitelist',
+  'disable':'Disable the IP whitelisting feature of the XDK daemon',
+  'enable':'Enable the IP whitelisting feature of the XDK daemon'};
+  console.log('Intel(R) XDK IoT Edition - Daemon Whitelist Utilty\n');
+  console.log('\tCommand format: \'xdk-whitelist <command> <ip address>\'     note: not all commands require an IP address\n');
+  console.log('\tValid Commands\n\t----------------------------------------------------------');
+  for(var i in validParameters) {
+    console.log('\t--'+addPadding(i,8)+'\t'+validParameters[i]);
+  }
+  console.log('\n');
+}
+else
+{
+  console.error('Error: Invalid command\n');
+}
+
+
+function ipExists(ipAddress) {
+  for(var i in config.data.whitelist){
+    if(config.data.whitelist[i] === ipAddress){ return true;}
+  }
+  return false;
+}
+
+function addIp(ipAddress)
+{
+  config.data.whitelist.push(ipAddress);
+  config.save();
+}
+
+function removeIp(ipAddress){
+  var newIpArray = [];
+  for(var i in config.data.whitelist){
+    if(config.data.whitelist[i] !== ipAddress){
+      newIpArray.push(config.data.whitelist[i]);
+    }
+  }
+  config.data.whitelist = newIpArray;
+  config.save();
+}
+
+function disableWhitelisting()
+{
+  config.data.whitelistEnabled = false;
+  config.save();
+}
+
+function enableWhitelisting()
+{
+  config.data.whitelistEnabled = true;
+  config.save();
+}
+
+function addPadding(input,width){
+  for(var i=0; i<width-input.length; i++){
+    input+=' ';
+  }
+  return input;
+}

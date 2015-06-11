@@ -1,0 +1,12 @@
+Package: watchdog-sample
+Version: 1.0-r0
+Description: watchdog-sample version 1.0-r0
+ Watchdog sample daemon
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: watchdog-sample
+Depends: systemd, libsystemd0 (>= 213+git0+c9679c652b), libc6 (>= 2.19)
+Source: file://watchdog-sample.service file://watchdog-sample.c

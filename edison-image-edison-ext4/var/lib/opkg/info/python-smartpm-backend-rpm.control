@@ -1,0 +1,15 @@
+Package: python-smartpm-backend-rpm
+Version: 1.4.1-r9
+Description: The Smart Package Manager
+ The Smart Package Manager project has the ambitious objective of creating
+ smart and portable algorithms for solving adequately the problem of
+ managing software upgrades and installation.
+Section: devel/python
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2
+Architecture: core2-32
+OE: python-smartpm
+Homepage: http://labix.org/smart/
+Depends: python-rpm, libc6 (>= 2.19)
+Source: http://launchpad.net/smart/trunk/1.4.1/+download/smart-1.4.1.tar.bz2 file://smartpm-rpm5-nodig.patch file://smart-rpm-root.patch file://smart-recommends.patch file://smart-rpm-extra-macros.patch file://smart-dflags.patch file://smart-rpm-md-parse.patch file://smart-tmpdir.patch file://smart-metadata-match.patch file://smart-improve-error-reporting.patch file://smart-multilib-fixes.patch file://smart-yaml-error.patch file://smart-channelsdir.patch file://smart-conflict-provider.patch file://smart-flag-ignore-recommends.patch file://smart-flag-exclude-packages.patch file://smart-config-ignore-all-recommends.patch file://smart-attempt.patch file://smart-filename-NAME_MAX.patch

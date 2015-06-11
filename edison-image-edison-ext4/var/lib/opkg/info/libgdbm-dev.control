@@ -1,0 +1,16 @@
+Package: libgdbm-dev
+Version: 1.11-r0
+Description: Key/value database library with extensible hashing - Development files
+ Key/value database library with extensible hashing.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv3
+Architecture: core2-32
+OE: gdbm
+Homepage: http://www.gnu.org/software/gdbm/
+Depends: libgdbm4 (= 1.11-r0), libgdbm-compat4
+Recommends: gdbm-compat-dev, libc6-dev
+Source: ftp://ftp.gnu.org/gnu/gdbm/gdbm-1.11.tar.gz

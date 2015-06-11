@@ -1,0 +1,14 @@
+Package: net-tools
+Version: 1.60-25-r0
+Description: Basic networking tools
+ A collection of programs that form the base set of the NET-3 networking
+ distribution for the Linux operating system
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+
+Architecture: core2-32
+OE: net-tools
+Homepage: http://net-tools.berlios.de/
+Depends: update-alternatives-opkg, libc6 (>= 2.19)
+Source: ftp://ftp.debian.org/debian/pool/main/n/net-tools/net-tools_1.60.orig.tar.gz;name=tarball ftp://ftp.debian.org/debian/pool/main/n/net-tools/net-tools_1.60-25.diff.gz;apply=no;name=patch file://net-tools-config.h file://net-tools-config.make

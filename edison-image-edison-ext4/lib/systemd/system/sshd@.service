@@ -1,0 +1,11 @@
+[Unit]
+Description=OpenSSH Per-Connection Daemon
+Wants=sshdgenkeys.service
+After=sshdgenkeys.service
+
+[Service]
+ExecStart=-/usr/sbin/sshd -i
+ExecReload=/bin/kill -HUP $MAINPID
+StandardInput=socket
+StandardError=syslog
+KillMode=process

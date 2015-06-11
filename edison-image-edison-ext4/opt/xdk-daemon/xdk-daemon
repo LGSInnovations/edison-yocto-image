@@ -1,0 +1,25 @@
+#!/bin/sh
+APPSLOT="/node_app_slot"
+/bin/mkdir -p /home/root/.node_app_slot
+if [ -h "$APPSLOT" ]
+then
+  echo "$APPSLOT exists and is a symbolic link."
+elif [ -d "$APPSLOT" ]
+then
+  echo "$APPSLOT is a directory (old format... updating)"
+  /bin/cp -ar $APPSLOT/* /home/root/.node_app_slot
+  rm -rf $APPSLOT
+  /bin/ln -s /home/root/.node_app_slot $APPSLOT
+else
+  echo "Creating symbolic link to $APPSLOT"
+  /bin/ln -s /home/root/.node_app_slot $APPSLOT
+fi
+
+#DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+# Absolute path to this script, e.g. /home/user/bin/foo.sh
+SCRIPT=$(readlink -f "$0")
+# Absolute path this script is in, thus /home/user/bin
+SCRIPTPATH=$(dirname "$SCRIPT")
+
+cd $SCRIPTPATH
+/usr/bin/node $SCRIPTPATH/main.js

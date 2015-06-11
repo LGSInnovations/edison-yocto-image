@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-mic
+Description: upm lib mic
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-mic
+Cflags: -I${includedir}/upm

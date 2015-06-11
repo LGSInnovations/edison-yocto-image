@@ -1,0 +1,13 @@
+Package: cmake
+Version: 2.8.12.2-r0
+Description: Cross-platform, open-source make system
+ Cross-platform, open-source make system.
+Section: console/utils
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: cmake
+Homepage: http://www.cmake.org/
+Depends: libgcc1 (>= 4.8.2), libarchive13 (>= 3.1.2), libz1 (>= 1.2.8), libcurl5 (>= 7.35.0), libc6 (>= 2.19), libexpat1 (>= 2.1.0), libstdc++6 (>= 4.8.2)
+Source: http://www.cmake.org/files/v2.8/cmake-2.8.12.2.tar.gz file://support-oe-qt4-tools-names.patch file://aarch64-cmake.patch file://aarch64-kwsys.patch file://qt4-fail-silent.patch file://cmake-2.8.11.2-FindFreetype.patch file://dont-run-cross-binaries.patch

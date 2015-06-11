@@ -1,0 +1,3 @@
+/etc/firmware/bcm43341.conf
+/lib/systemd/system/bluetooth-rfkill-event.service
+/usr/sbin/bluetooth_rfkill_event

@@ -1,0 +1,1106 @@
+Copyright (c) 2013-2015 Intel Corporation. All Rights Reserved.
+
+The source code, information and material ("Material") contained herein is owned by Intel Corporation or its
+suppliers or licensors, and title to such Material remains with Intel Corporation or its suppliers or
+licensors. The Material contains proprietary information of Intel or its suppliers and licensors. The
+Material is protected by worldwide copyright laws and treaty provisions. No part of the Material may be used,
+copied, reproduced, modified, published, uploaded, posted, transmitted, distributed or disclosed in any way
+without Intel's prior express written permission. No license under any patent, copyright or other intellectual
+property rights in the Material is granted to or conferred upon you, either expressly, by implication,
+inducement, estoppel or otherwise. Any license under such intellectual property rights must be express and
+approved by Intel in writing.
+
+Intel, Ultrabook, and the Intel logo are trademarks of Intel Corporation in the U.S. and/or other countries. 
+*Other names and brands may be claimed as the property of others. 
+
+Unless otherwise agreed by Intel in writing, you may not remove or alter this notice or any other notice
+embedded in Materials by Intel or Intel's suppliers or licensors in any way.
+
+
+TERMS AND CONDITIONS FOR THE INTEL(R) XDK
+-----------------------------------------
+
+IMPORTANT - READ BEFORE ACCESSING OR USING THE INTEL(R) XDK SOFTWARE AND WEBSITE
+
+In addition to the Intel Corporate Terms of Use (http://www.intel.com/sites/corporate/termsofuse.htm), and the Intel
+Online Privacy Notice Summary (http://www.intel.com/sites/sitewide/en_US/privacy/privacy.htm) the following terms
+govern your use of this site (together, the "Terms of Use" or "TOU").
+
+By your use of this site or downloading of any materials from the Intel(R) XDK website (this "Site"), or the posting
+or other transmission of communications to this Site, you agree to the TOU.  If you do not agree to the TOU, do not
+use this Site or any of the tools, materials or services available from this Site, including any updates or upgrades
+thereto (collectively, the "Intel Materials").  To the extent of any conflict between the Intel Corporate Terms of
+Use, the Intel Online Privacy Notice Summary, and this document, this document shall control with respect to the Intel
+Materials, including your use of this Site.  If you have existing copies of the Intel Materials or versions of the
+Intel Materials that have the same or substantially the same functionality as the Intel Materials but are licensed
+under different names ("Prior Versions") that were downloaded or licensed previously (whether from Intel or a third
+party), you agree that the TOU will supersede and override any prior terms and conditions that applied to the Prior
+Versions and your continued use of the Prior Versions and Intel Materials will be subject to the TOU.
+
+By accessing, downloading or using the Intel Materials available on this Site or otherwise using this Site, you agree
+to the TOU for using this Site and the Intel Materials as between you and Intel Corporation and its subsidiaries
+("Intel").   If you are entering this TOU on behalf of a company or other legal entity, you represent that you have
+the legal authority to bind the legal entity to the TOU, in which case, "you" or "your" shall mean such entity.  If
+you do not have such authority or if you disagree with any of the terms in the TOU, Intel does not grant you a license
+to use the Intel Materials or this Site.
+
+Intel reserves the right, at its discretion, to modify this Site, the Intel Materials, and/or the TOU, including any
+rules and policies at any time.  You are responsible for reviewing and becoming familiar with any such modifications
+(including new terms, updates, revisions, supplements, modifications, and additional rules, policies, terms and
+conditions) ("Additional Terms") communicated to you by Intel.  All Additional Terms are hereby incorporated by this
+reference into the TOU and your continued use of the Intel Materials will indicate your acceptance of any Additional
+Terms and the TOU (as amended by the Additional Terms).
+
+I.  ACKNOWLEDGMENT
+
+A.  Relationship:  You understand and agree that by becoming a registered user on this Site, no legal partnership or
+agency relationship is created between you and Intel.  You agree not to represent otherwise.
+
+B.  Ability to Contract:  You certify that you are of the legal age of majority in the jurisdiction in which you
+reside and at least 18 years of age, and you represent that you are legally permitted to become a registered user on
+this Site.  You may not use this Site if you are under 13 years of age.  For individuals aged 13 until age 18, use of
+this Site is only allowed with parental or legal guardian consent. Additionally, use by individuals aged 13 until age
+18 is only allowed through the parent's or legal guardian's registered account.  In such circumstance, the parent or
+legal guardian registrant of this Site (and party to the TOU) shall be responsible for the use by the person aged 13
+until age 18.  Upon reaching age 18 and the legal age of majority in the jurisdiction in which the person resides, the
+individual may obtain his or her own registration account.
+
+C.  Registration:  You agree that all information you provide to this Site will be true, accurate and complete.  You
+further agree to update the registration information in a timely fashion as required to keep it true, accurate and
+complete.  Intel may terminate or suspend your account and any rights you may have related to this Site if any of the
+information you provide is false, inaccurate or incomplete.
+
+D.  Collection and Usage of Personal Information by Intel.  In registering for and using this Site, you will be
+required to supply certain information about yourself, including personally identifiable information.  All personal
+information supplied by you to Intel when registering for this Site is subject to the Intel Online Privacy Notice
+Summary, and will be used to administer your registration to this Site, and to communicate to you as specified in the
+TOU (including the Intel Online Privacy Notice Summary).
+
+E.  Communications:  Intel may contact you from time to time by telephone and/or email with information regarding
+operational issues associated with this Site, technical information, and updates and/or changes regarding your
+participation as a registered user to this Site.  By agreeing to the TOU, you consent that Intel may provide you with
+such communications.  You will also be given the opportunity to opt-in to receive marketing communications from Intel.
+
+F.  Consent:  You agree that Intel, its subsidiaries or suppliers may collect and use technical and related
+information, including, but not limited to, technical information about your computer, system and application
+software, and peripherals, that is gathered periodically to facilitate the provision of software updates, product
+support and other services to you (if any) related to the Intel Materials, and to verify compliance with the terms of
+the TOU.  Intel may use this information, as long as it is in a form that does not personally identify you, to improve
+our products or to develop and provide services or technologies to you.  Intel uses various technologies to help
+improve the efficiency of its websites, including your experience when using our services.  For more information on
+how Intel uses Cookies and Tracking services, please visit http://www.intel.com/cookies.
+
+G.  Not Transferable:  You cannot transfer any benefits you may receive from Intel in connection with being a
+registered user of this Site.  The Intel ID and password you use to login as a registered user cannot be shared in any
+way or with any one.
+
+II. TERMS AND CONDITIONS
+
+1.  LICENSE.
+
+A.  Subject to the restrictions below and the terms in the TOU, Intel grants to you a non-exclusive, non-assignable,
+royalty-free copyright license to use the Intel Materials to design, develop or otherwise create or modify software
+applications which you may distribute under your own terms, but you may not re-distribute the Intel Materials except
+those portions of the Intel Materials that are specifically identified as "demo apps" and "sample code".
+
+B.  Intel grants you a non-exclusive, non-transferable, non-sublicensable patent license under Intel's Licensed Patent
+Claims to:
+
+(i) internally make copies of the Intel Materials; and 
+
+(ii) internally use the Intel Materials; and 
+
+(iii) offer to distribute, and distribute, but not sell, the Intel Materials under the license under Intel's
+copyrights granted in the preceding paragraph, but only under terms of such license under Intel's copyrights and
+not as a sale.
+
+For the purposes of this section, "Licensed Patent Claims" means the claims of Intel's patents that are necessarily
+and directly infringed by the reproduction and distribution that is authorized in Section II.1.A of the Intel
+Materials, when that Intel Materials is in its unmodified form as delivered by Intel to you and not modified, or
+combined with anything else.  Licensed Patent Claims are only those claims which Intel can license without paying,
+or getting the consent of, a third party.
+
+C.  The Intel Materials may contain open source software, some of which may be identified in, and licensed in
+accordance with, the "license.txt" file or other text or file in the accompanying third party or open source software.
+
+2.  RESTRICTIONS.  Your use of the Intel Materials is expressly limited to and conditioned upon compliance with the
+following:
+
+A.  You will not alter, remove or obscure any proprietary notices from the Intel Materials relating to Intel's or
+Intel's supplier's intellectual property rights.
+
+B.  You will make reasonable efforts to discontinue use of the portions of the Intel Materials that you are licensed
+hereunder to use, upon Intel's release of an update, upgrade or new version of the Intel Materials, and to make
+reasonable efforts to distribute updates, upgrades or new versions of your software applications developed with the
+updated Intel Materials to your customers who have received any of your software applications developed with the Intel
+Materials.
+
+C.  You may not reverse-assemble, reverse-compile, or otherwise reverse-engineer any portion of the Intel Materials
+provided solely in binary form.
+
+D.  Intel will not be responsible in any way for any applications that you develop using the Intel Materials.  You
+(i) are solely responsible to your customers for any update or support obligation or other liability that may arise
+from the distribution of your application and for your applications' compliance with all applicable laws, including,
+without limitation, privacy laws, (ii) must not make any statement that your product is "certified," or that its
+performance is guaranteed, by Intel, (iii) must not use Intel's name, logo or trademarks to market your product
+without written permission of Intel, (iv) shall prohibit disassembly and reverse engineering of the Intel Materials,
+and (v) shall indemnify and hold harmless Intel and its suppliers from and against any claims, lawsuits, or damages,
+including attorneys' fees, that arise or result from your distribution of any application incorporating or developed
+using the Intel Materials.
+
+E.  You will not disable or by-pass any security features of the Intel Materials, or use the Intel Materials to
+develop applications that: (i) can disable or by-pass such security features or (ii) can cause a Security
+Vulnerability.  "Security Vulnerability" means a weakness or flaw in a product or system's design, operation or
+implementation that could be exploited by an attacker to violate the product or system's security or privacy policies,
+including, without limitation, a flaw that makes it infeasible, even when the product is properly used, to prevent an
+attacker from usurping privileges on a user's system, compromising its data, security or other operational features.
+If you become aware that your applications can cause a Security Vulnerability, you agree to (1) immediately notify
+Intel, (2) take immediate measures to stop the distribution of your applications, (3) promptly correct such Security
+Vulnerability and (4) indemnify and hold harmless Intel for any claims that may be alleged against Intel due to such
+Security Vulnerability.
+
+F.  If Intel reasonably believes that the software, data or application that (i) you create using the Intel Materials
+or (ii) is stored on servers owned or operated by Intel using the Intel Materials ("Content") and upload on this Site
+violates the law, infringes or misappropriates the rights of any third party or otherwise violates a term of the TOU
+("Prohibited Content"), Intel may notify you of the Prohibited Content and may request that such Prohibited Content be
+removed from servers owned or managed by Intel or that access to the Prohibited Content be disabled.  If you do not
+remove or disable access to the Prohibited Content within two business days of Intel's notice, Intel may remove or
+disable access to the Prohibited Content.  Notwithstanding the foregoing, Intel may remove or disable access to any
+Prohibited Content without prior notice in connection with illegal content or as required to comply with law or any
+judicial, regulatory or other governmental order or request or to remedy a Security Vulnerability.  If Intel removes
+content without prior notice, Intel will provide prompt notice to you unless prohibited by law.  Intel will not
+disclose Content, except (1) if you expressly authorize Intel to do so, or (2) to comply with the TOU, or (3) at the
+request of a governmental or regulatory body, subpoena or court order.
+
+G.  Intel obtains no right, title or interest from you (or yours licensors) under the TOU in or to (i) any software
+applications that you develop using the Intel Materials, including any intellectual property rights that subsist in
+those applications, or (ii) to the Content.  By posting or storing the Content on or through the Intel Materials or
+this Site, you give Intel a worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate,
+publish, publicly perform, publicly display and distribute such Content for the sole purpose of enabling Intel to
+provide you with the Intel Materials.
+
+H.  If you use the Intel Materials to develop applications for others or store data supplied by others, you will
+protect the privacy and legal rights of those users.  If the users provide you with user names, passwords, or other
+login information or personal information, you will make the users aware that the information will be available to
+your application, and you will provide legally adequate privacy notice and protection for those users.  If your
+application stores personal or sensitive information provided by users, it must do so securely.  If the user provides
+your application with Intel account information, your application may only use that information to access the user's
+Intel account when, and for the limited purposes for which, the user has given you permission to do so.
+
+I.  You will not (i) engage in any activity with the Intel Materials, including the distribution or storage of an
+application, that interferes with, disrupts, damages, or accesses in an unauthorized manner the servers, networks, or
+other properties or services of any third party, including, without limitation, Intel or any mobile communications
+carrier, or (ii) use the Intel Materials to upload, post, host, or transmit unsolicited email, SMS, or "spam" messages.
+
+J.  You will not access (or attempt to access) the administrative interface of the Intel Materials by any means other
+than through the interface that is provided by Intel in connection with the Intel Materials or engage in any activity
+that interferes with or disrupts the Intel Materials (or the servers and networks which are connected to the Intel
+Materials).
+
+K.  If you use the Intel Materials to store or run applications developed by a third party or that access data,
+content or resources provided by a third party, you agree that Intel is not responsible for those applications, data,
+content, or resources.  All data, content or resources that you may access through such third party applications are
+the sole responsibility of the person from which they originated.  Intel is not liable for any loss or damage that you
+may experience as a result of the use or access of any of those third party applications, data, content, or resources.
+The data, content, and resources presented to you through such a third party application may be protected by
+intellectual property rights that are owned by the providers (or by other persons or companies on their behalf).  You
+may not modify, rent, lease, loan, sell, distribute or create derivative works based on these data, content, or
+resources (either in whole or in part) unless you have been specifically given permission to do so by the relevant
+owners.  You acknowledge that your use of such third party applications, data, content, or resources may be subject to
+separate terms between you and the relevant third party.  In that case, the TOU does not affect your legal
+relationship with these third parties.
+
+3.  OWNERSHIP OF INTEL MATERIALS.  Notwithstanding anything to the contrary herein, title to all copies of the Intel
+Materials remains with Intel or its suppliers. The Intel Materials are copyrighted and protected by the laws of the
+United States and other countries, and international treaty provisions and are licensed under the TOU and not sold.
+You may not remove any copyright notices from the Intel Materials.  Intel may make changes to the Intel Materials,
+or to items referenced therein, at any time without notice, but is not obligated to support or update the Intel
+Materials.  Except for the express copyright license granted under the TOU, Intel grants no express or implied right
+or license under any Intel patents, copyrights, trademarks, or other intellectual property rights.
+
+4.  USER SUBMISSIONS AND FEEDBACK;
+
+A.  This Agreement does not obligate you to provide Intel with materials, information, comments, suggestions or other
+communication regarding the Intel Materials or the Site.  However, you agree that any material, information, comments,
+suggestions or other communication you transmit or post to an Intel website (including, but not limited to,
+submissions to the Intel Premier Support and/or other customer support websites or online portals) or provide to Intel
+under the TOU related to the features, functions, performance or use of the Intel Materials and the Site are deemed
+non-confidential and non-proprietary ("Communications").  Intel will have no obligations with respect to the
+Communications.  You hereby grant to Intel and its subsidiaries a non-exclusive, perpetual, irrevocable, royalty-free,
+license to copy, modify, create derivative works, publicly display, disclose, distribute, license, sublicense through
+multiple tiers of distribution and licensees, and incorporate and otherwise use the Communications and all data,
+images, sounds, text, and other things embodied therein, including derivative works thereto, for any and all
+commercial or non-commercial purposes.  You are prohibited from posting or transmitting to or from an Intel website or
+provide to Intel any unlawful, threatening, libelous, defamatory, obscene, pornographic, or other material that would
+violate any law.  If you wish to provide Intel with information that you intend to be treated as confidential
+information, Intel requires that such confidential information be provided pursuant to a non-disclosure agreement
+("NDA") signed by Intel, so please contact your Intel representative to ensure the proper NDA is in place.
+
+B.  Nothing in the TOU will be construed as preventing Intel from reviewing your Communications and errors or defects
+in Intel products discovered while reviewing your Communications. Furthermore, nothing in the TOU will be construed as
+preventing Intel from implementing independently-developed enhancements to Intel's own error diagnosis methodology to
+detect errors or defects in Intel products discovered while reviewing your Communications or to implement bug fixes or
+enhancements in Intel products. The foregoing may include the right to include your Communications in regression test
+suites.
+
+5.  EXCLUSION OF OTHER WARRANTIES.  THE INTEL MATERIALS AND THE SITE ARE PROVIDED "AS IS" WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTY OF ANY KIND, INCLUDING, WITHOUT LIMITATION, WARRANTIES OF MERCHANTABILITY, NONINFRINGEMENT, OR
+FITNESS FOR A PARTICULAR PURPOSE OR ARISING FROM COURSE OF DEALING OR PERFORMANCE.  Intel does not warrant or assume
+responsibility for the accuracy or completeness of any information, text, graphics, links or other items contained
+within the Intel Materials.
+
+6.  LIMITATION OF LIABILITY.  IN NO EVENT SHALL INTEL OR ITS SUPPLIERS BE LIABLE FOR ANY DAMAGES WHATSOEVER
+(INCLUDING, WITHOUT LIMITATION, LOST PROFITS, LOST DATA, LOSS OF GOODWILL, BUSINESS INTERRUPTION, OR LOST INFORMATION)
+ARISING OUT OF THE USE OF OR INABILITY TO USE THE INTEL MATERIALS OR THE SITE, EVEN IF AN INTEL PARTY HAS BEEN ADVISED
+OF THE POSSIBILITY OF SUCH DAMAGES.  SOME JURISDICTIONS PROHIBIT EXCLUSION OR LIMITATION OF LIABILITY FOR IMPLIED
+WARRANTIES OR CONSEQUENTIAL OR INCIDENTAL DAMAGES, SO THE ABOVE LIMITATION MAY NOT APPLY TO YOU.  YOU MAY ALSO HAVE
+OTHER LEGAL RIGHTS THAT VARY FROM JURISDICTION TO JURISDICTION. THE INTEL MATERIALS LICENSED HEREUNDER IS NOT DESIGNED
+OR INTENDED FOR USE IN ANY MEDICAL, LIFE SAVING OR LIFE SUSTAINING SYSTEMS, TRANSPORTATION SYSTEMS, NUCLEAR SYSTEMS,
+OR FOR ANY OTHER MISSION CRITICAL APPLICATION IN WHICH THE FAILURE OF THE INTEL MATERIALS COULD LEAD TO PERSONAL
+INJURY OR DEATH.  THE WARRANTY DISCLAIMER AND LIMITED LIABILITY ARE FUNDAMENTAL ELEMENTS OF THE BASIS OF THE BARGAIN
+BETWEEN INTEL AND YOU.  INTEL WOULD NOT BE ABLE TO PROVIDE THE INTEL MATERIALS WITHOUT SUCH LIMITATIONS.
+ 
+7.  TERMINATION OR SUSPENSION. Intel may terminate the TOU at any time if you violate its terms.  Upon termination,
+you will immediately destroy the Intel Materials and all copies thereof in your possession or return all copies of the
+Intel Materials to Intel.  If you fail (or Intel reasonably believes you have failed) to comply with any terms of the
+TOU, Intel may at any time terminate or suspend you as a registered user to this Site.  Notwithstanding any other
+provision of the TOU, Intel may suspend your status as a registered user to this Site if Intel believes it to be
+reasonable.  Before suspending your account, Intel will notify you by e-mail to your registered e-mail address.  You
+may terminate the TOU at any time by notifying Intel through html5tools@intel.com.  Notwithstanding any termination
+of the TOU, except for the license in Section II(1)(A) and (B) hereof, all other provisions of the TOU shall survive
+and remain in full force and effect.
+ 
+8.  APPLICABLE LAWS.  Claims arising under the TOU shall be governed by the laws of Delaware, excluding its principles
+of conflict of laws and the United Nations Convention on Contracts for the Sale of Goods.  Intel is not obligated
+under any other agreements unless they are in writing and signed by an authorized representative of Intel.
+
+9.  TAXES.  Each party shall be responsible for the payment of its own tax liability arising from this transaction (if
+any).
+
+10. TRADE COMPLIANCE.  You and or any of your subsidiaries shall not import, export, reexport, distribute or transfer
+either directly or indirectly, any product, service or technical data or system incorporating such items without first
+obtaining any required license or other approval from the U.S. and any other worldwide government agency that has
+jurisdiction over such trade activities.
+
+11. ASSIGNMENT.  Intel may assign its rights or delegate its obligations, or any part thereof under the TOU without
+prior consent from you.  You may not assign, whether in conjunction with a change of ownership, merger, acquisition,
+sale or transfer of all, substantially all or any part of your business or assets or otherwise, either voluntarily, by
+operation of law of otherwise, any portion of the TOU.  A transaction described in the preceding sentence shall
+constitute an assignment for purposes of this Section 11.  Any attempt by you to assign or delegate any rights, duties
+or obligations set forth in the TOU without Intel's prior written consent shall be deemed a material breach of the TOU
+and shall be null and void.  Except as provided above, the terms and conditions of the TOU shall bind and inure to
+each party' successors and assigns.
+
+12. AMENDMENTS.  Intel reserves the right, at its discretion, to modify the TOU, including any rules and policies at
+any time.
+
+13. GOVERNMENT RESTRICTED RIGHTS.  The Intel Materials are provided with "RESTRICTED RIGHTS." Use, duplication, or
+disclosure by the Government is subject to restrictions as set forth in FAR52.227-14 and DFAR252.227-7013 et seq. or
+its successor.  Use of the Intel Materials by the Government constitutes acknowledgment of Intel's proprietary rights
+therein. Contractor or Manufacturer is Intel Corporation, 2200 Mission College Blvd., Santa Clara, CA 95054.
+
+
+
+Attribution Notice
+
+The following are licenses for third party software that was used to develop the Intel(r) XDK. These licenses are
+listed due to attribution requirements in these license agreements. For the avoidance of doubt, the Intel(r) XDK 
+is solely governed by the terms and conditions of the End User License Agreement for Intel(r) XDK that accompanies
+the Intel(r) XDK.
+
+
+---------------------------------------
+LICENSE: ncp
+---------------------------------------
+MIT License
+Copyright (C) 2011 by Charlie McConnell
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the "Software"), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: promise
+---------------------------------------
+Copyright (c) 2014 Forbes Lindesay
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---------------------------------------
+LICENSE: asap
+---------------------------------------
+Copyright 2009–2014 Contributors. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to
+deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: colors.js
+---------------------------------------
+Copyright (c) 2010 
+
+Marak Squires
+Alexis Sellier (cloudhead)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-jsonfile
+---------------------------------------
+(The MIT License)
+
+Copyright (c) 2012, JP Richardson <jprichardson@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files the 'Software'), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+ 
+---------------------------------------
+LICENSE: node_mdns (mdns2)
+---------------------------------------
+Copyright (c) 2010 David Siegel
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-portfinder
+---------------------------------------
+Copyright (c) 2012 Charlie Robbins
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-mkdirp
+---------------------------------------
+Copyright 2010 James Halliday (mail@substack.net)
+
+This project is free software released under the MIT/X11 license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---------------------------------------
+LICENSE: ws
+---------------------------------------
+(The MIT License)
+
+Copyright (c) 2011 Einar Otto Stangvik <einaros@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+associated documentation files (the 'Software'), to deal in the Software without restriction,
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: commander.js
+---------------------------------------
+(The MIT License)
+
+Copyright (c) 2011 TJ Holowaychuk <tj@vision-media.ca>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the 'Software'), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: nan
+---------------------------------------
+Copyright 2013, NAN contributors:
+  - Rod Vagg <https://github.com/rvagg>
+  - Benjamin Byholm <https://github.com/kkoopa>
+  - Trevor Norris <https://github.com/trevnorris>
+  - Nathan Rajlich <https://github.com/TooTallNate>
+  - Brett Lawson <https://github.com/brett19>
+  - Ben Noordhuis <https://github.com/bnoordhuis>
+(the "Original Author")
+All rights reserved.
+
+MIT +no-false-attribs License
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+Distributions of all or part of the Software intended to be used
+by the recipients as they would use the unmodified Software,
+containing modifications that substantially alter, remove, or
+disable functionality of the Software, outside of the documented
+configuration mechanisms provided by the Software, shall be
+modified such that the Original Author's bug reporting email
+addresses and urls are either replaced with the contact information
+of the parties responsible for the changes, or removed entirely.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+Except where noted, this license applies to any and all software
+programs and associated documentation files created by the
+Original Author, when distributed with the Software.
+
+---------------------------------------
+LICENSE: tinycolor
+---------------------------------------
+MIT License Copyright (c) 2012 Einar Otto Stangvik All Rights Reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE
+AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: options.js
+---------------------------------------
+(The MIT License)
+
+Copyright (c) 2012 Einar Otto Stangvik <einaros@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the 'Software'), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: async
+---------------------------------------
+Copyright (c) 2010-2014 Caolan McMahon
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---------------------------------------
+LICENSE: debug
+---------------------------------------
+(The MIT License)
+
+Copyright (c) 2014 TJ Holowaychuk <tj@vision-media.ca>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the 'Software'), to deal in the Software without restriction, including without
+limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial
+portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
+LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE
+OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-glob
+---------------------------------------
+Copyright (c) Isaac Z. Schlueter ("Author")
+All rights reserved.
+
+The BSD License
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---------------------------------------
+LICENSE: inherits
+---------------------------------------
+The ISC License
+
+Copyright (c) Isaac Z. Schlueter
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
+
+---------------------------------------
+LICENSE: minimatch
+---------------------------------------
+Copyright 2009, 2010, 2011 Isaac Z. Schlueter.
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-lru-cache
+---------------------------------------
+Copyright 2009, 2010, 2011 Isaac Z. Schlueter.
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: sigmund
+---------------------------------------
+Copyright (c) Isaac Z. Schlueter ("Author")
+All rights reserved.
+
+The BSD License
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---------------------------------------
+LICENSE: opener
+---------------------------------------
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                    Version 2, December 2004
+
+ Copyright (C) 2012 Domenic Denicola <domenic@domenicdenicola.com>
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
+  
+---------------------------------------
+LICENSE: rc
+---------------------------------------
+Copyright (c) 2013, Dominic Tarr
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met: 
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer. 
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution. 
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The views and conclusions contained in the software and documentation are those
+of the authors and should not be interpreted as representing official policies, 
+either expressed or implied, of the FreeBSD Project.
+
+---------------------------------------
+LICENSE: minimist
+---------------------------------------
+This software is released under the MIT license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-deep-extend
+---------------------------------------
+The MIT License (MIT)
+
+Copyright (c) 2013 Viacheslav Lotsmanov
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: ini
+---------------------------------------
+Copyright 2009, 2010, 2011 Isaac Z. Schlueter.
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: strong-data-uri
+---------------------------------------
+Copyright (c) 2013 StrongLoop, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-text-truncate
+---------------------------------------
+Copyright (c) 2013 Francois-Guillaume Ribreau Licensed under the MIT license.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-which
+---------------------------------------
+Copyright 2009, 2010, 2011 Isaac Z. Schlueter.
+All rights reserved.
+
+Permission is hereby granted, free of charge, to any person
+obtaining a copy of this software and associated documentation
+files (the "Software"), to deal in the Software without
+restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the
+Software is furnished to do so, subject to the following
+conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
+
+---------------------------------------
+LICENSE: yargs
+---------------------------------------
+Copyright 2010 James Halliday (mail@substack.net)
+
+This project is free software released under the MIT/X11 license:
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+---------------------------------------
+LICENSE: node-semver
+---------------------------------------
+Copyright (c) Isaac Z. Schlueter ("Author")
+All rights reserved.
+
+The BSD License
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS
+BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---------------------------------------
+LICENSE: node-inspector
+---------------------------------------
+Copyright (c) 2011, Danny Coates
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that
+the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the
+following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the
+following disclaimer in the documentation and/or other materials provided with the distribution.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY
+DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+
+---------------------------------------
+LICENSE: ms.js
+---------------------------------------
+(The MIT License)
+
+Copyright (c) 2014 Guillermo Rauch <rauchg@gmail.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

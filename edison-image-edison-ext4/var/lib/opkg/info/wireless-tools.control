@@ -1,0 +1,13 @@
+Package: wireless-tools
+Version: 1:30.pre9-r0
+Description: Tools for the Linux Standard Wireless Extension Subsystem
+ Tools for the Linux Standard Wireless Extension Subsystem.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & (LGPLv2.1 | MPL-1.1 | BSD)
+Architecture: core2-32
+OE: wireless-tools
+Homepage: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+Depends: libc6 (>= 2.19)
+Source: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.30.pre9.tar.gz file://wireless-tools.if-pre-up file://zzz-wireless.if-pre-up file://remove.ldconfig.call.patch file://man.patch file://avoid_strip.patch file://ldflags.patch

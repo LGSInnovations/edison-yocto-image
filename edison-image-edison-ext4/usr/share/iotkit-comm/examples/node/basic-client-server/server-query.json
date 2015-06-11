@@ -1,0 +1,7 @@
+{
+  "name": ".*server",
+  "type": {
+    "name": "zmqreqrep"
+  },
+  "properties": {"replymsg": "hi"}
+}

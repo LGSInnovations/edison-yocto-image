@@ -1,0 +1,2 @@
+/usr/bin/watchdog-sample
+/lib/systemd/system/watchdog-sample.service

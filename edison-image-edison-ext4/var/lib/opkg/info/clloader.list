@@ -1,0 +1,8 @@
+/opt/edison/sketch_reset
+/opt/edison/launcher.sh
+/opt/edison/clloader
+/opt/edison/
+/sketch/
+/lib/systemd/system/sketch_reset.service
+/opt/edison/sketch_reset.sh
+/lib/systemd/system/clloader.service

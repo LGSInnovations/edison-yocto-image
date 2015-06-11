@@ -1,0 +1,13 @@
+Package: hostapd-daemon
+Version: 2.1-r0
+Description: User space daemon for extended IEEE 802.11 management
+ User space daemon for extended IEEE 802.11 management.
+Section: kernel/userland
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 | BSD
+Architecture: core2-32
+OE: hostapd-daemon
+Homepage: http://hostap.epitest.fi
+Depends: libssl1.0.0 (>= 1.0.1m), libc6 (>= 2.19), libnl-3-200 (>= 3.2.22), libnl-3-genl (>= 3.2.22), libcrypto1.0.0 (>= 1.0.1m)
+Source: http://hostap.epitest.fi/releases/hostapd-2.1.tar.gz file://defconfig file://hostapd.service file://udhcpd-for-hostapd.service file://hostapd.conf-sane file://udhcpd-for-hostapd.conf

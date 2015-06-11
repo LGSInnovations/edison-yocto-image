@@ -1,0 +1,7 @@
+{
+  "name": ".*server",
+  "type": {
+    "name": "zmqpubsub"
+  },
+  "type_params": {"mustsecure": true}
+}

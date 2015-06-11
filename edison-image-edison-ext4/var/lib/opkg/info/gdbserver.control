@@ -1,0 +1,14 @@
+Package: gdbserver
+Version: 7.6.2-r0
+Description: GNU debugger
+ GNU debugger.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & GPLv3 & LGPLv2 & LGPLv3
+Architecture: core2-32
+OE: gdb
+Homepage: http://www.gnu.org/software/gdb/
+Depends: libc6 (>= 2.19)
+Recommends: glibc-thread-db
+Source: ftp://ftp.gnu.org/gnu/gdb/gdb-7.6.2.tar.gz file://kill_arm_map_symbols.patch file://gdbserver-cflags-last.diff;striplevel=0 file://renesas-sh-native-support.patch file://gdb-fix-cygwin-check-in-configure-script.patch

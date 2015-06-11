@@ -1,0 +1,16 @@
+Package: attr-dev
+Version: 2.4.47-r0
+Description: Utilities for manipulating filesystem extended attributes - Development files
+ Utilities for manipulating filesystem extended attributes.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: LGPLv2.1+ & GPLv2+
+Architecture: core2-32
+OE: attr
+Homepage: http://savannah.nongnu.org/projects/attr/
+Depends: attr (= 2.4.47-r0)
+Recommends: libattr-dev, ncurses-dev, libc6-dev
+Source: http://download.savannah.gnu.org/releases/attr/attr-2.4.47.src.tar.gz file://run-ptest file://relative-libdir.patch;striplevel=0 file://attr-Missing-configure.ac.patch

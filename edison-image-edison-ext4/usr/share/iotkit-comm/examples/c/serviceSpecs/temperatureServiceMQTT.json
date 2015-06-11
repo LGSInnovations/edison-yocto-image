@@ -1,0 +1,8 @@
+{
+    "name" : "/INTEL/NDG/temperature",
+    "type" : {
+        "name": "mqttpubsub"
+    },
+    "port" : 8883,
+    "type_params": {"mustsecure": true}
+}

@@ -1,0 +1,13 @@
+Package: libsqlite3-0
+Version: 1:3.8.3.1-r0
+Description: Embeddable SQL database engine
+ Embeddable SQL database engine.
+Section: libs
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: PD
+Architecture: core2-32
+OE: sqlite3
+Homepage: http://www.sqlite.org
+Depends: libc6 (>= 2.19)
+Source: http://www.sqlite.org/2014/sqlite-autoconf-3080301.tar.gz

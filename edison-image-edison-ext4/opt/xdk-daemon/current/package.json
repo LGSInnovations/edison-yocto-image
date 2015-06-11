@@ -1,0 +1,16 @@
+{
+  "name": "IoT_App_Daemon",
+  "description":"App Daemon for Internet of Things",
+  "main": "appDaemon.js",
+  "dependencies" :
+  { 
+    "colors" : "1.0.3",
+    "ws" : "0.4.31",
+    "portfinder" : "0.2.1",
+    "promise" : "5.0.0",
+    "ncp":"0.5.1",
+    "mdns2":"2.1.4",
+    "jsonfile":"1.1.1",
+    "semver":"2.3.0"
+  }
+}

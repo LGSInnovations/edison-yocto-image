@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-am2315
+Description: upm lib am2315
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-am2315
+Cflags: -I${includedir}/upm

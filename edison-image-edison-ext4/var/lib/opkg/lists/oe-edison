@@ -1,0 +1,2319 @@
+Package: base-files-dbg
+Version: 3.0.14-r86
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6f53345dd8fa939fe22e84efe5f3e0c7
+Size: 876
+Filename: base-files-dbg_3.0.14-r86_edison.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2 file://release file://fstab file://media-sdcard.mount file://media-sdcard.automount file://factory.mount file://share/dot.profile
+Description:  Miscellaneous files for the base system - Debugging files  The base-files
+ package creates the basic system directory structure and   provides a
+ small set of key configuration files for the system.  This   package
+ contains ELF symbols and related sources for debugging purposes.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-dev
+Version: 3.0.14-r86
+Depends: base-files (= 3.0.14-r86)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 22025af9bb40bd5f319b437ba0f0a4ec
+Size: 908
+Filename: base-files-dev_3.0.14-r86_edison.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2 file://release file://fstab file://media-sdcard.mount file://media-sdcard.automount file://factory.mount file://share/dot.profile
+Description:  Miscellaneous files for the base system - Development files  The base-
+ files package creates the basic system directory structure and   provides
+ a small set of key configuration files for the system.  This   package
+ contains symbolic links, header files, and related items   necessary for
+ software development.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files-doc
+Version: 3.0.14-r86
+Section: doc
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8fb1ca748be88b25337bff2c5553d94f
+Size: 956
+Filename: base-files-doc_3.0.14-r86_edison.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2 file://release file://fstab file://media-sdcard.mount file://media-sdcard.automount file://factory.mount file://share/dot.profile
+Description:  Miscellaneous files for the base system - Documentation files  The base-
+ files package creates the basic system directory structure and   provides
+ a small set of key configuration files for the system.  This   package
+ contains documentation.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: base-files
+Version: 3.0.14-r86
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a9d47c64201756609a0a8bbd38302ea2
+Size: 4434
+Filename: base-files_3.0.14-r86_edison.ipk
+Source: file://rotation file://nsswitch.conf file://motd file://inputrc file://host.conf file://profile file://shells file://fstab file://filesystems file://issue.net file://issue file://usbd file://share/dot.bashrc file://share/dot.profile file://licenses/GPL-2 file://release file://fstab file://media-sdcard.mount file://media-sdcard.automount file://factory.mount file://share/dot.profile
+Description:  Miscellaneous files for the base system  The base-files package creates
+ the basic system directory structure and   provides a small set of key
+ configuration files for the system.
+OE: base-files
+License: GPLv2
+Priority: optional
+
+Package: bcm43340-mod-dbg
+Version: 1.141-r47
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ef2a3be56828c9306c6569c7f023d9cd
+Size: 762
+Filename: bcm43340-mod-dbg_1.141-r47_edison.ipk
+Source: git://github.com/01org/edison-bcm43340.git;branch=master;protocol=git;rev=9d609e1ffadbf8895a701e6283392bb54bd962f9
+Description:  bcm43340-mod version 1.141-r47 - Debugging files  Broadcom wifi driver
+ for the 43340  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: bcm43340-mod
+License: GPLv2
+Priority: optional
+
+Package: bcm43340-mod-dev
+Version: 1.141-r47
+Depends: bcm43340-mod (= 1.141-r47)
+Recommends: kernel-module-bcm4334x-dev, kernel-3.10.17-yocto-standard-dev
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 3eff382d40b51affc007004c318445fc
+Size: 836
+Filename: bcm43340-mod-dev_1.141-r47_edison.ipk
+Source: git://github.com/01org/edison-bcm43340.git;branch=master;protocol=git;rev=9d609e1ffadbf8895a701e6283392bb54bd962f9
+Description:  bcm43340-mod version 1.141-r47 - Development files  Broadcom wifi driver
+ for the 43340  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: bcm43340-mod
+License: GPLv2
+Priority: optional
+
+Package: bcm43340-mod
+Version: 1.141-r47
+Depends: kernel-module-bcm4334x
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0815afed0a7a903ee33c652b1856a31b
+Size: 718
+Filename: bcm43340-mod_1.141-r47_edison.ipk
+Source: git://github.com/01org/edison-bcm43340.git;branch=master;protocol=git;rev=9d609e1ffadbf8895a701e6283392bb54bd962f9
+Description:  bcm43340-mod version 1.141-r47  Broadcom wifi driver for the 43340
+OE: bcm43340-mod
+License: GPLv2
+Priority: optional
+
+Package: connman-conf-dbg
+Version: 1.0-r2
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a069277e5c9bde8628d9268c60d5eea5
+Size: 728
+Filename: connman-conf-dbg_1.0-r2_edison.ipk
+Source: None
+Description:  Connman config to setup wired interface on qemu machines - Debugging
+ files  This is the ConnMan configuration to set up a Wired network
+ interface for   a qemu machine.  This package contains ELF symbols and
+ related sources   for debugging purposes.
+OE: connman-conf
+License: GPLv2
+Priority: optional
+
+Package: connman-conf-dev
+Version: 1.0-r2
+Depends: connman-conf (= 1.0-r2)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e327d42536e8ba115c2506100c83daac
+Size: 756
+Filename: connman-conf-dev_1.0-r2_edison.ipk
+Source: None
+Description:  Connman config to setup wired interface on qemu machines - Development
+ files  This is the ConnMan configuration to set up a Wired network
+ interface for   a qemu machine.  This package contains symbolic links,
+ header files, and   related items necessary for software development.
+OE: connman-conf
+License: GPLv2
+Priority: optional
+
+Package: depmodwrapper-cross-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 1f35b71124ebd3d41a0eb6d60aa90a30
+Size: 700
+Filename: depmodwrapper-cross-dbg_1.0-r0_edison.ipk
+Source: None
+Description:  Wrapper script for the Linux kernel module dependency indexer - Debugging
+ files  Wrapper script for the Linux kernel module dependency indexer.
+ This   package contains ELF symbols and related sources for debugging
+ purposes.
+OE: depmodwrapper-cross
+License: MIT
+Priority: optional
+
+Package: depmodwrapper-cross-dev
+Version: 1.0-r0
+Depends: depmodwrapper-cross (= 1.0-r0)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 1db714887ec92f4eedf527c5ff0b8f94
+Size: 732
+Filename: depmodwrapper-cross-dev_1.0-r0_edison.ipk
+Source: None
+Description:  Wrapper script for the Linux kernel module dependency indexer -
+ Development files  Wrapper script for the Linux kernel module dependency
+ indexer.  This   package contains symbolic links, header files, and
+ related items   necessary for software development.
+OE: depmodwrapper-cross
+License: MIT
+Priority: optional
+
+Package: depmodwrapper-cross
+Version: 1.0-r0
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 47526aeca909d72048973a1b00b0f215
+Size: 1082
+Filename: depmodwrapper-cross_1.0-r0_edison.ipk
+Source: None
+Description:  Wrapper script for the Linux kernel module dependency indexer  Wrapper
+ script for the Linux kernel module dependency indexer.
+OE: depmodwrapper-cross
+License: MIT
+Priority: optional
+
+Package: kernel-3.10.17-yocto-standard
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-image-3.10.17-yocto-standard
+Provides: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b7161d6b53a9fae40c9430b00cedf855
+Size: 4146
+Filename: kernel-3.10.17-yocto-standard_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  linux-yocto version 3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0  Yocto
+ Kernel
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-dev
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Recommends: kernel-module-xt-conntrack-dev, kernel-module-xt-state-dev, kernel-module-nf-conntrack-proto-gre-dev, kernel-module-ipt-ulog-dev, kernel-module-ipt-clusterip-dev, kernel-module-nf-tproxy-core-dev, kernel-module-videobuf2-vmalloc-dev, kernel-module-xt-ct-dev, kernel-module-nf-defrag-ipv4-dev, kernel-module-g-multi-dev, kernel-3.10.17-yocto-standard-dev, kernel-module-ts-kmp-dev, kernel-module-nf-conntrack-proto-sctp-dev, kernel-module-ts-fsm-dev, kernel-module-xt-trace-dev, kernel-module-xt-u32-dev, kernel-module-nf-conntrack-h323-dev, kernel-module-xt-cluster-dev, kernel-module-xt-length-dev, kernel-module-xt-redirect-dev, kernel-module-cp210x-dev, kernel-module-arp-tables-dev, kernel-module-test-nx-dev, kernel-module-xt-nfqueue-dev, kernel-module-nf-nat-sip-dev, kernel-module-xt-realm-dev, kernel-module-nf-defrag-ipv6-dev, kernel-module-xt-dccp-dev, kernel-module-nf-conntrack-dev, kernel-module-ipt-ah-dev, kernel-module-mac80211-dev, kernel-module-xt-string-dev, kernel-module-nf-nat-pptp-dev, kernel-module-nf-nat-proto-sctp-dev, kernel-module-xt-limit-dev, kernel-module-usb-f-acm-dev, kernel-module-nf-conntrack-ftp-dev, kernel-module-bcm-bt-lpm-dev, kernel-module-nf-nat-proto-udplite-dev, kernel-module-nf-conntrack-proto-udplite-dev, kernel-module-nf-nat-ipv4-dev, kernel-module-xt-netmap-dev, kernel-module-arptable-filter-dev, kernel-module-ip-tables-dev, kernel-module-xt-quota-dev, kernel-module-xt-comment-dev, kernel-module-xt-hashlimit-dev, kernel-module-iptable-filter-dev, kernel-module-uvcvideo-dev, kernel-module-xt-nat-dev, kernel-module-libcomposite-dev, kernel-image-dev, kernel-module-nf-conntrack-amanda-dev, kernel-module-xt-mac-dev, kernel-module-ipt-reject-dev, kernel-module-nf-nat-amanda-dev, kernel-module-xt-socket-dev, kernel-module-ts-bm-dev, kernel-module-nfnetlink-log-dev, kernel-module-gspca-main-dev, kernel-module-nf-nat-h323-dev, kernel-module-xt-sctp-dev, kernel-module-xt-dscp-dev, kernel-module-xt-pkttype-dev, kernel-module-xt-ecn-dev, kernel-module-xt-esp-dev, kernel-module-nf-conntrack-irc-dev, kernel-module-nfnetlink-queue-dev, kernel-module-xt-multiport-dev, kernel-module-xt-tcpmss-dev, kernel-module-xt-connlimit-dev, kernel-module-iptable-raw-dev, kernel-module-ipt-ecn-dev, kernel-module-iptable-nat-dev, kernel-module-iptable-mangle-dev, kernel-module-arpt-mangle-dev, kernel-module-nf-conntrack-broadcast-dev, kernel-module-iio-trig-sysfs-dev, kernel-module-nf-conntrack-netlink-dev, kernel-module-xt-nflog-dev, kernel-module-videobuf2-core-dev, kernel-base-dev, kernel-module-xt-helper-dev, kernel-module-nf-conntrack-sane-dev, kernel-module-xt-policy-dev, kernel-module-xt-connbytes-dev, kernel-module-xt-classify-dev, kernel-module-nf-nat-ftp-dev, kernel-module-nf-conntrack-netbios-ns-dev, kernel-module-nf-nat-irc-dev, kernel-module-xt-statistic-dev, kernel-module-ipt-masquerade-dev, kernel-module-nf-nat-proto-gre-dev, kernel-module-aufs-dev, kernel-module-nf-conntrack-tftp-dev, kernel-module-smsc95xx-dev, kernel-module-u-serial-dev, kernel-module-nf-conntrack-sip-dev, kernel-module-xt-connmark-dev, kernel-module-nf-conntrack-ipv4-dev, kernel-module-videobuf2-memops-dev, kernel-module-nf-nat-dev, kernel-module-nf-nat-tftp-dev, kernel-module-nfnetlink-dev, kernel-module-nf-conntrack-pptp-dev
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 602b4e8fc02adf4b5bd071710d0afe96
+Size: 36341670
+Filename: kernel-dev_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  linux-yocto version 3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0  Yocto
+ Kernel
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-image-3.10.17-yocto-standard
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 148aa18c383141ab28174ae6215b9407
+Size: 5297726
+Filename: kernel-image-3.10.17-yocto-standard_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  linux-yocto version 3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0  Yocto
+ Kernel
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-arp-tables
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a1215da569cd982fb424d664fdadb780
+Size: 7832
+Filename: kernel-module-arp-tables_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  arp-tables kernel module  arp-tables kernel module; arptables core
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-arpt-mangle
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 574cd79a3c2d04f0b877986c3484c420
+Size: 2378
+Filename: kernel-module-arpt-mangle_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  arpt-mangle kernel module  arpt-mangle kernel module; arptables arp
+ payload mangle target
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-arptable-filter
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-arp-tables
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e9421d8af11d4149e672595b065e3488
+Size: 2408
+Filename: kernel-module-arptable-filter_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  arptable-filter kernel module  arptable-filter kernel module; arptables
+ filter table
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-aufs
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 18aca8f8859ca7593071adba8e321416
+Size: 92160
+Filename: kernel-module-aufs_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  aufs kernel module  aufs kernel module; aufs -- Advanced multi layered
+ unification filesystem
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm-bt-lpm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7091f6eefa21c572bcf2c31dd6200629
+Size: 5350
+Filename: kernel-module-bcm-bt-lpm_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  bcm-bt-lpm kernel module  bcm-bt-lpm kernel module; bcm43xx_bluetooth
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-bcm4334x
+Version: 1.141-r47
+Depends: kernel-3.10.17-yocto-standard
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7962ec6cef01be5632e583180cf44816
+Size: 304418
+Filename: kernel-module-bcm4334x_1.141-r47_edison.ipk
+Source: git://github.com/01org/edison-bcm43340.git;branch=master;protocol=git;rev=9d609e1ffadbf8895a701e6283392bb54bd962f9
+Description:  bcm4334x kernel module  bcm4334x kernel module
+OE: bcm43340-mod
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-cp210x
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 77eaca0080ccca786300fc12446b98d5
+Size: 10280
+Filename: kernel-module-cp210x_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  cp210x kernel module  cp210x kernel module; Silicon Labs CP210x RS232
+ serial adaptor driver
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-g-multi
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-libcomposite
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: eb39d065709c578a6b2eb2bb59a2d5b9
+Size: 39466
+Filename: kernel-module-g-multi_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  g-multi kernel module  g-multi kernel module; Multifunction Composite
+ Gadget
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-gspca-main
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 31720643eba151d15639cefba7b322a5
+Size: 15856
+Filename: kernel-module-gspca-main_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  gspca-main kernel module  gspca-main kernel module; GSPCA USB Camera
+ Driver
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-iio-trig-sysfs
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 285af6fab45dd17c430dbad770acc277
+Size: 3326
+Filename: kernel-module-iio-trig-sysfs_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  iio-trig-sysfs kernel module  iio-trig-sysfs kernel module; Sysfs based
+ trigger for the iio subsystem
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ip-tables
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2b6f4f60fc668b06bfdbede3a10ff841
+Size: 9518
+Filename: kernel-module-ip-tables_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ip-tables kernel module  ip-tables kernel module; IPv4 packet filter
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-ah
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ba804862ae08a6405a52ae5e2d7b531c
+Size: 2866
+Filename: kernel-module-ipt-ah_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ipt-ah kernel module  ipt-ah kernel module; Xtables: IPv4 IPsec-AH SPI
+ match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-clusterip
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b7faecc1fd27fa585d1862a2f706e90b
+Size: 6148
+Filename: kernel-module-ipt-clusterip_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ipt-clusterip kernel module  ipt-clusterip kernel module; Xtables:
+ CLUSTERIP target
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-ecn
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: bac44ec4cf4ff6f1d59edc3d82c40bca
+Size: 2874
+Filename: kernel-module-ipt-ecn_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ipt-ecn kernel module  ipt-ecn kernel module; Xtables: Explicit
+ Congestion Notification (ECN)   flag modification
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-masquerade
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 394e774f8d20c653da81289085d5464b
+Size: 3212
+Filename: kernel-module-ipt-masquerade_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ipt-masquerade kernel module  ipt-masquerade kernel module; Xtables:
+ automatic-address SNAT
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-reject
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d23d5311835f008f4ffae45a9830ec95
+Size: 3270
+Filename: kernel-module-ipt-reject_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ipt-reject kernel module  ipt-reject kernel module; Xtables: packet
+ "rejection" target for IPv4
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ipt-ulog
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9dd00189d01630687aa6720116925e51
+Size: 6138
+Filename: kernel-module-ipt-ulog_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ipt-ulog kernel module  ipt-ulog kernel module; Xtables: packet logging
+ to netlink using ULOG
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-iptable-filter
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-ip-tables
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e3b777f056e8b3871ee09827b9b6763f
+Size: 2608
+Filename: kernel-module-iptable-filter_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  iptable-filter kernel module  iptable-filter kernel module; iptables
+ filter table
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-iptable-mangle
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-ip-tables
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 36d99befe56ecae7555317edbe3dc42c
+Size: 2610
+Filename: kernel-module-iptable-mangle_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  iptable-mangle kernel module  iptable-mangle kernel module; iptables
+ mangle table
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-iptable-nat
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-nat-ipv4, kernel-module-nf-nat, kernel-module-nf-conntrack, kernel-module-ip-tables
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 4cac18f94e502f13d1feb3d86e2b18e6
+Size: 3988
+Filename: kernel-module-iptable-nat_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  iptable-nat kernel module  iptable-nat kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-iptable-raw
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-ip-tables
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 134e88cfb35d7bb28a5781d412517d4d
+Size: 2372
+Filename: kernel-module-iptable-raw_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  iptable-raw kernel module  iptable-raw kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-libcomposite
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 01ead44c7bffe8d2532cc53bc8434085
+Size: 20884
+Filename: kernel-module-libcomposite_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  libcomposite kernel module  libcomposite kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-mac80211
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 4fd31f328467ebe86010658c997c80fc
+Size: 194502
+Filename: kernel-module-mac80211_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  mac80211 kernel module  mac80211 kernel module; IEEE 802.11 subsystem
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-amanda
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 53aae6b89855d1755fa1bd9609133a7e
+Size: 3638
+Filename: kernel-module-nf-conntrack-amanda_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-amanda kernel module  nf-conntrack-amanda kernel module;
+ Amanda connection tracking module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-broadcast
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: df6b5b7aeeeafa04f7055e20c970afd5
+Size: 2216
+Filename: kernel-module-nf-conntrack-broadcast_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-broadcast kernel module  nf-conntrack-broadcast kernel
+ module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-ftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d8f292b316c1fcc20e4f6d8841f1f833
+Size: 7230
+Filename: kernel-module-nf-conntrack-ftp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-ftp kernel module  nf-conntrack-ftp kernel module; ftp
+ connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-h323
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f82761569a1ddb037d091abcf469ace9
+Size: 22602
+Filename: kernel-module-nf-conntrack-h323_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-h323 kernel module  nf-conntrack-h323 kernel module; H.323
+ connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-ipv4
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-defrag-ipv4, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 01a3b4f5940182bb9c8b381f2937a54a
+Size: 9958
+Filename: kernel-module-nf-conntrack-ipv4_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-ipv4 kernel module  nf-conntrack-ipv4 kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-irc
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6208b49c9b9dcc6d5ad044016fcb3fbd
+Size: 4802
+Filename: kernel-module-nf-conntrack-irc_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-irc kernel module  nf-conntrack-irc kernel module; IRC (DCC)
+ connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-netbios-ns
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-broadcast
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2cf036062ffb9459acbcf4cdf0f14c37
+Size: 2402
+Filename: kernel-module-nf-conntrack-netbios-ns_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-netbios-ns kernel module  nf-conntrack-netbios-ns kernel
+ module; NetBIOS name service broadcast   connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-netlink
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7dc56637b161cdb6a5018a924e78521b
+Size: 14992
+Filename: kernel-module-nf-conntrack-netlink_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-netlink kernel module  nf-conntrack-netlink kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-pptp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-proto-gre
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0ab200c0b642f7d3309ec8bbd7886126
+Size: 7218
+Filename: kernel-module-nf-conntrack-pptp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-pptp kernel module  nf-conntrack-pptp kernel module;
+ Netfilter connection tracking helper   module for PPTP
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-proto-gre
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7d35377e17b30d96068316b58f399825
+Size: 5630
+Filename: kernel-module-nf-conntrack-proto-gre_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-proto-gre kernel module  nf-conntrack-proto-gre kernel
+ module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-proto-sctp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0c586fa6b99d40aa394544d61df3c81b
+Size: 7864
+Filename: kernel-module-nf-conntrack-proto-sctp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-proto-sctp kernel module  nf-conntrack-proto-sctp kernel
+ module; Netfilter connection tracking   protocol helper for SCTP
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-proto-udplite
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6ea618e86beed79853bfaed42d6b7572
+Size: 4048
+Filename: kernel-module-nf-conntrack-proto-udplite_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-proto-udplite kernel module  nf-conntrack-proto-udplite
+ kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-sane
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 18b16aa4589f3fa909665cfc959ec238
+Size: 3992
+Filename: kernel-module-nf-conntrack-sane_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-sane kernel module  nf-conntrack-sane kernel module; SANE
+ connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-sip
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d065cea2248c1aac5e08e58245f9c88e
+Size: 12560
+Filename: kernel-module-nf-conntrack-sip_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-sip kernel module  nf-conntrack-sip kernel module; SIP
+ connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack-tftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0a8d80cfac1c5b4f3e861c518b8c18bd
+Size: 3762
+Filename: kernel-module-nf-conntrack-tftp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack-tftp kernel module  nf-conntrack-tftp kernel module; TFTP
+ connection tracking helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-conntrack
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 3d2bba9890abe6fd7d9551f86d8b682b
+Size: 37942
+Filename: kernel-module-nf-conntrack_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-conntrack kernel module  nf-conntrack kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-defrag-ipv4
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: c1ff5b55524fb68ad7f00a5ac66a657a
+Size: 2208
+Filename: kernel-module-nf-defrag-ipv4_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-defrag-ipv4 kernel module  nf-defrag-ipv4 kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-defrag-ipv6
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 44d796b7282878433f41494eb05ba19d
+Size: 7478
+Filename: kernel-module-nf-defrag-ipv6_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-defrag-ipv6 kernel module  nf-defrag-ipv6 kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-amanda
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-amanda, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 23d5fdf446c2aa3440d3c5b5802da893
+Size: 2576
+Filename: kernel-module-nf-nat-amanda_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-amanda kernel module  nf-nat-amanda kernel module; Amanda NAT
+ helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-ftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-ftp, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d7924301fea8314b5ce51aecea11a3b2
+Size: 3218
+Filename: kernel-module-nf-nat-ftp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-ftp kernel module  nf-nat-ftp kernel module; ftp NAT helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-h323
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-h323, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: bd6e022c7e309d1244e3e33764550ff7
+Size: 6550
+Filename: kernel-module-nf-nat-h323_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-h323 kernel module  nf-nat-h323 kernel module; H.323 NAT helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-ipv4
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8e36593c682c10d5ad4c6bb9e8e9f76a
+Size: 3898
+Filename: kernel-module-nf-nat-ipv4_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-ipv4 kernel module  nf-nat-ipv4 kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-irc
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-conntrack-irc, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6dcd421e88b9216de273f7fd271bd341
+Size: 2762
+Filename: kernel-module-nf-nat-irc_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-irc kernel module  nf-nat-irc kernel module; IRC (DCC) NAT helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-pptp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-module-nf-conntrack, kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack-pptp, kernel-module-nf-conntrack-proto-gre, kernel-module-nf-nat, kernel-module-nf-nat-proto-gre
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6c60a0a7e39f2401b660b6c895dd207d
+Size: 4438
+Filename: kernel-module-nf-nat-pptp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-pptp kernel module  nf-nat-pptp kernel module; Netfilter NAT
+ helper module for PPTP
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-proto-gre
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 82cb32f75e3f19b8cbe90264d0a744be
+Size: 3170
+Filename: kernel-module-nf-nat-proto-gre_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-proto-gre kernel module  nf-nat-proto-gre kernel module; Netfilter
+ NAT protocol helper module for   GRE
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-proto-sctp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0b2ecdfcfec1ef0e492871c4a52185f1
+Size: 2418
+Filename: kernel-module-nf-nat-proto-sctp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-proto-sctp kernel module  nf-nat-proto-sctp kernel module; SCTP
+ NAT protocol helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-proto-udplite
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ca3ba2c356a924b84e2550492fe95b2d
+Size: 2412
+Filename: kernel-module-nf-nat-proto-udplite_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-proto-udplite kernel module  nf-nat-proto-udplite kernel module;
+ UDP-Lite NAT protocol helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-sip
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack-sip, kernel-module-nf-nat, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: dadfc19f1d0f1ee9626fe5d200d8eba5
+Size: 7012
+Filename: kernel-module-nf-nat-sip_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-sip kernel module  nf-nat-sip kernel module; SIP NAT helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat-tftp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat, kernel-module-nf-conntrack-tftp
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 91ff07fd725add7eef5852dd120624e4
+Size: 2350
+Filename: kernel-module-nf-nat-tftp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat-tftp kernel module  nf-nat-tftp kernel module; TFTP NAT helper
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-nat
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ae6384e6e742ad0e5513aa0b3ab95f5d
+Size: 11174
+Filename: kernel-module-nf-nat_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-nat kernel module  nf-nat kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nf-tproxy-core
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 39d6f2f26bd7ae1c7eb3f6596404534e
+Size: 2256
+Filename: kernel-module-nf-tproxy-core_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nf-tproxy-core kernel module  nf-tproxy-core kernel module; Transparent
+ proxy support core routines
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nfnetlink-log
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 253970479d1e044c13a51cda38d16fc6
+Size: 7614
+Filename: kernel-module-nfnetlink-log_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nfnetlink-log kernel module  nfnetlink-log kernel module; netfilter
+ userspace logging
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nfnetlink-queue
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2fc2b3746def641669b8c182521a15ca
+Size: 9060
+Filename: kernel-module-nfnetlink-queue_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nfnetlink-queue kernel module  nfnetlink-queue kernel module; netfilter
+ packet queue handler
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-nfnetlink
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8e9f9cf485bc07fe44a949b4c0e69023
+Size: 4006
+Filename: kernel-module-nfnetlink_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  nfnetlink kernel module  nfnetlink kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-smsc95xx
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9d4979697bddbeedfbaaae9c86620dfd
+Size: 14338
+Filename: kernel-module-smsc95xx_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  smsc95xx kernel module  smsc95xx kernel module; SMSC95XX USB 2.0 Ethernet
+ Devices
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-test-nx
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: bbebfac123c06033258e83552dce6a09
+Size: 2520
+Filename: kernel-module-test-nx_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  test-nx kernel module  test-nx kernel module; Testcase for the NX
+ infrastructure
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ts-bm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cc855aae4c45358337538e90b16cad22
+Size: 2652
+Filename: kernel-module-ts-bm_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ts-bm kernel module  ts-bm kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ts-fsm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 784598056bb2e1215539d21b3cd5dc87
+Size: 2938
+Filename: kernel-module-ts-fsm_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ts-fsm kernel module  ts-fsm kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-ts-kmp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 19f23d3fa4ab18c777436e7ac6bc9eda
+Size: 2514
+Filename: kernel-module-ts-kmp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  ts-kmp kernel module  ts-kmp kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-u-serial
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a41240c862280a8c1fadfd6c47d1fdcc
+Size: 8356
+Filename: kernel-module-u-serial_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  u-serial kernel module  u-serial kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-usb-f-acm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-u-serial, kernel-module-libcomposite
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ad8ebe263bf25c551f4cb1f96abaab1d
+Size: 5968
+Filename: kernel-module-usb-f-acm_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  usb-f-acm kernel module  usb-f-acm kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-uvcvideo
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-videobuf2-core, kernel-module-videobuf2-memops, kernel-module-videobuf2-vmalloc
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 97bfcad888400f7b7273e2e8d03778a9
+Size: 40410
+Filename: kernel-module-uvcvideo_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  uvcvideo kernel module  uvcvideo kernel module; USB Video Class driver
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-videobuf2-core
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b110b53e2a6727c3e02aad31bf2b1ab9
+Size: 16406
+Filename: kernel-module-videobuf2-core_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  videobuf2-core kernel module  videobuf2-core kernel module; Driver helper
+ framework for Video for Linux   2
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-videobuf2-memops
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 92867d566cdc2f8a03acf6c30973f88c
+Size: 3210
+Filename: kernel-module-videobuf2-memops_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  videobuf2-memops kernel module  videobuf2-memops kernel module; common
+ memory handling routines for   videobuf2
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-videobuf2-vmalloc
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-videobuf2-memops
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9ef3575d2fdf2363faf81485dcae695f
+Size: 3922
+Filename: kernel-module-videobuf2-vmalloc_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  videobuf2-vmalloc kernel module  videobuf2-vmalloc kernel module; vmalloc
+ memory handling routines for   videobuf2
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-classify
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8d18afa3fa30218f446016e866fe5050
+Size: 2076
+Filename: kernel-module-xt-classify_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-classify kernel module  xt-classify kernel module; Xtables: Qdisc
+ classification
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-cluster
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f93af9b9eac2ac69ac610a4118629d57
+Size: 2808
+Filename: kernel-module-xt-cluster_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-cluster kernel module  xt-cluster kernel module; Xtables: hash-based
+ cluster match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-comment
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: c366d720f0ebd1fc7866769ecea8702d
+Size: 2044
+Filename: kernel-module-xt-comment_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-comment kernel module  xt-comment kernel module; Xtables: No-op match
+ which can be tagged with a   comment
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-connbytes
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d18c993b424f935fa2e809c896dddfe2
+Size: 2882
+Filename: kernel-module-xt-connbytes_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-connbytes kernel module  xt-connbytes kernel module; Xtables: Number
+ of packets/bytes per   connection matching
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-connlimit
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 664604f1754d2c4c459cd9e29054d48e
+Size: 3918
+Filename: kernel-module-xt-connlimit_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-connlimit kernel module  xt-connlimit kernel module; Xtables: Number
+ of connections matching
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-connmark
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 275918fa5fcfe87361cce6fb9952d111
+Size: 2766
+Filename: kernel-module-xt-connmark_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-connmark kernel module  xt-connmark kernel module; Xtables: connection
+ mark operations
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-conntrack
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 559a568ded605453df9fce2ba0af6170
+Size: 3384
+Filename: kernel-module-xt-conntrack_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-conntrack kernel module  xt-conntrack kernel module; Xtables:
+ connection tracking state match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-ct
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b2ab0c526e44e5ee8af2554baf1abb5e
+Size: 3756
+Filename: kernel-module-xt-ct_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-ct kernel module  xt-ct kernel module; Xtables: connection tracking
+ target
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-dccp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 5c02f4bcaa034d024fa65dd6f33b562d
+Size: 2946
+Filename: kernel-module-xt-dccp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-dccp kernel module  xt-dccp kernel module; Xtables: DCCP protocol
+ packet match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-dscp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 82dd33c9186b4c67239a69fc50674e84
+Size: 3452
+Filename: kernel-module-xt-dscp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-dscp kernel module  xt-dscp kernel module; Xtables: DSCP/TOS field
+ modification; Xtables:   DSCP/TOS field match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-ecn
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8b3df1e573d2bab1ef159770de44c13a
+Size: 2702
+Filename: kernel-module-xt-ecn_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-ecn kernel module  xt-ecn kernel module; Xtables: Explicit Congestion
+ Notification (ECN)   flag match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-esp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 63c9b3c962e3ddb5879eb48994e23397
+Size: 2902
+Filename: kernel-module-xt-esp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-esp kernel module  xt-esp kernel module; Xtables: IPsec-ESP packet
+ match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-hashlimit
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 8324df06b032564659d9c8683b50a907
+Size: 7426
+Filename: kernel-module-xt-hashlimit_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-hashlimit kernel module  xt-hashlimit kernel module; Xtables: per
+ hash-bucket rate-limit match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-helper
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: cc43a929f69cff9d63e5d56a6df8f71d
+Size: 2414
+Filename: kernel-module-xt-helper_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-helper kernel module  xt-helper kernel module; Xtables: Related
+ connection matching
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-length
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 677c11cb2b1461dd244ebefa69234f4c
+Size: 2154
+Filename: kernel-module-xt-length_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-length kernel module  xt-length kernel module; Xtables: Packet length
+ (Layer3,4,5) match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-limit
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 367223ac53854bb8f74369a803d28e31
+Size: 2608
+Filename: kernel-module-xt-limit_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-limit kernel module  xt-limit kernel module; Xtables: rate-limit match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-mac
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: fe597a8ca9323a06e6423e4abd8b83d8
+Size: 2124
+Filename: kernel-module-xt-mac_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-mac kernel module  xt-mac kernel module; Xtables: MAC address match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-multiport
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 5b5547e90764233385eaaa0cd8e037e4
+Size: 3146
+Filename: kernel-module-xt-multiport_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-multiport kernel module  xt-multiport kernel module; Xtables: multiple
+ port matching for TCP, UDP,   UDP-Lite, SCTP and DCCP
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-nat
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6e009a37b5b2a0f79e2d826588208868
+Size: 2444
+Filename: kernel-module-xt-nat_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-nat kernel module  xt-nat kernel module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-netmap
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: da50ed161d812886413b47e96110436b
+Size: 3030
+Filename: kernel-module-xt-netmap_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-netmap kernel module  xt-netmap kernel module; Xtables: 1:1 NAT
+ mapping of subnets
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-nflog
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nfnetlink-log, kernel-module-nfnetlink
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0234bd117dec73144a3aa6197a88d7e7
+Size: 2264
+Filename: kernel-module-xt-nflog_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-nflog kernel module  xt-nflog kernel module; Xtables: packet logging
+ to netlink using NFLOG
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-nfqueue
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 75a6775499a45e69fe13aa4546277477
+Size: 2918
+Filename: kernel-module-xt-nfqueue_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-nfqueue kernel module  xt-nfqueue kernel module; Xtables: packet
+ forwarding to netlink
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-pkttype
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a1fe79ed4ecd5cbdb3f48e1921c3ad08
+Size: 2142
+Filename: kernel-module-xt-pkttype_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-pkttype kernel module  xt-pkttype kernel module; Xtables: link layer
+ packet type match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-policy
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 2cc4fd560d1e816a3bedc5c0bf9956ec
+Size: 3068
+Filename: kernel-module-xt-policy_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-policy kernel module  xt-policy kernel module; Xtables: IPsec policy
+ match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-quota
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 240993c962ec0eed1b524bbb1f09da7c
+Size: 2430
+Filename: kernel-module-xt-quota_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-quota kernel module  xt-quota kernel module; Xtables: countdown quota
+ match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-realm
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 455e2716ccdf628aecb01d38a9713720
+Size: 2032
+Filename: kernel-module-xt-realm_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-realm kernel module  xt-realm kernel module; Xtables: Routing realm
+ match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-redirect
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack, kernel-module-nf-nat
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a4ec5d686978360f62c0434a6a1fc1b7
+Size: 2994
+Filename: kernel-module-xt-redirect_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-redirect kernel module  xt-redirect kernel module; Xtables: Connection
+ redirection to localhost
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-sctp
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 33933581fa71f0149fb1f9b00b4f2c2d
+Size: 3714
+Filename: kernel-module-xt-sctp_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-sctp kernel module  xt-sctp kernel module; Xtables: SCTP protocol
+ packet match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-socket
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-defrag-ipv4, kernel-module-nf-defrag-ipv6
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: c8682818a80b5a266a97f08cad890ffe
+Size: 4906
+Filename: kernel-module-xt-socket_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-socket kernel module  xt-socket kernel module; x_tables socket match
+ module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-state
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard, kernel-module-nf-conntrack
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 83c44649ef1e989fcc7a992743a66f46
+Size: 2370
+Filename: kernel-module-xt-state_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-state kernel module  xt-state kernel module; ip[6]_tables connection
+ tracking state match   module
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-statistic
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f517d3d13b1a2fef40a52a9234d39bb0
+Size: 2418
+Filename: kernel-module-xt-statistic_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-statistic kernel module  xt-statistic kernel module; Xtables:
+ statistics-based matching ("Nth",   random)
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-string
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: f11900a87ed31f311d73cdb863b05acf
+Size: 2346
+Filename: kernel-module-xt-string_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-string kernel module  xt-string kernel module; Xtables: string-based
+ matching
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-tcpmss
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 25d7bdb65f27b572dc7366758b5340ce
+Size: 4698
+Filename: kernel-module-xt-tcpmss_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-tcpmss kernel module  xt-tcpmss kernel module; Xtables: TCP Maximum
+ Segment Size (MSS)   adjustment; Xtables: TCP MSS match
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-trace
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0a16bb4c718d51af5b4c2dda782e15b5
+Size: 2002
+Filename: kernel-module-xt-trace_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-trace kernel module  xt-trace kernel module; Xtables: packet flow
+ tracing
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-module-xt-u32
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 5bd74cf803955785a5d22f717732490b
+Size: 2596
+Filename: kernel-module-xt-u32_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  xt-u32 kernel module  xt-u32 kernel module; Xtables: arbitrary byte
+ matching
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-modules
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-module-nf-conntrack-sane, kernel-module-uvcvideo, kernel-module-nf-conntrack-proto-gre, kernel-module-usb-f-acm, kernel-module-nf-conntrack-proto-udplite, kernel-module-nf-nat, kernel-module-xt-sctp, kernel-module-nf-conntrack, kernel-module-xt-helper, kernel-module-nf-nat-irc, kernel-module-nf-conntrack-sip, kernel-module-g-multi, kernel-module-nfnetlink, kernel-module-bcm-bt-lpm, kernel-module-nf-conntrack-broadcast, kernel-module-nf-nat-tftp, kernel-module-videobuf2-memops, kernel-module-cp210x, kernel-module-xt-netmap, kernel-module-xt-socket, kernel-module-nf-conntrack-netbios-ns, kernel-module-xt-dccp, kernel-module-xt-realm, kernel-module-xt-connlimit, kernel-module-xt-connbytes, kernel-module-mac80211, kernel-module-nf-nat-pptp, kernel-module-xt-nat, kernel-module-nf-defrag-ipv4, kernel-module-nf-defrag-ipv6, kernel-module-xt-ecn, kernel-module-ipt-clusterip, kernel-module-videobuf2-vmalloc, kernel-module-arp-tables, kernel-module-ipt-ah, kernel-module-nfnetlink-log, kernel-module-xt-policy, kernel-module-test-nx, kernel-module-xt-dscp, kernel-module-xt-statistic, kernel-module-xt-limit, kernel-module-xt-mac, kernel-module-arptable-filter, kernel-module-xt-hashlimit, kernel-module-nf-nat-proto-udplite, kernel-module-xt-u32, kernel-module-nf-tproxy-core, kernel-module-xt-conntrack, kernel-module-xt-state, kernel-module-aufs, kernel-module-u-serial, kernel-module-nf-nat-ftp, kernel-module-iio-trig-sysfs, kernel-module-ipt-ecn, kernel-module-xt-classify, kernel-module-xt-multiport, kernel-module-ts-fsm, kernel-module-xt-quota, kernel-module-smsc95xx, kernel-module-videobuf2-core, kernel-module-xt-cluster, kernel-module-nf-conntrack-netlink, kernel-module-nf-conntrack-irc, kernel-module-ts-kmp, kernel-module-xt-esp, kernel-module-libcomposite, kernel-module-xt-string, kernel-module-nf-conntrack-amanda, kernel-module-nf-conntrack-ftp, kernel-module-ip-tables, kernel-module-iptable-raw, kernel-module-nf-nat-proto-gre, kernel-module-nfnetlink-queue, kernel-module-nf-conntrack-proto-sctp, kernel-module-xt-nflog, kernel-module-nf-conntrack-ipv4, kernel-module-iptable-mangle, kernel-module-ipt-reject, kernel-module-ts-bm, kernel-module-nf-nat-sip, kernel-module-nf-conntrack-h323, kernel-module-nf-nat-amanda, kernel-module-xt-comment, kernel-module-xt-trace, kernel-module-xt-tcpmss, kernel-module-xt-pkttype, kernel-module-nf-nat-proto-sctp, kernel-module-nf-nat-h323, kernel-module-xt-connmark, kernel-module-xt-length, kernel-module-nf-conntrack-tftp, kernel-module-iptable-filter, kernel-module-xt-redirect, kernel-module-gspca-main, kernel-module-nf-conntrack-pptp, kernel-module-xt-ct, kernel-module-iptable-nat, kernel-module-ipt-masquerade, kernel-module-nf-nat-ipv4, kernel-module-xt-nfqueue, kernel-module-ipt-ulog, kernel-module-arpt-mangle
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: b715ea5afa809c36ce854adea585e3c7
+Size: 1372
+Filename: kernel-modules_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  linux-yocto version 3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0  Kernel
+ modules meta package
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel-vmlinux
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 95e9e224586d017b41f68418c896d113
+Size: 69526080
+Filename: kernel-vmlinux_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  linux-yocto version 3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0  Yocto
+ Kernel
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: kernel
+Version: 3.10.17+git0+6ad20f049a_c03195ed6e-r0
+Depends: kernel-3.10.17-yocto-standard
+Section: kernel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7b1cb0139d7ebd45f15248c9ef019219
+Size: 738
+Filename: kernel_3.10.17+git0+6ad20f049a_c03195ed6e-r0_edison.ipk
+Source: git://git.yoctoproject.org/linux-yocto-3.10.git;bareclone=1;branch=standard/base,meta;name=machine,meta file://defconfig file://upstream_to_edison.patch
+Description:  linux-yocto version 3.10.17+gitAUTOINC+6ad20f049a_c03195ed6e-r0  Yocto
+ Kernel
+OE: linux-yocto
+License: GPLv2
+Priority: optional
+
+Package: opkg-config-base-dbg
+Version: 1.0-r1
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ab4ce4dbef07e4d3640c083170c21ed0
+Size: 672
+Filename: opkg-config-base-dbg_1.0-r1_edison.ipk
+Source: None
+Description:  Base configuration files for opkg - Debugging files  Base configuration
+ files for opkg.  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: opkg-config-base
+License: MIT
+Priority: optional
+
+Package: opkg-config-base-dev
+Version: 1.0-r1
+Depends: opkg-config-base (= 1.0-r1)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 45e88916ecab82b00a4b1c5a2af513bf
+Size: 708
+Filename: opkg-config-base-dev_1.0-r1_edison.ipk
+Source: None
+Description:  Base configuration files for opkg - Development files  Base configuration
+ files for opkg.  This package contains symbolic links,   header files,
+ and related items necessary for software development.
+OE: opkg-config-base
+License: MIT
+Priority: optional
+
+Package: opkg-config-base
+Version: 1.0-r1
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 170bd142407e098cce97b1335dc82525
+Size: 788
+Filename: opkg-config-base_1.0-r1_edison.ipk
+Source: None
+Description:  Base configuration files for opkg  Base configuration files for opkg.
+OE: opkg-config-base
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dbg
+Version: 1.0-r17
+Recommends: systemd-dbg, base-passwd-dbg, udev-dbg, busybox-dbg, netbase-dbg, update-alternatives-opkg-dbg, base-files-dbg
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 9bd31c8ad5f152f53bc9a4bbaee7c3a8
+Size: 766
+Filename: packagegroup-core-boot-dbg_1.0-r17_edison.ipk
+Source: None
+Description:  Minimal boot requirements - Debugging files  The minimal set of packages
+ required to boot the system  This package   contains ELF symbols and
+ related sources for debugging purposes.
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot-dev
+Version: 1.0-r17
+Depends: packagegroup-core-boot (= 1.0-r17)
+Recommends: base-passwd-dev, udev-dev, base-files-dev, netbase-dev, systemd-dev, busybox-dev, update-alternatives-opkg-dev
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 6a84e3c5d942ae2c26610babd25e092a
+Size: 794
+Filename: packagegroup-core-boot-dev_1.0-r17_edison.ipk
+Source: None
+Description:  Minimal boot requirements - Development files  The minimal set of
+ packages required to boot the system  This package   contains symbolic
+ links, header files, and related items necessary for   software
+ development.
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-boot
+Version: 1.0-r17
+Depends: busybox, systemd, udev, netbase, base-files, update-alternatives-opkg, base-passwd
+Provides: task-core-boot
+Replaces: task-core-boot
+Conflicts: task-core-boot
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e3e0a674ccb6b7be2ce59330db5e7cba
+Size: 724
+Filename: packagegroup-core-boot_1.0-r17_edison.ipk
+Source: None
+Description:  Minimal boot requirements  The minimal set of packages required to boot
+ the system
+OE: packagegroup-core-boot
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-debug-dbg
+Version: 1.0-r2
+Recommends: gdb-dbg, gdbserver-dbg, libc-mtrace-dbg, strace-dbg
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 292ca1e59fcc4568e67aa642a2fb245e
+Size: 704
+Filename: packagegroup-core-tools-debug-dbg_1.0-r2_edison.ipk
+Source: None
+Description:  Debugging tools - Debugging files  Debugging tools.  This package
+ contains ELF symbols and related sources   for debugging purposes.
+OE: packagegroup-core-tools-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-debug-dev
+Version: 1.0-r2
+Depends: packagegroup-core-tools-debug (= 1.0-r2)
+Recommends: libc-mtrace-dev, gdb-dev, strace-dev, gdbserver-dev
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 1be04cc072813440d07a47785b3b7778
+Size: 736
+Filename: packagegroup-core-tools-debug-dev_1.0-r2_edison.ipk
+Source: None
+Description:  Debugging tools - Development files  Debugging tools.  This package
+ contains symbolic links, header files, and   related items necessary for
+ software development.
+OE: packagegroup-core-tools-debug
+License: MIT
+Priority: optional
+
+Package: packagegroup-core-tools-debug
+Version: 1.0-r2
+Depends: strace, gdbserver, gdb, libc-mtrace
+Provides: task-core-tools-debug
+Replaces: task-core-tools-debug
+Conflicts: task-core-tools-debug
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a658b111dd077f6812f088f4d31728ef
+Size: 668
+Filename: packagegroup-core-tools-debug_1.0-r2_edison.ipk
+Source: None
+Description:  Debugging tools  Debugging tools.
+OE: packagegroup-core-tools-debug
+License: MIT
+Priority: optional
+
+Package: poky-feed-config-opkg-dbg
+Version: 1.0-r2
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: c0994e33c7768225cd86645179e6c89d
+Size: 680
+Filename: poky-feed-config-opkg-dbg_1.0-r2_edison.ipk
+Source: None
+Description:  Poky example feed configuration - Debugging files  Poky example feed
+ configuration.  This package contains ELF symbols and   related sources
+ for debugging purposes.
+OE: poky-feed-config-opkg
+License: MIT
+Priority: optional
+
+Package: poky-feed-config-opkg-dev
+Version: 1.0-r2
+Depends: poky-feed-config-opkg (= 1.0-r2)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 7acbc24dfb01468fdfcce6f76a8cee88
+Size: 710
+Filename: poky-feed-config-opkg-dev_1.0-r2_edison.ipk
+Source: None
+Description:  Poky example feed configuration - Development files  Poky example feed
+ configuration.  This package contains symbolic links,   header files, and
+ related items necessary for software development.
+OE: poky-feed-config-opkg
+License: MIT
+Priority: optional
+
+Package: poky-feed-config-opkg
+Version: 1.0-r2
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 848cd0dcfbed1ef7e61203987b015565
+Size: 830
+Filename: poky-feed-config-opkg_1.0-r2_edison.ipk
+Source: None
+Description:  Poky example feed configuration  Poky example feed configuration.
+OE: poky-feed-config-opkg
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dbg
+Version: 4.1.4.3-r3
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 3906caff12c22644e5deb7d82a853269
+Size: 690
+Filename: shadow-securetty-dbg_4.1.4.3-r3_edison.ipk
+Source: file://securetty
+Description:  Provider of the machine specific securetty file - Debugging files
+ Provider of the machine specific securetty file.  This package contains
+ ELF symbols and related sources for debugging purposes.
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r3
+Depends: shadow-securetty (= 4.1.4.3-r3)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 49c6aecd30732f514590c34d4a08aa4e
+Size: 726
+Filename: shadow-securetty-dev_4.1.4.3-r3_edison.ipk
+Source: file://securetty
+Description:  Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: shadow-securetty
+Version: 4.1.4.3-r3
+Section: base utils
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 01d2c05316613fc0ce1406d2d8226439
+Size: 1376
+Filename: shadow-securetty_4.1.4.3-r3_edison.ipk
+Source: file://securetty
+Description:  Provider of the machine specific securetty file  Provider of the machine
+ specific securetty file.
+OE: shadow-securetty
+License: MIT
+Priority: optional
+
+Package: systemd-serialgetty-dbg
+Version: 1.0-r5
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 631e84edcb845aba82d5ad9dc25ef947
+Size: 694
+Filename: systemd-serialgetty-dbg_1.0-r5_edison.ipk
+Source: file://serial-getty@.service
+Description:  Serial terminal support for systemd - Debugging files  Serial terminal
+ support for systemd.  This package contains ELF symbols   and related
+ sources for debugging purposes.
+OE: systemd-serialgetty
+License: GPLv2+
+Priority: optional
+
+Package: systemd-serialgetty-dev
+Version: 1.0-r5
+Depends: systemd-serialgetty (= 1.0-r5)
+Recommends: systemd-dev
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: ec390908c471c36c7b1547eaa4a67e36
+Size: 740
+Filename: systemd-serialgetty-dev_1.0-r5_edison.ipk
+Source: file://serial-getty@.service
+Description:  Serial terminal support for systemd - Development files  Serial terminal
+ support for systemd.  This package contains symbolic   links, header
+ files, and related items necessary for software   development.
+OE: systemd-serialgetty
+License: GPLv2+
+Priority: optional
+
+Package: systemd-serialgetty
+Version: 1.0-r5
+Depends: systemd
+Section: base
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a189b87a8f8a36912e80f59408d80285
+Size: 1494
+Filename: systemd-serialgetty_1.0-r5_edison.ipk
+Source: file://serial-getty@.service
+Description:  Serial terminal support for systemd  Serial terminal support for systemd.
+OE: systemd-serialgetty
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-dbg
+Version: 2014.04-1-r0
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e15bdd2de9acc626eccf0e3e9a8b2691
+Size: 784
+Filename: u-boot-dbg_2014.04-1-r0_edison.ipk
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env
+Description:  Universal Boot Loader for embedded devices - Debugging files  Universal
+ Boot Loader for embedded devices.  This package contains ELF   symbols
+ and related sources for debugging purposes.
+OE: u-boot
+HomePage: http://www.denx.de/wiki/U-Boot/WebHome
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-dev
+Version: 2014.04-1-r0
+Depends: u-boot (= 2014.04-1-r0)
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 260a3ec35d7a1669489f3eecff58518b
+Size: 812
+Filename: u-boot-dev_2014.04-1-r0_edison.ipk
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env
+Description:  Universal Boot Loader for embedded devices - Development files  Universal
+ Boot Loader for embedded devices.  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: u-boot
+HomePage: http://www.denx.de/wiki/U-Boot/WebHome
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-fw-utils-dbg
+Version: 2014.04-1-r0
+Recommends: libc6-dbg
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: 0465fc54e2ae1dd8459e25b6dc9aa574
+Size: 5024
+Filename: u-boot-fw-utils-dbg_2014.04-1-r0_edison.ipk
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env file://fw_env.config
+Description:  u-boot-fw-utils version 2014.04-1-r0 - Debugging files  U-boot bootloader
+ fw_printenv/setenv utils  This package contains ELF   symbols and related
+ sources for debugging purposes.
+OE: u-boot-fw-utils
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-fw-utils-dev
+Version: 2014.04-1-r0
+Depends: u-boot-fw-utils (= 2014.04-1-r0)
+Recommends: libc6-dev, u-boot-dev
+Section: devel
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: e91d329114fe2077fdfebeb0306d69de
+Size: 820
+Filename: u-boot-fw-utils-dev_2014.04-1-r0_edison.ipk
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env file://fw_env.config
+Description:  u-boot-fw-utils version 2014.04-1-r0 - Development files  U-boot
+ bootloader fw_printenv/setenv utils  This package contains   symbolic
+ links, header files, and related items necessary for software
+ development.
+OE: u-boot-fw-utils
+License: GPLv2+
+Priority: optional
+
+Package: u-boot-fw-utils
+Version: 2014.04-1-r0
+Depends: libc6 (>= 2.19)
+Section: bootloader
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: a77fd73a60dd91ad96071100148bf9a3
+Size: 13138
+Filename: u-boot-fw-utils_2014.04-1-r0_edison.ipk
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env file://fw_env.config
+Description:  u-boot-fw-utils version 2014.04-1-r0  U-boot bootloader
+ fw_printenv/setenv utils
+OE: u-boot-fw-utils
+License: GPLv2+
+Priority: optional
+
+Package: u-boot
+Version: 2014.04-1-r0
+Section: bootloaders
+Architecture: edison
+Maintainer: Poky <poky@yoctoproject.org>
+MD5Sum: d87b771f99f346eeadb7e18d8655be84
+Size: 120902
+Filename: u-boot_2014.04-1-r0_edison.ipk
+Source: git://git.denx.de/u-boot.git;branch=master file://upstream_to_edison.patch file://edison.env file://target_env/*.env
+Description:  Universal Boot Loader for embedded devices  Universal Boot Loader for
+ embedded devices.
+OE: u-boot
+HomePage: http://www.denx.de/wiki/U-Boot/WebHome
+License: GPLv2+
+Priority: optional
+

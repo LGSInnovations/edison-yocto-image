@@ -1,0 +1,12 @@
+Package: mcu-fw-bin
+Version: 0.1-r0
+Description: mcu-fw-bin version 0.1-r0
+ This is edison mcu fw binary.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: CLOSED
+Architecture: core2-32
+OE: mcu-fw-bin
+Homepage: http://www.intel.com
+Source: file://intel_mcu.bin

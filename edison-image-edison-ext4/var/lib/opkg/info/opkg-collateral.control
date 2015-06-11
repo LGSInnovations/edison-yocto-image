@@ -1,0 +1,11 @@
+Package: opkg-collateral
+Version: 1.0-r2
+Description: Constructs the main configuration file for opkg
+ Constructs the main configuration file for opkg.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: opkg-collateral
+Source: file://opkg.conf.comments file://dest file://src

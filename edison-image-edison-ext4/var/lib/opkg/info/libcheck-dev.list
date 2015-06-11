@@ -1,0 +1,6 @@
+/usr/include/check.h
+/usr/lib/libcheck.la
+/usr/lib/pkgconfig/check.pc
+/usr/lib/libcheck.so
+/usr/share/aclocal/check.m4
+/usr/include/check_stdint.h

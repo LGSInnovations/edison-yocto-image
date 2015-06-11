@@ -1,0 +1,15 @@
+Package: libpcap1
+Version: 1.5.3-r0
+Description: Interface for user-level network packet capture
+ Libpcap provides a portable framework for low-level network monitoring.
+ Libpcap can provide network statistics collection, security monitoring
+ and network debugging.
+Section: libs/network
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: libpcap
+Homepage: http://www.tcpdump.org/
+Depends: libdbus-1-3 (>= 1.6.18), libc6 (>= 2.19)
+Source: http://www.tcpdump.org/release/libpcap-1.5.3.tar.gz file://aclocal.patch file://ieee80215-arphrd.patch

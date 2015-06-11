@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-biss0001
+Description: upm lib biss0001
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-biss0001
+Cflags: -I${includedir}/upm

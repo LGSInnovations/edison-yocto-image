@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: upm-guvas12d
+Description: upm lib guvas12d
+Version: 0.1.9
+
+Libs: -L${libdir} -lupm-guvas12d
+Cflags: -I${includedir}/upm

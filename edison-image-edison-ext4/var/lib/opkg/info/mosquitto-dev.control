@@ -1,0 +1,18 @@
+Package: mosquitto-dev
+Version: 1.3.4-r0
+Description: Open source MQTT v3.1 implemention - Development files
+ Mosquitto is an open source (BSD licensed) message broker that implements
+ the MQ Telemetry Transport protocol version 3.1. MQTT provides a
+ lightweight method of carrying out messaging using a publish/subscribe
+ model.   This package contains symbolic links, header files, and related
+ items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: BSD
+Architecture: core2-32
+OE: mosquitto
+Homepage: http://mosquitto.org/
+Depends: libmosquittopp1, mosquitto (= 1.3.4-r0), libmosquitto1
+Recommends: libmosquittopp1-dev, libssl-dev, openssl-dev, libcrypto-dev, libstdc++-dev, libmosquitto1-dev, libc6-dev, libcares-dev
+Source: http://mosquitto.org/files/source/mosquitto-1.3.4.tar.gz file://build.patch file://mosquitto.service

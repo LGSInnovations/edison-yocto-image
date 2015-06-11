@@ -1,0 +1,7 @@
+/usr/sbin/hostapd
+/lib/systemd/system/hostapd.service
+/usr/sbin/hostapd_cli
+/etc/hostapd/hostapd.conf
+/lib/systemd/system/udhcpd-for-hostapd.service
+/etc/hostapd/
+/etc/hostapd/udhcpd-for-hostapd.conf

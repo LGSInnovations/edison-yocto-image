@@ -1,0 +1,10 @@
+/etc/modprobe.d/
+/lib/
+/etc/
+/etc/modprobe.d/bcm4334x.conf
+/lib/modules/3.10.17-yocto-standard/
+/etc/modules-load.d/bcm4334x.conf
+/lib/modules/
+/etc/modules-load.d/
+/lib/modules/3.10.17-yocto-standard/extra/bcm4334x.ko
+/lib/modules/3.10.17-yocto-standard/extra/

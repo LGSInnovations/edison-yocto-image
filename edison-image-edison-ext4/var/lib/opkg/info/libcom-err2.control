@@ -1,0 +1,15 @@
+Package: libcom-err2
+Version: 1.42.9-r1
+Description: Ext2 Filesystem Utilities
+ The Ext2 Filesystem Utilities (e2fsprogs) contain all of the standard
+ utilities for creating, fixing, configuring , and debugging ext2
+ filesystems.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & LGPLv2 & BSD & MIT
+Architecture: core2-32
+OE: e2fsprogs
+Homepage: http://e2fsprogs.sourceforge.net/
+Depends: libc6 (>= 2.19)
+Source: http://downloads.sourceforge.net/e2fsprogs/e2fsprogs-1.42.9.tar.gz file://mkdir.patch file://acinclude.m4 file://remove.ldconfig.call.patch file://fix-icache.patch file://quiet-debugfs.patch file://0001-mke2fs-add-the-ability-to-copy-files-from-a-given-di.patch file://0002-misc-create_inode.c-copy-files-recursively.patch file://0003-misc-create_inode.c-create-special-file.patch file://0004-misc-create_inode.c-create-symlink.patch file://0005-misc-create_inode.c-copy-regular-file.patch file://0006-misc-create_inode.c-create-directory.patch file://0007-misc-create_inode.c-set-owner-mode-time-for-the-inod.patch file://0008-mke2fs.c-add-an-option-d-root-directory.patch file://0009-misc-create_inode.c-handle-hardlinks.patch file://0010-debugfs-use-the-functions-in-misc-create_inode.c.patch file://0011-mke2fs.8.in-update-the-manual-for-the-d-option.patch file://0001-e2fsprogs-fix-cross-compilation-problem.patch file://misc-mke2fs.c-return-error-when-failed-to-populate-fs.patch file://e2fsck.conf

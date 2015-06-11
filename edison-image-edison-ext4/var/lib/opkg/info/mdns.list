@@ -1,0 +1,7 @@
+/usr/lib/libdns_sd.so.1
+/usr/lib/libnss_mdns-0.2.so
+/usr/lib/libnss_mdns.so.2
+/usr/bin/dns-sd
+/usr/sbin/mdnsd
+/lib/systemd/system/mdns.service
+/etc/nss_mdns.conf

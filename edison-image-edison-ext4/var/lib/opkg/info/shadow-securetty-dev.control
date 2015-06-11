@@ -1,0 +1,14 @@
+Package: shadow-securetty-dev
+Version: 4.1.4.3-r3
+Description: Provider of the machine specific securetty file - Development files
+ Provider of the machine specific securetty file.  This package contains
+ symbolic links, header files, and related items necessary for software
+ development.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: edison
+OE: shadow-securetty
+Depends: shadow-securetty (= 4.1.4.3-r3)
+Source: file://securetty

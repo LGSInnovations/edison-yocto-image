@@ -1,0 +1,13 @@
+Package: libpulse0
+Version: 5.0-r0
+Description: Sound server for Linux and Unix-like operating systems
+ Sound server for Linux and Unix-like operating systems.
+Section: libs/multimedia
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2+ & LGPLv2.1
+Architecture: core2-32
+OE: pulseaudio
+Homepage: http://www.pulseaudio.org
+Depends: libsndfile1 (>= 1.0.25), libpulsecommon (>= 5.0), json-c (>= 0.11), libdbus-1-3 (>= 1.6.18), libcap2 (>= 2.22), libc6 (>= 2.19)
+Source: http://freedesktop.org/software/pulseaudio/releases/pulseaudio-5.0.tar.xz file://0001-configure.ac-Check-only-for-libsystemd-not-libsystem.patch file://volatiles.04_pulse file://system.pa

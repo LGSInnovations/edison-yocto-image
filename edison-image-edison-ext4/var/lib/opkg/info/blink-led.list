@@ -1,0 +1,2 @@
+/lib/systemd/system/blink-led.service
+/usr/bin/blink-led

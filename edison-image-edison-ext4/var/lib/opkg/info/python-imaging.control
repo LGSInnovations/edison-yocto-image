@@ -1,0 +1,12 @@
+Package: python-imaging
+Version: 1.1.7-r5
+Description: Python Imaging Library (PIL)
+ Python Imaging Library (PIL).
+Section: devel/python
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: MIT
+Architecture: core2-32
+OE: python-imaging
+Depends: libz1 (>= 1.2.8), libfreetype6 (>= 2.5.2), python-core, libc6 (>= 2.19), python-lang, libjpeg8 (>= 8d), python-stringold
+Source: http://effbot.org/downloads/Imaging-1.1.7.tar.gz file://0001-python-imaging-setup.py-force-paths-for-zlib-freetyp.patch file://allow.to.disable.some.features.patch file://fix-freetype-includes.patch

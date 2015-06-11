@@ -1,0 +1,17 @@
+Package: autoconf
+Version: 2.69-r11
+Description: A GNU tool that procude shell scripts to automatically configure software
+ Autoconf is an extensible package of M4 macros that produce shell scripts
+ to automatically configure software source code packages. Autoconf
+ creates a configuration script for a package from a template file that
+ lists the operating system features that the package can use, in the form
+ of M4 macro calls.
+Section: devel
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: GPLv2 & GPLv3
+Architecture: core2-32
+OE: autoconf
+Homepage: http://www.gnu.org/software/autoconf/
+Depends: gnu-config, perl-module-carp, perl-module-errno, perl-module-file-path, perl-module-file-copy, perl-module-io-file, perl, perl-module-file-basename, m4, perl-module-exporter, perl-module-file-stat, perl-module-posix, perl-module-constant, perl-module-file-glob, perl-module-file-compare, perl-module-getopt-long
+Source: ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.69.tar.gz file://program_prefix.patch file://autoreconf-include.patch file://check-automake-cross-warning.patch file://autoreconf-exclude.patch file://autoreconf-foreign.patch file://autoreconf-gnuconfigize.patch file://autoheader-nonfatal-warnings.patch file://config_site.patch file://remove-usr-local-lib-from-m4.patch file://preferbash.patch file://autotest-automake-result-format.patch

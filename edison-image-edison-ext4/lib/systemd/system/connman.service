@@ -1,0 +1,18 @@
+[Unit]
+Description=Connection service
+Requires=dbus.socket
+After=dbus.socket connman-init.service
+Before=remote-fs.target
+
+[Service]
+Type=dbus
+BusName=net.connman
+Restart=on-failure
+ExecStartPre=-/usr/lib/connman/wired-setup
+ExecStartPre=-/bin/systemctl stop wpa_supplicant
+ExecStart=/usr/sbin/connmand -n --nodevice=usb0
+ExecStartPost=-/bin/systemctl start wpa_supplicant
+StandartOutput=null
+
+[Install]
+WantedBy=multi-user.target

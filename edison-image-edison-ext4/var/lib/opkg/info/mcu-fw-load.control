@@ -1,0 +1,12 @@
+Package: mcu-fw-load
+Version: 0.1-r0
+Description: mcu-fw-load version 0.1-r0
+ This is intel mcu app download daemon.
+Section: base
+Priority: optional
+Maintainer: Poky <poky@yoctoproject.org>
+License: CLOSED
+Architecture: core2-32
+OE: mcu-fw-load
+Homepage: http://www.intel.com
+Source: file://mcu_fw_loader.service file://mcu_fw_loader.sh

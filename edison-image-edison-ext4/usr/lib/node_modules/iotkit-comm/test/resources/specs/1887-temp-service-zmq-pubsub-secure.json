@@ -1,0 +1,10 @@
+{
+  "name": "/ndg/temperature/secureCpuTemp",
+  "type": {
+    "name": "zmqpubsub"
+  },
+  "port": 1887,
+  "properties": {"dataType": "float", "unit": "F"},
+  "advertise": {"locally": true, "cloud": false},
+  "type_params": {"mustsecure": true}
+}

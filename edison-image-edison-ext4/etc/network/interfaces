@@ -1,5 +1,5 @@
 # interfaces(5) file used by ifup(8) and ifdown(8)
 
 # Setup Ethernet block
-auto enp0s17u1u1
-iface enp0s17u1u1 inet dhcp
+auto eth0
+iface eth0 inet dhcp
